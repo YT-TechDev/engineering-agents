@@ -4,7 +4,7 @@
 
 - Web frontend agent guidance, including the initial React, Next.js, and component library expansion
 - Web design agent guidance, including the initial UX review, accessibility review, interaction design, visual design review, and design system expansion
-- Initial web backend agent guidance under `agents/web/backend/`, covering web backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, auth/API security review, and the first focused library expansion for validation/schema, Prisma, Drizzle, Supabase, and typed API/RPC review
+- Initial web backend agent guidance under `agents/web/backend/`, covering web backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, auth/API security review, the first focused library expansion for validation/schema, Prisma, Drizzle, Supabase, and typed API/RPC review, and the first web backend auth expansion for auth libraries, provider selection, and session-management review
 - PR review and merge-readiness agents, including the first focused review expansion for prompt safety, scope control, and public OSS hygiene
 - Codex documentation agent guidance
 - Reusable role, task, and review templates

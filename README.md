@@ -33,6 +33,7 @@ checklists/   Concise validation checklists
 1. Choose the agent file that matches the role or task type, such as `agents/web/frontend/frontend-agent.md` for general web frontend work, `agents/web/frontend/react-agent.md` for React work, `agents/web/frontend/nextjs-agent.md` for Next.js work, `agents/web/frontend/component-library-agent.md` for component library work, `agents/web/backend/backend-agent.md` for general web backend planning, or `agents/web/design/ui-designer-agent.md` for web design work.
    The web backend area includes focused agents for Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, and auth/API security review.
    The `agents/web/backend/libraries/` area adds focused library and ecosystem agents for runtime validation and schemas, Prisma, Drizzle, Supabase backend integration, and typed API/RPC-style contracts.
+   The `agents/web/backend/auth/` area adds focused auth guidance for general auth library integration, Auth.js, Better Auth, Clerk, Firebase Auth, custom JWT/session systems, and auth provider selection.
    The web design area also includes focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance.
    The review area includes focused agents for prompt safety, scope control, and public OSS hygiene.
 2. Copy a template from `templates/` when starting a new task or review.

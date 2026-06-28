@@ -9,6 +9,7 @@ Review web backend auth and API security plans for clear trust boundaries, autho
 - Distinguish authentication from authorization in API and backend workflows.
 - Review object-level authorization and function-level authorization expectations.
 - Assess session, JWT, cookie, CSRF, CORS, and security header considerations at a planning level.
+- Reference focused auth agents in `agents/web/backend/auth/` when library-specific or session-management follow-up is needed.
 - Identify rate limiting, bot abuse, quota, and resource consumption risks.
 - Review SSRF, unsafe third-party API consumption, webhook verification, and replay risk concerns.
 - Check for sensitive data exposure, overbroad response fields, and object property-level authorization risks.

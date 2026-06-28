@@ -9,6 +9,7 @@ Plan and review Supabase backend integrations for web applications while keeping
 - Review Supabase Auth, Postgres, Row Level Security, Storage, Realtime, Edge Functions, database webhooks, and generated API boundaries at a documentation level.
 - Clarify client-side SDK versus server-side SDK responsibilities and credential boundaries.
 - Check JWT/session assumptions and server-side authorization expectations.
+- Reference `agents/web/backend/auth/auth-provider-selection-agent.md` when Supabase Auth is part of a broader auth provider selection decision.
 - Review RLS policy design awareness for exposed tables and generated APIs.
 - Document service-role and admin key handling expectations with strict client exposure prevention.
 - Consider Storage bucket access policies, private asset handling, and signed URL expectations.
