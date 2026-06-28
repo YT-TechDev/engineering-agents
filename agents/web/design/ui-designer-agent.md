@@ -11,6 +11,8 @@ Support design-oriented documentation and review for user interface clarity, usa
 - Identify design tradeoffs and open questions for collaborators.
 - Keep recommendations actionable for frontend and review agents.
 
+- Coordinate with advanced design QA, brand and visual direction, and design handoff/spec review agents when UI work needs deeper review.
+
 ## Non-Goals
 
 - Do not generate production design assets in this repository.

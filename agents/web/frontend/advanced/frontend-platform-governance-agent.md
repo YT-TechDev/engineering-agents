@@ -16,6 +16,8 @@ Plan and review frontend platform governance for shared frontend architecture, t
 - Preserve internal/public boundaries for public OSS hygiene, private design links, internal screenshots, generated-by signatures, local paths, AI task URLs, analytics IDs, preview URLs, customer data, and private environment names.
 - Keep governance practical, reviewable, small, and enforceable without blocking all product work.
 
+- Coordinate with the advanced design systems agent when design system governance overlaps with frontend platform ownership.
+
 ## Non-Goals
 
 - Do not add governance automation, lint rules, CI workflows, package configs, design tokens, code owners, branch protection config, policy files, dashboards, examples, generated files, package files, or dependencies.

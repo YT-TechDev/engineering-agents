@@ -16,6 +16,8 @@ Review web product experiences for task clarity, usable flows, and practical imp
 - Look for user control, undo, cancel, escape, and destructive-action prevention patterns.
 - Favor recognition over recall, progressive disclosure, and reduced cognitive load.
 
+- Coordinate with UX research/product discovery and design QA agents when user problems, evidence, or release-readiness need deeper review.
+
 ## Non-Goals
 
 - Do not add implementation code.

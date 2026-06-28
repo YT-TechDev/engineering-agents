@@ -18,6 +18,8 @@ Support focused planning, documentation, and review for public OSS component lib
 
 - Coordinate with design engineering, animation systems, frontend release workflow, frontend platform governance, frontend testing, accessibility, and review agents when component decisions cross boundaries.
 
+- Coordinate with advanced design systems and design QA agents when component adoption, variants, and visual consistency are in scope.
+
 ## Non-Goals
 
 - Do not add application code, package files, package metadata, dependencies, build tooling, release automation, generated files, or CI in this repository.

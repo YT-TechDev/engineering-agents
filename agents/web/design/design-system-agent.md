@@ -19,6 +19,8 @@ Guide design system review and planning for reusable web UI patterns, shared com
 
 - Coordinate with design engineering and animation systems agents when design system decisions affect frontend architecture or reusable motion guidance.
 
+- Escalate complex governance, lifecycle, token alignment, or multi-team system concerns to the advanced design systems agent.
+
 ## Non-Goals
 
 - Do not add package metadata, build tooling, release automation, or generated design assets.

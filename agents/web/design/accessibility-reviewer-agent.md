@@ -19,6 +19,8 @@ Review web designs and documentation for accessibility considerations that suppo
 
 - Coordinate with animation systems and browser API safety agents when motion, permissions, or browser capability affects accessibility.
 
+- Coordinate with design QA and handoff/spec review agents when accessibility behavior must be specified clearly for implementation.
+
 ## Non-Goals
 
 - Do not claim legal compliance, certification, or audit completion.

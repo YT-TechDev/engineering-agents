@@ -14,6 +14,8 @@ Plan and review design engineering decisions that bridge product design, interac
 - Assess design system governance, including ownership, contribution model, versioning, deprecation, migration, adoption, documentation, visual QA, and release notes as planning concepts.
 - Identify performance and accessibility tradeoffs in large media, animation-heavy UI, dense dashboards, rich editors, third-party embeds, and custom widgets.
 
+- Coordinate with advanced design systems and design handoff/spec review agents when design governance or implementation-facing specs need deeper review.
+
 ## Non-Goals
 
 - Do not add design tokens, CSS, theme files, component code, Figma exports, screenshots, assets, examples, generated files, package files, or dependencies.
