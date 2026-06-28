@@ -29,7 +29,7 @@ checklists/   Concise validation checklists
 
 ## Basic Usage
 
-1. Choose the agent file that matches the role or task type, such as `agents/web/frontend/frontend-agent.md` for web frontend work or `agents/web/design/ui-designer-agent.md` for web design work.
+1. Choose the agent file that matches the role or task type, such as `agents/web/frontend/frontend-agent.md` for general web frontend work, `agents/web/frontend/react-agent.md` for React work, `agents/web/frontend/nextjs-agent.md` for Next.js work, `agents/web/frontend/component-library-agent.md` for component library work, or `agents/web/design/ui-designer-agent.md` for web design work.
 2. Copy a template from `templates/` when starting a new task or review.
 3. Keep changes small, focused, and documentation-only.
 4. Use the checklists before opening or reviewing a pull request.

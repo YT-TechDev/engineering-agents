@@ -2,7 +2,7 @@
 
 ## Current Initial Scope
 
-- Web frontend agent guidance
+- Web frontend agent guidance, including the initial React, Next.js, and component library expansion
 - Web design agent guidance
 - PR review and merge-readiness agents
 - Codex documentation agent guidance

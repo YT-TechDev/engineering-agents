@@ -11,6 +11,9 @@ agents/
   web/
     frontend/
       frontend-agent.md
+      react-agent.md
+      nextjs-agent.md
+      component-library-agent.md
     design/
       ui-designer-agent.md
   review/
@@ -20,7 +23,7 @@ agents/
     codex-docs-agent.md
 ```
 
-Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains.
+The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains.
 
 ## Future Expansion
 
