@@ -42,6 +42,19 @@ The web backend area is scoped to web application backend architecture and servi
 
 Design agents are for documentation, planning, and review. They do not add design assets, screenshots, Figma exports, prototypes, research data, survey data, transcripts, analytics exports, dashboards, component code, package dependencies, demos, or generated files.
 
+### Product / PM
+
+`agents/product/` contains documentation-first product planning and review agents. Product / PM agents help connect product decisions to design, frontend, backend, infrastructure, docs, release, and review workflows where product scope crosses those boundaries.
+
+- Product strategy: `agents/product/product-strategy-agent.md`.
+- PRD review: `agents/product/prd-review-agent.md`.
+- Roadmap planning: `agents/product/roadmap-planning-agent.md`.
+- User story and acceptance criteria review: `agents/product/user-story-acceptance-criteria-agent.md`.
+- Product metrics: `agents/product/product-metrics-agent.md`.
+- Release scope review: `agents/product/release-scope-review-agent.md`.
+
+Product / PM agents are documentation and review agents. They help separate confirmed scope, active work, future ideas, and out-of-scope items. They do not create product strategy docs, PRD templates, roadmap templates, GitHub issues, milestones, labels, dashboards, analytics exports, project boards, releases, tags, package files, implementation files, private business artifacts, or product deliverables.
+
 ### Infrastructure
 
 `agents/infrastructure/` contains root-level infrastructure planning and review agents.
@@ -90,7 +103,7 @@ These documentation and review workflow agents do not create Codex tasks, GitHub
 
 Future platform or domain areas may include:
 
-- Product / PM agents.
+- Pricing strategy review, GTM review, stakeholder communication review, product operations, experiment design review, customer feedback triage, support-to-product feedback workflows, and product discovery operations.
 - Prompt pack maintenance.
 - Repository instruction maintenance.
 - Docs quality scoring.

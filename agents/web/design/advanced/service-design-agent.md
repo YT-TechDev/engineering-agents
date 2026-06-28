@@ -8,7 +8,7 @@ Review end-to-end web product experiences across product, operational, support, 
 
 - Review service design for UI, backend operations, support, onboarding, notifications, email, docs, billing-like flows, incident flows, account management, data export or deletion, and human handoffs.
 - Consider touchpoints, user journeys, backstage processes, support boundaries, operational ownership, failure recovery, service blueprints, and cross-channel consistency as planning concepts.
-- Coordinate product design, frontend, backend, infrastructure, support, compliance, release workflow, analytics and product metrics, documentation, and operations.
+- Coordinate product design, roadmap planning, release scope review, frontend, backend, infrastructure, support, compliance, release workflow, analytics and product metrics, documentation, and operations.
 - Assess user-impacting transitions such as signup, onboarding, account recovery, permissions, data export or deletion, plan changes, billing-like flows, support contact, incident communication, trust messaging, and offboarding.
 - Review trust, transparency, recovery paths, status communication, escalation paths, and post-failure UX.
 - Check operational feasibility where UI implies service guarantees, support availability, data processing, notification behavior, or compliance-sensitive workflows.

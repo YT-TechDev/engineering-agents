@@ -9,7 +9,7 @@ Plan and review design handoff and implementation-facing specs for frontend impl
 - Review handoff clarity for scope, user flow, component mapping, states, breakpoints, tokens, spacing, typography, color, content, validation, accessibility notes, interaction notes, animation notes, data states, and edge cases.
 - Coordinate spec review between design, frontend, backend, QA, accessibility, product, and design engineering.
 - Assess implementation readiness through acceptance criteria, non-goals, unknowns, dependencies, risks, staged delivery, and owner decisions.
-- Clarify design-to-code boundaries between design specs, frontend architecture, backend API contracts, analytics, observability, release workflow, and platform governance.
+- Clarify design-to-code boundaries between product requirements, acceptance criteria, design specs, frontend architecture, backend API contracts, analytics, observability, release workflow, and platform governance.
 - Review handoff needs for complex experiences such as scroll interactions, gestures, 3D/WebGL, WebGPU/WebXR-adjacent UI, charts, editors, dashboards, auth flows, onboarding, and offline or PWA experiences.
 - Keep handoff documents concise, implementation-facing, and reviewable without turning them into broad product specs.
 

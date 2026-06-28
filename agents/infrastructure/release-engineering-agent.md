@@ -18,6 +18,7 @@ Provide release engineering planning and review for open-source and product repo
 - Check public OSS hygiene for release notes, PR bodies, changelogs, commit messages, generated notes, and artifact metadata.
 
 - Coordinate with the frontend release workflow agent when release concerns are frontend-specific.
+- Coordinate with `agents/product/release-scope-review-agent.md` when release evidence crosses product and infrastructure boundaries.
 
 ## Non-Goals
 

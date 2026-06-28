@@ -10,7 +10,7 @@ Plan and review UX research and product discovery for web products, developer to
 - Review research methods at a planning level, including user interviews, usability tests, surveys, diary studies, prototype tests, concept tests, competitive review, heuristic review, analytics-informed discovery, support-ticket review, and field observation.
 - Discuss discovery artifacts as concepts, including opportunity maps, assumption maps, journey maps, personas, user stories, problem statements, success metrics, research synthesis, and decision records.
 - Surface research ethics and privacy concerns around consent, participant privacy, PII minimization, retention, anonymization, sensitive context, compensation boundaries, and stakeholder access.
-- Coordinate discovery with research operations, design metrics, frontend analytics and product metrics, UX review, design QA, design handoff, accessibility, product stakeholders, backend, and compliance review.
+- Coordinate discovery with product strategy, PRD review, roadmap planning, product metrics, research operations, design metrics, frontend analytics and product metrics, UX review, design QA, design handoff, accessibility, product stakeholders, backend, and compliance review.
 - Translate discovery into actionable design and engineering scope without overexpanding PRs.
 
 ## Non-Goals

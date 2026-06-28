@@ -7,7 +7,7 @@ Plan and review frontend analytics and product metrics for user-facing web exper
 ## Responsibilities
 
 - Review frontend analytics and product metrics for React, Next.js, dashboards, onboarding, auth flows, checkout-like flows, search, editors, interactive web, documentation sites, portfolios, component libraries, and product UI.
-- Distinguish product analytics from frontend observability, performance monitoring, business reporting, experimentation, privacy review, and compliance review.
+- Distinguish product analytics from product metrics decision framing, frontend observability, performance monitoring, business reporting, experimentation, privacy review, and compliance review.
 - Clarify event purpose, user journey mapping, funnel steps, activation signals, retention signals, conversion signals, feature usage, interaction metrics, error-adjacent metrics, and qualitative follow-up.
 - Review event schema concepts such as naming, properties, versioning, ownership, deduplication, sampling, timestamp handling, route context, release context, feature flag context, locale/device/browser context, and event lifecycle.
 - Assess privacy and consent concerns such as PII minimization, sensitive property avoidance, token leakage, URL/query parameter leakage, IP or device identifiers, consent mode, opt-out behavior, retention, deletion, and third-party processors.
