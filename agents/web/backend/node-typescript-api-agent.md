@@ -14,6 +14,7 @@ Plan and review modern Node.js and TypeScript API work for web backends in a fra
 - Review async behavior, cancellation, timeouts, retries, and resource cleanup at a planning level.
 - Consider logging, request IDs, tracing, metrics, and other observability needs without prescribing one tool.
 - Provide portable guidance for Express-like, Fastify-like, Hono-like, Next.js route handler, serverless function, edge runtime, or similar API patterns.
+- Reference `agents/web/backend/frameworks/` for focused Hono, Fastify, Express, Next.js Route Handler, serverless, and edge runtime follow-up guidance.
 
 ## Non-Goals
 

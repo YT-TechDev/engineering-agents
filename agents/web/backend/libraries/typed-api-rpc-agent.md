@@ -7,7 +7,8 @@ Plan and review typed API and RPC-style backend contract patterns for full-stack
 ## Responsibilities
 
 - Review type-safe API contract patterns for full-stack TypeScript projects.
-- Use tRPC-like, Hono RPC-like, typed client/server contract, and schema-driven API approaches as examples without prescribing one framework.
+- Use tRPC-like, Hono RPC-like, typed client/server contract, framework-integrated typed API, and schema-driven API approaches as examples without prescribing one framework.
+- Reference `agents/web/backend/frameworks/` when Hono RPC or framework-integrated typed APIs need framework-specific follow-up review.
 - Compare REST/OpenAPI-style contracts, RPC-style APIs, and framework-integrated route handlers at a documentation and review level.
 - Review input/output validation, error shape consistency, auth context, middleware boundaries, and caller identity.
 - Clarify frontend/backend coupling, monorepo expectations, shared package implications, and runtime boundaries.
