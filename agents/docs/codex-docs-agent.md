@@ -6,6 +6,7 @@ Use Codex for small, focused documentation-only edits in this repository.
 
 ## Responsibilities
 
+- Coordinate with `agents/docs/codex/codex-prompt-writer-agent.md`, `agents/docs/codex/codex-docs-pr-planner-agent.md`, and `agents/docs/codex/codex-docs-reviewer-agent.md` for Codex-specific prompt, planning, and review workflows.
 - Create or update Markdown files within the requested scope.
 - Preserve repository structure and role-agent clarity.
 - Follow task-specific file allowlists and non-goals.

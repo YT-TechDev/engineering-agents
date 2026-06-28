@@ -6,6 +6,7 @@ Assess whether a documentation-only pull request is ready to merge.
 
 ## Responsibilities
 
+- Escalate final cross-review readiness synthesis to `agents/review/merge-readiness-review-coordinator-agent.md` when a PR needs coordinated judgment.
 - Confirm the PR matches its stated scope and repository rules.
 - Check that required docs, templates, or checklists are present.
 - Verify validation notes are appropriate for docs-only work.

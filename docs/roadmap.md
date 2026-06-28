@@ -9,9 +9,9 @@ The following areas have current agent coverage and should be maintained as docu
 - Web frontend agents for core frontend work, React, Next.js, component libraries, frontend libraries, frontend testing, and advanced frontend planning/review.
 - Web backend agents for web backend planning, Node.js and TypeScript APIs, API contracts, database/ORM review, BaaS integration, auth/security, backend libraries, auth providers, API frameworks/runtimes, operations, and service capabilities.
 - Infrastructure agents for general infrastructure planning, cloud providers, containers, orchestration, CI/CD, IaC review, cloud security, networking, platform operations, cost optimization, release engineering, platform engineering, and compliance review.
-- Review agents for PR review, merge-readiness, prompt safety, scope control, and public OSS hygiene.
+- Review agents for PR review, merge-readiness, merge-readiness coordination, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene.
 - Web design agents for UI, UX, accessibility, interaction design, visual design, design systems, advanced design systems, design QA, brand/visual direction, UX research/product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
-- Documentation-focused guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, and docs-only checklists.
+- Documentation-focused guidance, Codex documentation workflow guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, and docs-only checklists.
 
 ## Active Near-Term Areas
 
@@ -29,8 +29,8 @@ Near-term work should focus on maintainability rather than expansion:
 The following ideas may be considered later, but should not be marked complete until actual agent content exists:
 
 - Product / PM agents.
-- Codex documentation agent refinements or additional documentation workflow agents.
-- Additional review agents.
+- Prompt pack maintenance, repository instruction maintenance, docs quality scoring, and review evidence templates.
+- Additional review agents beyond the current documentation and review workflow pack.
 - Native app agents.
 - Desktop app agents.
 - Broader backend agents beyond web application backend work.

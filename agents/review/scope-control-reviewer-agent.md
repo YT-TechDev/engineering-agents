@@ -6,6 +6,7 @@ Review implementation prompts and pull requests for tight scope control so small
 
 ## Responsibilities
 
+- Coordinate docs PR planning with `agents/docs/codex/codex-docs-pr-planner-agent.md` and agent pack fit with `agents/review/agent-pack-maintenance-reviewer-agent.md` when relevant.
 - Confirm the task names clear files or directories expected to change.
 - Check that non-goals are explicit and respected.
 - Verify prompts avoid broad, unnecessary repository scans.

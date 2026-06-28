@@ -30,11 +30,12 @@ The GPT project assistant should not directly modify GitHub, push branches, merg
 Use Codex for documentation-only repository work in this repository, including:
 
 - Small, PR-sized documentation and template changes.
+- Codex prompt writing, docs PR planning, docs PR review support, PR body hygiene review support, and merge-readiness coordination when guided by the relevant documentation and review workflow agents.
 - Repository navigation and structure cleanup.
 - Markdown maintenance for README, taxonomy, roadmap, routing docs, checklists, and agent guidance.
 - Documentation-only frontend, backend, infrastructure, design, review, and docs-agent updates.
 
-Codex changes must remain documentation-only unless a future repository scope explicitly changes. For docs-only cleanup PRs, do not install dependencies, run builds, add package files, add lockfiles, add generated files, add assets, add scripts, or add CI/config files unless a future repository setup explicitly requires it.
+Codex changes must remain documentation-only unless a future repository scope explicitly changes. Codex-generated PRs still require human review; GitHub mergeability alone is not enough for merge approval, and public PR bodies must not contain private AI session links or Codex task URLs. For docs-only cleanup PRs, do not install dependencies, run builds, add package files, add lockfiles, add generated files, add assets, add scripts, or add CI/config files unless a future repository setup explicitly requires it.
 
 ## Claude Code
 
