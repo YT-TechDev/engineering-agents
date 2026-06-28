@@ -1,33 +1,51 @@
 # Roadmap
 
-## Current Initial Scope
+This roadmap separates established repository coverage from active cleanup and future candidate areas. It should guide small, documentation-only changes without implying that the repository is complete or exhaustive.
 
-- Web frontend agent guidance, including the initial React, Next.js, and component library expansion plus the started frontend advanced/library/testing expansion for library selection, state/data fetching, forms/validation, styling/UI libraries, motion/animation, Three.js/R3F, Next.js boundaries, interactive web, performance, security boundaries, frontend testing, advanced accessibility, visualization/charts, editor experiences, WebGPU/WebXR, performance design, the started frontend operations/systems expansion for observability, browser API safety, design engineering, animation systems, and release workflow, and the started frontend governance/offline/metrics expansion for PWA and offline review, frontend analytics and product metrics review, and frontend platform governance
-- Web design agent guidance, including the initial UX review, accessibility review, interaction design, visual design review, and design system expansion, plus the started advanced web design expansion for advanced design systems, design QA, brand and visual direction, UX research and product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics
-- Initial web backend agent guidance under `agents/web/backend/`, covering web backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, auth/API security review, the first focused library expansion for validation/schema, Prisma, Drizzle, Supabase, and typed API/RPC review, the first web backend auth expansion for auth libraries, provider selection, and session-management review, and the first web backend API framework expansion for framework selection, Hono, Fastify, Express, Next.js Route Handlers, and serverless or edge runtime review, and the first web backend operations expansion for observability, queues, workflows, webhooks, uploads, retry, and idempotency review, plus the first web backend service capability expansion for caching, rate limiting, search, email delivery, and notifications
-- Initial infrastructure agent guidance under `agents/infrastructure/`, covering general infrastructure planning, AWS, Google Cloud, Docker, Kubernetes, GitHub Actions CI/CD, and Infrastructure as Code review, with infrastructure specialty expansion started for cloud security, networking, platform operations, cost optimization, and infrastructure delivery/governance agents for release engineering, platform engineering, and compliance review
-- PR review and merge-readiness agents, including the first focused review expansion for prompt safety, scope control, and public OSS hygiene
-- Codex documentation agent guidance
-- Reusable role, task, and review templates
-- Public OSS hygiene and docs-only checklists
+## Completed or Established Areas
 
-## Future Considerations
+The following areas have current agent coverage and should be maintained as documentation-only guidance:
 
-The following platform and domain areas may be added later, but are not part of the current implementation:
+- Web frontend agents for core frontend work, React, Next.js, component libraries, frontend libraries, frontend testing, and advanced frontend planning/review.
+- Web backend agents for web backend planning, Node.js and TypeScript APIs, API contracts, database/ORM review, BaaS integration, auth/security, backend libraries, auth providers, API frameworks/runtimes, operations, and service capabilities.
+- Infrastructure agents for general infrastructure planning, cloud providers, containers, orchestration, CI/CD, IaC review, cloud security, networking, platform operations, cost optimization, release engineering, platform engineering, and compliance review.
+- Review agents for PR review, merge-readiness, prompt safety, scope control, and public OSS hygiene.
+- Web design agents for UI, UX, accessibility, interaction design, visual design, design systems, advanced design systems, design QA, brand/visual direction, UX research/product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
+- Documentation-focused guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, and docs-only checklists.
 
-- Advanced forms, experimentation review, frontend privacy review, multi-app frontend platform strategy, and other frontend specialty agents beyond the started advanced/library/testing/operations/governance expansion
-- Design privacy review, localization design, design ops governance, content operations, design-to-support workflows, design research quality review, and other design specialty agents beyond the started web design strategy and operations expansion
-- Native app agents
-- Desktop app agents
-- Broader backend agents beyond the initial web backend expansion
-- Advanced infrastructure agents beyond the started specialty and delivery/governance expansion
-- Cloud-specific security packs
-- Advanced networking agents
-- Advanced release automation review
-- Advanced platform engineering and observability operations agents
-- Formal compliance certification, audit, and legal review guidance
-- Product and product management agents
-- Broader security review agents beyond web backend auth and API security review
-- Example prompt libraries
+## Active Near-Term Areas
+
+Near-term work should focus on maintainability rather than expansion:
+
+- Keep README navigation concise and aligned with the taxonomy.
+- Keep `docs/agent-taxonomy.md` scan-friendly as existing areas grow.
+- Keep `docs/tool-routing.md` task-risk-based and resilient to future model improvements.
+- Keep roadmap language practical, avoiding claims that the repository is complete, production-ready, or superior to specific tools.
+- Reduce duplicated wording between the README, taxonomy, roadmap, routing docs, and individual agent files.
+- Preserve documentation-only boundaries and public OSS hygiene in every change.
+
+## Future Candidate Areas
+
+The following ideas may be considered later, but should not be marked complete until actual agent content exists:
+
+- Product / PM agents.
+- Codex documentation agent refinements or additional documentation workflow agents.
+- Additional review agents.
+- Native app agents.
+- Desktop app agents.
+- Broader backend agents beyond web application backend work.
+- Additional frontend specialties such as advanced forms, experimentation review, frontend privacy review, advanced browser storage, and multi-app frontend platform strategy.
+- Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.
+- Additional backend and infrastructure refinements, including cloud-specific compliance packs, security audit review, sustainability review, enterprise governance review, advanced release automation review, and deeper platform operations guidance.
+
+## Out of Scope or Not Yet Confirmed
+
+The following should remain out of scope unless a future repository direction explicitly changes:
+
+- Application code, package manager files, dependencies, build tooling, generated indexes, scripts, CI workflows, assets, screenshots, diagrams, exports, examples, or implementation templates.
+- Moving, renaming, or broadly restructuring existing agent directories solely for navigation cleanup.
+- Formal legal, compliance certification, audit, or regulatory claims.
+- Private customer data, participant data, analytics exports, private design files, private roadmap details, unreleased business context, or private AI session links.
+- Vendor comparison tables or hype-driven claims that can quickly become stale.
 
 Future additions should remain small, practical, documentation-only, and public OSS-safe.

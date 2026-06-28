@@ -1,59 +1,54 @@
 # Engineering Agents
 
-Engineering Agents is a documentation-only repository for role-based AI agent files and workflow templates used in engineering-related work.
+Engineering Agents is a documentation-only repository for role-based AI agent files, workflow templates, and review guidance used in engineering-related work.
 
-## Purpose
+## Overview
 
-This repository provides practical, reusable guidance for assigning AI agents to focused engineering tasks. It is intended to help teams keep prompts, agent responsibilities, review expectations, and public repository hygiene consistent.
+This repository helps teams keep agent responsibilities, prompts, review expectations, routing decisions, and public OSS hygiene consistent. It is intentionally limited to documentation and templates: do not add application code, package manager files, dependencies, build tooling, generated artifacts, assets, screenshots, or implementation examples.
 
-## Initial Scope
-
-The initial scaffold focuses on:
-
-- Web frontend agents
-- Web backend agents
-- Infrastructure agents
-- Web design agents
-- Cross-cutting review agents
-- Cross-cutting Codex documentation agents
-- Reusable task and review templates
-- Public OSS hygiene, language and locale guidance, and docs-only change checklists
-
-## Directory Overview
+## Repository Map
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions, including `web/`, `infrastructure/`, `review/`, and `docs/`
-docs/         Project guidance and operating notes
-templates/    Reusable prompt and workflow templates
+agents/       Role-based agent definitions for web, infrastructure, review, and docs work
 checklists/   Concise validation checklists
+docs/         Project guidance, taxonomy, roadmap, routing, and language notes
+templates/    Reusable prompt and workflow templates
 ```
+
+Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent areas. Use `docs/roadmap.md` to distinguish established coverage from future candidate areas.
 
 ## Basic Usage
 
-1. Choose the agent file that matches the role or task type, such as `agents/web/frontend/frontend-agent.md` for general web frontend work, `agents/web/frontend/react-agent.md` for React work, `agents/web/frontend/nextjs-agent.md` for Next.js work, `agents/web/frontend/component-library-agent.md` for component library work, `agents/web/backend/backend-agent.md` for general web backend planning, or `agents/web/design/ui-designer-agent.md` for web design work.
-   The `agents/web/frontend/libraries/` area covers frontend library selection, state and data fetching, forms and validation, styling and UI libraries, motion and animation, and Three.js/R3F review.
-   The `agents/web/frontend/testing/` area covers frontend testing strategy and review.
-   The `agents/web/frontend/advanced/` area covers Next.js responsibility boundaries, interactive web, frontend performance, frontend security boundaries, advanced accessibility, visualization/charts, editor experiences, WebGPU/WebXR, performance design, frontend observability, browser API safety, design engineering, animation systems, frontend release workflow, PWA and offline review, frontend analytics and product metrics review, and frontend platform governance review.
-   The web backend area includes focused agents for Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, and auth/API security review.
-   The `agents/web/backend/libraries/` area adds focused library and ecosystem agents for runtime validation and schemas, Prisma, Drizzle, Supabase backend integration, and typed API/RPC-style contracts.
-   The `agents/web/backend/auth/` area adds focused auth guidance for general auth library integration, Auth.js, Better Auth, Clerk, Firebase Auth, custom JWT/session systems, and auth provider selection.
-   The `agents/web/backend/frameworks/` area adds focused API framework and runtime agents for API framework selection, Hono, Fastify, Express, Next.js Route Handlers, and serverless or edge runtime boundaries.
-   The `agents/web/backend/operations/` area adds focused operational backend agents for observability, job queues, background workflows, webhooks, file uploads, and retry/idempotency review.
-   The `agents/web/backend/services/` area adds focused service capability agents for caching, rate limiting, search, email delivery, and notifications.
-   The web design area also includes focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance.
-   The `agents/web/design/advanced/` area covers advanced design systems, design QA, brand and visual direction, UX research and product discovery, design handoff and spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
-   The `agents/infrastructure/` area contains focused infrastructure agents for general infrastructure planning, AWS, Google Cloud, Docker, Kubernetes, GitHub Actions CI/CD, Infrastructure as Code review, cloud security, networking, platform operations, cost optimization, release engineering, platform engineering, and compliance review.
-   The review area includes focused agents for prompt safety, scope control, and public OSS hygiene.
-2. Copy a template from `templates/` when starting a new task or review.
-3. Keep changes small, focused, and documentation-only.
+1. Choose the smallest agent area that matches the task.
+2. Copy or adapt a template from `templates/` when starting a task or review.
+3. Keep repository changes small, focused, documentation-only, and public OSS-safe.
 4. Use the checklists before opening or reviewing a pull request.
 5. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
+6. Follow `docs/tool-routing.md` when deciding whether GPT, Codex, Claude Code, or lightweight IDE assistance is appropriate.
+
+## Agent Areas
+
+- **Web frontend:** `agents/web/frontend/` contains core frontend, React, Next.js, component library, frontend library, frontend testing, and advanced frontend planning/review agents. Advanced frontend agents live in `agents/web/frontend/advanced/`.
+- **Web backend:** `agents/web/backend/` contains web backend planning/review agents for APIs, contracts, database/ORM, BaaS, auth/security, backend libraries, auth providers, frameworks/runtimes, operations, and service capabilities.
+- **Web design:** `agents/web/design/` contains UI, UX, accessibility, interaction, visual design, design system, and advanced design planning/review agents. Advanced design, design strategy, and design operations agents live in `agents/web/design/advanced/`.
+- **Infrastructure:** `agents/infrastructure/` contains infrastructure planning/review agents for cloud, containers, orchestration, CI/CD, IaC, security, networking, platform operations, cost, release engineering, platform engineering, and compliance review.
+- **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, prompt safety, scope control, and public OSS hygiene reviewers.
+- **Docs:** `agents/docs/` contains documentation-focused agent guidance where applicable.
+
+Use the taxonomy instead of the README when you need a fuller directory-level view. The README should remain a concise entry point, not a duplicated catalog of every agent.
+
+## Documentation and Routing
+
+- `docs/agent-taxonomy.md` explains the current repository structure and agent areas.
+- `docs/tool-routing.md` explains task-risk-based routing for GPT project assistance, Codex documentation PRs, Claude Code exceptions, and repository-facing language expectations.
+- `docs/language-and-locale.md` explains user-facing chat language and English repository artifact expectations.
+- `docs/roadmap.md` separates established areas, active near-term cleanup, and future candidate areas.
 
 ## Public OSS Hygiene
 
-Do not include private AI session links, local machine paths, internal-only notes, generated-by signatures, private tool metadata, or other non-public references.
+Do not include private AI session links, Codex task URLs, Claude session URLs, local machine paths, generated-by signatures, private tool metadata, internal-only notes, credentials, tokens, secrets, private links, private screenshots, customer data, analytics exports, private roadmap details, or unreleased private business context.
 
-## Documentation-Only Note
+## Current Scope and Roadmap
 
-This repository is for documentation, agent instructions, and workflow templates only. Do not add application code, package manager files, dependencies, build tooling, or generated artifacts.
+Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, infrastructure, review, web design, and advanced web design agents. Future ideas such as Product/PM agents, Codex documentation expansion, additional review agents, native/desktop agents, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
