@@ -24,11 +24,14 @@ agents/
   review/
     pr-reviewer-agent.md
     merge-readiness-agent.md
+    prompt-safety-reviewer-agent.md
+    scope-control-reviewer-agent.md
+    public-oss-hygiene-reviewer-agent.md
   docs/
     codex-docs-agent.md
 ```
 
-The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. The web design area includes a general UI designer agent plus focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains.
+The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. The web design area includes a general UI designer agent plus focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains. The review area now includes focused prompt safety, scope control, and public OSS hygiene reviewers for pre-implementation and PR review checks.
 
 ## Future Expansion
 
