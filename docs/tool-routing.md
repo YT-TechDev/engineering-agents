@@ -51,6 +51,10 @@ Use lightweight IDE assistance for wording suggestions, quick Markdown edits, an
 
 Product / PM agents are for planning and review only. Product strategy, PRD review, roadmap planning, user stories, product metrics, and release scope review must remain documentation-only in this repository. Codex is suitable for small documentation-only Product / PM agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. Do not create product strategy docs, PRD templates, roadmap artifacts, project boards, GitHub issues, dashboards, analytics exports, releases, tags, package files, implementation files, or private business artifacts unless a future scope explicitly allows them.
 
+### Security / Privacy
+
+Security / Privacy agents are for planning and review only. Security boundary, privacy/data boundary, secret hygiene, dependency/supply-chain, threat modeling, and AI-agent safety review should remain documentation-only in this repository. Codex is suitable for small documentation-only Security / Privacy agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create security tooling, scanner configs, SBOMs, SARIF files, vulnerability reports, threat model templates, privacy policy templates, legal documents, compliance reports, incident response playbooks, package files, implementation files, or private security artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope.
+
 ### Infrastructure
 
 Infrastructure agents are for planning and review only. Actual release automation, release creation, package publication, cloud account changes, CI workflow changes, IaC changes, Kubernetes manifests, Dockerfiles, compliance evidence packages, audit reports, control matrices, budgets, dashboards, alerts, DNS records, IAM policies, firewall rules, and deployment configuration are out of scope unless explicitly approved in a future project scope.

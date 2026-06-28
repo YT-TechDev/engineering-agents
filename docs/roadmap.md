@@ -10,6 +10,7 @@ The following areas have current agent coverage and should be maintained as docu
 - Web backend agents for web backend planning, Node.js and TypeScript APIs, API contracts, database/ORM review, BaaS integration, auth/security, backend libraries, auth providers, API frameworks/runtimes, operations, and service capabilities.
 - Infrastructure agents for general infrastructure planning, cloud providers, containers, orchestration, CI/CD, IaC review, cloud security, networking, platform operations, cost optimization, release engineering, platform engineering, and compliance review.
 - Review agents for PR review, merge-readiness, merge-readiness coordination, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene.
+- Security / Privacy review agents for security boundaries, privacy/data boundaries, secrets and credential hygiene, dependency/supply-chain review, threat modeling/abuse cases, and AI-agent safety boundaries.
 - Product / PM agents for product strategy, PRD review, roadmap planning, user story/acceptance criteria review, product metrics, and release scope review.
 - Web design agents for UI, UX, accessibility, interaction design, visual design, design systems, advanced design systems, design QA, brand/visual direction, UX research/product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
 - Documentation-focused guidance, Codex documentation workflow guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, and docs-only checklists.
@@ -32,6 +33,7 @@ The following ideas may be considered later, but should not be marked complete u
 - Pricing strategy review, GTM review, product operations, experiment design review, customer feedback triage, and support-to-product workflows.
 - Prompt pack maintenance, repository instruction maintenance, docs quality scoring, and review evidence templates.
 - Additional review agents beyond the current documentation and review workflow pack.
+- Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, formal compliance review, and legal review.
 - Native app agents.
 - Desktop app agents.
 - Broader backend agents beyond web application backend work.

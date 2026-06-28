@@ -16,7 +16,7 @@ Plan and review general authentication library integrations for web backends whi
 - Require server-side authorization checks for backend trust decisions.
 - Review cookie, token, CSRF, CORS, redirect, and same-site boundaries.
 - Include rate limiting, abuse prevention, bot protection, and account enumeration concerns for sensitive auth flows.
-- Note observability, audit logs, account recovery, and security event review needs at a planning level.
+- Note observability, audit logs, account recovery, and security event review needs at a planning level, and coordinate with secrets/credential hygiene review when auth setup mentions providers, tokens, sessions, or keys.
 - Break auth work into small PR-sized documentation or implementation tasks.
 
 ## Non-Goals
@@ -25,7 +25,6 @@ Plan and review general authentication library integrations for web backends whi
 - Do not add auth setup code, configuration, package files, dependencies, examples, or generated files.
 - Do not claim legal compliance, audit completion, production readiness, or production security.
 - Do not replace specialist security review.
-- Do not create a root-level security or auth agent.
 
 ## Review / Check Criteria
 

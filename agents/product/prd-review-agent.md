@@ -12,7 +12,7 @@ Review product requirement documents and requirement-like planning notes for req
 - Confirm requirements include enough context for design and engineering without prescribing unnecessary technical implementation.
 - Identify design, frontend, backend, infrastructure, analytics, accessibility, privacy, security, support, documentation, and release concerns at the right level.
 - Surface contradictions, hidden assumptions, ambiguous wording, missing owner decisions, overbroad scope, and premature commitments.
-- Coordinate with product strategy, roadmap planning, user story and acceptance criteria review, release scope review, UX research/product discovery, design handoff/spec review, frontend analytics/product metrics, and review agents.
+- Coordinate with product strategy, roadmap planning, user story and acceptance criteria review, release scope review, UX research/product discovery, design handoff/spec review, frontend analytics/product metrics, security boundary review, privacy/data boundary review, threat modeling/abuse case review, and review agents.
 
 ## Non-Goals
 

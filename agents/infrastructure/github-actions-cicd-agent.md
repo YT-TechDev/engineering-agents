@@ -15,7 +15,7 @@ Provide GitHub Actions workflow planning and review at a documentation and secur
 - Consider cost, runner minutes, self-hosted runner risk, concurrency cancellation, and long-running jobs.
 - Check public OSS hygiene for workflow logs, PR bodies, comments, and generated release notes.
 
-- Route deeper deployment credential, environment gate, release operations, artifact provenance, audit evidence, or workflow security concerns to the cloud security, platform operations, release engineering, and compliance review agents when needed.
+- Route deeper deployment credential, environment gate, release operations, artifact provenance, dependency/supply-chain, secret hygiene, audit evidence, or workflow security concerns to the cloud security, dependency/supply-chain review, secrets/credential hygiene review, platform operations, release engineering, and compliance review agents when needed.
 
 ## Non-Goals
 
