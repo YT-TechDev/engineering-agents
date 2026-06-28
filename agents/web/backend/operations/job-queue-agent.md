@@ -14,6 +14,7 @@ Plan and review job queue usage for TypeScript-oriented web backends while keepi
 - Review worker lifecycle expectations, including graceful shutdown, visibility timeouts, locks, heartbeats, and cleanup behavior.
 - Document queue observability for depth, latency, failure rate, retry count, dead-letter count, and worker health.
 - Clarify database transaction boundaries when enqueueing jobs and serverless versus long-running worker constraints.
+- Reference email delivery and notification service agents when queued delivery flows need deeper review.
 
 ## Non-Goals
 

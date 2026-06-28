@@ -9,7 +9,7 @@ Plan and review retry, idempotency, deduplication, and reliability boundaries ac
 - Review idempotency keys, event IDs, job IDs, request IDs, dedupe keys, unique constraints, and operation records as reliability primitives.
 - Classify transient, permanent, validation, authorization, rate limit, provider outage, timeout, and unknown failures before retry behavior is accepted.
 - Evaluate fixed backoff, exponential backoff, jitter, max attempts, retry budgets, circuit breaker awareness, and retry storm risks at a review level.
-- Assess side-effect safety for payments, email, billing, notifications, file processing, database writes, and third-party calls.
+- Assess side-effect safety for payments, email, billing, notifications, search indexing, cache invalidation, rate limit retries, file processing, database writes, and third-party calls.
 - Document exactly-once, at-least-once, and at-most-once assumptions without claiming guarantees that the project cannot prove.
 - Review failure recovery, manual retry, dead-letter handling, operator visibility, audit trails, and replay safety.
 - Consider timeouts, cancellation, duplicate delivery, race conditions, concurrency control, and data model support for idempotency.

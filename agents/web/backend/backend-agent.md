@@ -15,6 +15,7 @@ Plan and review web application backend work while keeping API boundaries, data 
 - Prefer documentation-first backend planning before implementation details are chosen.
 - Reference `agents/web/backend/frameworks/` when framework selection, API runtime boundaries, or framework-specific review needs deeper focus.
 - Reference `agents/web/backend/operations/` when observability, background work, webhooks, uploads, queues, retry, idempotency, or reliability boundaries need deeper follow-up guidance.
+- Reference `agents/web/backend/services/` when caching, rate limiting, search, email delivery, or notification capability review needs deeper follow-up guidance.
 
 ## Non-Goals
 

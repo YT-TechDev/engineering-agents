@@ -14,6 +14,7 @@ Plan and review webhook endpoints for web backends while keeping verification, i
 - Identify tenant, organization, account, environment, and authorization context extraction.
 - Note local development and test event strategy without adding setup instructions.
 - Define observability for delivery attempts, signature failures, processing failures, retry state, and downstream side effects.
+- Reference email delivery and notification service agents when provider event webhooks need deeper follow-up review.
 
 ## Non-Goals
 
