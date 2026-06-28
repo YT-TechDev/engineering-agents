@@ -14,6 +14,8 @@ Review frontend library choices for React, Next.js, and TypeScript-oriented web 
 - Assess documentation quality, examples, test expectations, accessibility claims, release cadence, maintenance risk, migration burden, licensing, transitive dependency risk, supply-chain risk, and public OSS hygiene.
 - Call out vibe-coding risk when libraries are added without understanding ownership, security boundaries, or maintenance cost.
 
+- Coordinate with observability, browser API safety, design engineering, animation systems, and frontend release workflow agents when library choices affect those concerns.
+
 ## Non-Goals
 
 - Do not add package files, dependencies, installation commands, examples, generated files, or implementation code.

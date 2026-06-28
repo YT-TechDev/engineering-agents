@@ -17,6 +17,8 @@ Guide design system review and planning for reusable web UI patterns, shared com
 - Guide when to reuse an existing pattern versus propose a new one.
 - Improve documentation clarity for component consumers and maintainers.
 
+- Coordinate with design engineering and animation systems agents when design system decisions affect frontend architecture or reusable motion guidance.
+
 ## Non-Goals
 
 - Do not add package metadata, build tooling, release automation, or generated design assets.

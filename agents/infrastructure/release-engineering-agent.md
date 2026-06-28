@@ -17,6 +17,8 @@ Provide release engineering planning and review for open-source and product repo
 - Consider incident response for failed releases, bad artifacts, leaked secrets, compromised release credentials, and yanked or deprecated releases.
 - Check public OSS hygiene for release notes, PR bodies, changelogs, commit messages, generated notes, and artifact metadata.
 
+- Coordinate with the frontend release workflow agent when release concerns are frontend-specific.
+
 ## Non-Goals
 
 - Do not add release workflow files, release scripts, package config, registry config, changelog generators, release notes templates, examples, generated files, deployment config, or other release automation.

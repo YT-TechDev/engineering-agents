@@ -18,6 +18,8 @@ Review and plan interactive web experiences so user actions feel clear, responsi
 - Review mobile and touch interaction clarity.
 - Reference the frontend motion animation, interactive web, editor experience, visualization/charts, WebGPU/WebXR, and performance design agents when implementation-facing interaction review needs deeper coordination.
 
+- Coordinate with animation systems, browser API safety, and frontend observability agents when motion, browser capability, permissions, or user-impacting failures affect interaction design.
+
 ## Non-Goals
 
 - Do not add animation code or implementation details.
