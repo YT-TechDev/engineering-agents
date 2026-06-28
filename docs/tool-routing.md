@@ -9,6 +9,7 @@ Use GPT for planning, review strategy, prompt design, requirements clarification
 ## Codex
 
 Use Codex for docs-only repository edits, small PR-sized documentation changes, template updates, checklist updates, structured Markdown maintenance, docs-only frontend agent changes, and docs-only infrastructure agent changes in this repository, including documentation-only release engineering, platform engineering, and compliance review agents.
+Codex prompts and repository-facing artifacts should remain in English unless the repository owner explicitly requests another language; user-facing chat can match the user's language.
 
 ## Claude Code
 
