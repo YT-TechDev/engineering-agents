@@ -10,9 +10,9 @@ The project helps teams describe what each agent should do, what it should avoid
 
 - Engineers who want reusable agent instructions for focused tasks
 - Reviewers who want consistent PR review and merge-readiness checks
-- Design and frontend collaborators who want clear role boundaries
+- Web design and frontend collaborators who want clear role boundaries
 - Maintainers who want public OSS-safe prompt and workflow templates
 
 ## Initial Scope
 
-The initial scope covers frontend, design, review, and Codex documentation agents. Backend, infrastructure, PM, release, and security agents may be considered later as roadmap items.
+The initial scope covers web frontend, web design, review, and Codex documentation agents. Review and docs agents remain cross-cutting, while web-related agents live under `agents/web/`.
