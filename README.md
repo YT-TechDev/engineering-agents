@@ -10,10 +10,10 @@ This repository provides practical, reusable guidance for assigning AI agents to
 
 The initial scaffold focuses on:
 
-- Frontend agents
-- Design-related agents
-- Review agents
-- Codex documentation agents
+- Web frontend agents
+- Web design agents
+- Cross-cutting review agents
+- Cross-cutting Codex documentation agents
 - Reusable task and review templates
 - Public OSS hygiene and docs-only change checklists
 
@@ -21,7 +21,7 @@ The initial scaffold focuses on:
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions
+agents/       Role-based agent definitions, including `web/`, `review/`, and `docs/`
 docs/         Project guidance and operating notes
 templates/    Reusable prompt and workflow templates
 checklists/   Concise validation checklists
@@ -29,7 +29,7 @@ checklists/   Concise validation checklists
 
 ## Basic Usage
 
-1. Choose the agent file that matches the role or task type.
+1. Choose the agent file that matches the role or task type, such as `agents/web/frontend/frontend-agent.md` for web frontend work or `agents/web/design/ui-designer-agent.md` for web design work.
 2. Copy a template from `templates/` when starting a new task or review.
 3. Keep changes small, focused, and documentation-only.
 4. Use the checklists before opening or reviewing a pull request.

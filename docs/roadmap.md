@@ -2,8 +2,8 @@
 
 ## Current Initial Scope
 
-- Frontend agent guidance
-- Design-related agent guidance
+- Web frontend agent guidance
+- Web design agent guidance
 - PR review and merge-readiness agents
 - Codex documentation agent guidance
 - Reusable role, task, and review templates
@@ -11,11 +11,13 @@
 
 ## Future Considerations
 
-The following areas may be added later, but are not part of the initial scaffold:
+The following platform and domain areas may be added later, but are not part of the current implementation:
 
+- Native app agents
+- Desktop app agents
 - Backend agents
 - Infrastructure agents
-- Product management agents
+- Product and product management agents
 - Release workflow agents
 - Security review agents
 - Example prompt libraries
