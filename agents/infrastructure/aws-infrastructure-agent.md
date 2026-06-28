@@ -16,6 +16,8 @@ Provide AWS-focused infrastructure planning and review at a documentation and ar
 - Review deployment and CI/CD integration with GitHub Actions OIDC, container registries, image signing, and least-privilege deploy roles at a planning level.
 - Check cost allocation, budgets, tagging, reserved capacity, autoscaling, lifecycle policies, and storage class review.
 
+- Route deeper AWS-related security, networking, platform operations, or cost concerns to the cloud security, networking, platform operations, and cost optimization agents when needed.
+
 ## Non-Goals
 
 - Do not add AWS CloudFormation, CDK, Terraform, OpenTofu, SAM, Serverless Framework, IAM policy, VPC config, Lambda config, ECS/EKS config, or deployment files.

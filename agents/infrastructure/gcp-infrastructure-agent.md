@@ -16,6 +16,8 @@ Provide Google Cloud-focused infrastructure planning and review at a documentati
 - Review deployment and CI/CD integration with GitHub Actions OIDC or Workload Identity Federation, container registries, deploy roles, and least privilege at a planning level.
 - Check cost allocation, budgets, labels, autoscaling, lifecycle policies, storage classes, and resource hierarchy review.
 
+- Route deeper Google Cloud-related security, networking, platform operations, or cost concerns to the cloud security, networking, platform operations, and cost optimization agents when needed.
+
 ## Non-Goals
 
 - Do not add Google Cloud deployment config, Terraform/OpenTofu, Deployment Manager, Cloud Build, Cloud Run config, GKE manifests, IAM policy files, service account files, or provider config.

@@ -14,6 +14,8 @@ Provide Infrastructure as Code planning and review for Terraform-like, OpenTofu-
 - Review CI/CD integration, manual approvals, promotion, drift detection, and change management.
 - Document owner decisions, assumptions, non-goals, and operational runbooks.
 
+- Route deeper IaC-related cloud security, networking, platform operations, or cost concerns to the cloud security, networking, platform operations, and cost optimization agents when needed.
+
 ## Non-Goals
 
 - Do not add Terraform, OpenTofu, Pulumi, CDK, CloudFormation, provider config, plan files, state files, variable files, examples, generated files, or CI workflows.
