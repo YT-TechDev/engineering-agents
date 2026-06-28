@@ -17,7 +17,7 @@ The initial scaffold focuses on:
 - Cross-cutting review agents
 - Cross-cutting Codex documentation agents
 - Reusable task and review templates
-- Public OSS hygiene and docs-only change checklists
+- Public OSS hygiene, language and locale guidance, and docs-only change checklists
 
 ## Directory Overview
 
@@ -46,6 +46,7 @@ checklists/   Concise validation checklists
 2. Copy a template from `templates/` when starting a new task or review.
 3. Keep changes small, focused, and documentation-only.
 4. Use the checklists before opening or reviewing a pull request.
+5. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
 
 ## Public OSS Hygiene
 
