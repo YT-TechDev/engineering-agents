@@ -15,6 +15,7 @@ Plan and review serverless function and edge runtime boundaries for web backend 
 - Surface cost, quota, rate limit, abuse protection, and provider lock-in concerns without prescribing one provider.
 - Support migration planning between long-running servers, serverless functions, and edge runtimes.
 - Reference `agents/web/backend/operations/` when queue handoff, background workflows, file uploads, observability, retry, or idempotency need deeper review.
+- Reference cache and rate limit service agents when runtime, region, connection, or managed KV constraints affect API behavior.
 
 ## Non-Goals
 

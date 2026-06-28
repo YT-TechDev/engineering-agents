@@ -36,6 +36,7 @@ checklists/   Concise validation checklists
    The `agents/web/backend/auth/` area adds focused auth guidance for general auth library integration, Auth.js, Better Auth, Clerk, Firebase Auth, custom JWT/session systems, and auth provider selection.
    The `agents/web/backend/frameworks/` area adds focused API framework and runtime agents for API framework selection, Hono, Fastify, Express, Next.js Route Handlers, and serverless or edge runtime boundaries.
    The `agents/web/backend/operations/` area adds focused operational backend agents for observability, job queues, background workflows, webhooks, file uploads, and retry/idempotency review.
+   The `agents/web/backend/services/` area adds focused service capability agents for caching, rate limiting, search, email delivery, and notifications.
    The web design area also includes focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance.
    The review area includes focused agents for prompt safety, scope control, and public OSS hygiene.
 2. Copy a template from `templates/` when starting a new task or review.

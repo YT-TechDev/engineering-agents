@@ -6,7 +6,7 @@ Plan and review observability for TypeScript-oriented web backend systems while 
 
 ## Responsibilities
 
-- Review observability needs for API routes, background jobs, workflows, webhooks, file uploads, database queries, external API calls, and queue processing.
+- Review observability needs for API routes, background jobs, workflows, webhooks, file uploads, database queries, external API calls, queue processing, caches, rate limits, search, email delivery, and notifications.
 - Plan logs, metrics, traces, error tracking, profiling, uptime checks, cron monitoring, and audit events at a documentation level.
 - Consider OpenTelemetry-style traces, metrics, logs, context propagation, semantic attributes, sampling, and instrumentation boundaries without requiring one vendor.
 - Use Sentry-like error tracking, performance monitoring, release tracking, alerting, and issue triage as examples without treating them as the only approach.
