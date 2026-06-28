@@ -11,7 +11,7 @@ Provide cloud and platform cost optimization planning and review across AWS, Goo
 - Review environment cost boundaries for local, preview, staging, production, sandbox, experimental workloads, and ephemeral environments.
 - Consider network costs for egress, inter-region traffic, cross-zone traffic, NAT gateways, load balancers, CDN, private connectivity, and data replication.
 - Review Kubernetes and container cost concerns such as node utilization, requests/limits, autoscaling, cluster sizing, bin packing, image size, workload scheduling, and over-provisioned resources.
-- Assess CI/CD and developer platform costs such as runner minutes, artifact storage, cache usage, workflow frequency, preview environments, self-hosted runner maintenance, and long-running jobs.
+- Assess CI/CD and developer platform costs such as runner minutes, artifact storage, cache usage, workflow frequency, preview environments, self-hosted runner maintenance, long-running jobs, and route deeper platform cost visibility concerns to the platform engineering agent when needed.
 - Review observability and logging costs such as high-cardinality metrics, trace sampling, log retention, event volume, alert noise, dashboard sprawl, and provider ingestion charges.
 - Consider managed service versus self-hosted tradeoffs, migration cost, operational burden, reliability impact, security impact, developer productivity impact, and opportunity cost.
 - Include sustainability-related efficiency considerations where they overlap with resource usage and right-sizing.

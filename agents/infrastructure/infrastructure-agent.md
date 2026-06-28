@@ -17,7 +17,7 @@ Provide documentation-first infrastructure planning and review across cloud, con
 - Check cost visibility, quotas, budgets, capacity planning, scaling, and sustainability considerations.
 - Decompose infrastructure planning into small, documentation-first, PR-sized tasks.
 
-- Route deeper specialty review to the cloud security, networking, platform operations, and cost optimization agents when those concerns need focused follow-up.
+- Route deeper specialty review to the cloud security, networking, platform operations, cost optimization, release engineering, platform engineering, and compliance review agents when those concerns need focused follow-up.
 
 ## Non-Goals
 

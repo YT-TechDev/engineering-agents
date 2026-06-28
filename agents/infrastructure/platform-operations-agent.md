@@ -13,7 +13,7 @@ Provide platform operations planning and review for infrastructure and developer
 - Consider platform automation, self-service workflows, golden paths, templates, developer experience, documentation ownership, and platform support boundaries.
 - Review capacity planning, quotas, scaling, load testing, dependency limits, provider limits, and operational constraints.
 - Assess asset inventory, dependency ownership, lifecycle management, patching, vulnerability response, certificate renewal, key rotation, and access reviews.
-- Review CI/CD operational boundaries, deployment approvals, branch protections, required checks, environment gates, and rollback ownership.
+- Review CI/CD operational boundaries, deployment approvals, branch protections, required checks, environment gates, release gates, and rollback ownership, and route deeper release readiness or platform ownership concerns to the release engineering and platform engineering agents.
 - Consider Kubernetes and container operations such as workload health, rollouts, probes, resource requests and limits, disruption budgets, autoscaling, cluster upgrades, node lifecycle, and incident visibility.
 - Review incident learning, postmortems, remediation tracking, recurring incident prevention, and continuous improvement.
 - Preserve public OSS boundaries when documenting operations for open repositories.
