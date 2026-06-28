@@ -11,7 +11,7 @@ Review design metrics planning so design decisions connect to user goals, eviden
 - Frame metrics around user goal, design decision, success signal, guardrail metric, qualitative evidence, baseline, segmentation, confidence, time window, owner, and decision use.
 - Discuss possible planning-level signals such as task success, time on task, error recovery, form completion, activation, feature adoption, retention-adjacent signals, satisfaction, usability issues, accessibility defects, design system adoption, component reuse, design QA defects, content comprehension, navigation success, and support contact reduction.
 - Review data quality, privacy, consent, retention, instrumentation boundaries, sampling, client-only trust limits, and misinterpretation risk.
-- Coordinate with frontend analytics and product metrics, UX research and product discovery, design QA, content design, service design, research operations, and compliance review.
+- Coordinate with `agents/product/product-metrics-agent.md`, frontend analytics and product metrics, UX research and product discovery, design QA, content design, service design, research operations, and compliance review.
 
 ## Non-Goals
 
