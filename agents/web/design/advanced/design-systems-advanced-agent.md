@@ -8,7 +8,7 @@ Plan and review advanced web design system work as governed product infrastructu
 
 - Review advanced design system planning for web products, component libraries, documentation sites, and shared frontend platforms.
 - Clarify token strategy at a guidance level, including design tokens, semantic tokens, density, themes, dark mode, responsive behavior, motion guidance, accessibility defaults, content patterns, and state coverage.
-- Assess component lifecycle practices for proposal, contribution, acceptance criteria, documentation, versioning, migration, deprecation, adoption, and support ownership.
+- Assess component lifecycle practices for proposal, contribution, acceptance criteria, documentation, versioning, migration, deprecation, adoption, support ownership, and release management.
 - Coordinate governance between design system maintainers, product designers, frontend engineers, design engineering, accessibility, brand, product, and platform teams.
 - Check alignment between design-tool concepts and code concepts without adding token files, component files, or implementation artifacts.
 - Review usage guidance for components, patterns, layouts, forms, navigation, data display, feedback components, empty states, error states, loading states, and destructive flows.

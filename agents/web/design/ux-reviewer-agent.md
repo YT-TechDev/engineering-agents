@@ -16,7 +16,7 @@ Review web product experiences for task clarity, usable flows, and practical imp
 - Look for user control, undo, cancel, escape, and destructive-action prevention patterns.
 - Favor recognition over recall, progressive disclosure, and reduced cognitive load.
 
-- Coordinate with UX research/product discovery and design QA agents when user problems, evidence, or release-readiness need deeper review.
+- Coordinate with information architecture, service design, design metrics, UX research/product discovery, and design QA agents when user problems, evidence, end-to-end service concerns, or release-readiness need deeper review.
 
 ## Non-Goals
 
