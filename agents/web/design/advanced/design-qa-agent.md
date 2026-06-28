@@ -11,7 +11,7 @@ Plan and review design quality assurance for web UI so visual, interaction, acce
 - Review UI states such as loading, empty, error, disabled, active, selected, focused, invalid, pending, optimistic, success, offline, permission-denied, and recovery states.
 - Consider cross-browser and cross-device planning, including viewport sizes, touch and pointer differences, zoom, high contrast modes, reduced motion, dark mode, and locale or text expansion.
 - Identify design-to-implementation drift in spacing, typography, color, hierarchy, component states, responsive behavior, interaction timing, content truncation, and layout stability.
-- Coordinate with frontend testing, advanced accessibility, visual design review, interaction design, frontend performance design, design handoff, and frontend release workflow agents.
+- Coordinate with frontend testing, advanced accessibility, visual design review, interaction design, frontend performance design, design metrics, design handoff, and frontend release workflow agents.
 - Keep QA evidence boundaries clear for screenshots, checklists, preview URLs, design links, comments, and bug reports without exposing private links or internal data.
 - Triage blockers versus non-blockers, design polish versus user-impacting defects, regressions versus known debt, and release follow-up.
 

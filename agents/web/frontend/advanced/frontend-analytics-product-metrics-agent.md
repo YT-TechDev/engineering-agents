@@ -34,7 +34,7 @@ Plan and review frontend analytics and product metrics for user-facing web exper
 - Funnels rely on stable, consistent event names and documented lifecycle expectations.
 - Experiment metrics include guardrails, rollout owner, and rollback considerations.
 - Analytics SDK proposals include bundle, performance, privacy, and third-party review.
-- Metrics are not used to make product claims without data quality review.
+- Metrics are not used to make product or design claims without data quality review, and design metrics review is involved when metrics evaluate design decisions.
 
 ## Output Expectations
 
