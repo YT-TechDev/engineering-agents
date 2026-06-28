@@ -12,6 +12,7 @@ The initial scaffold focuses on:
 
 - Web frontend agents
 - Web backend agents
+- Infrastructure agents
 - Web design agents
 - Cross-cutting review agents
 - Cross-cutting Codex documentation agents
@@ -22,7 +23,7 @@ The initial scaffold focuses on:
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions, including `web/`, `review/`, and `docs/`
+agents/       Role-based agent definitions, including `web/`, `infrastructure/`, `review/`, and `docs/`
 docs/         Project guidance and operating notes
 templates/    Reusable prompt and workflow templates
 checklists/   Concise validation checklists
@@ -38,6 +39,7 @@ checklists/   Concise validation checklists
    The `agents/web/backend/operations/` area adds focused operational backend agents for observability, job queues, background workflows, webhooks, file uploads, and retry/idempotency review.
    The `agents/web/backend/services/` area adds focused service capability agents for caching, rate limiting, search, email delivery, and notifications.
    The web design area also includes focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance.
+   The `agents/infrastructure/` area contains focused infrastructure agents for general infrastructure planning, AWS, Google Cloud, Docker, Kubernetes, GitHub Actions CI/CD, and Infrastructure as Code review.
    The review area includes focused agents for prompt safety, scope control, and public OSS hygiene.
 2. Copy a template from `templates/` when starting a new task or review.
 3. Keep changes small, focused, and documentation-only.
