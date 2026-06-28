@@ -15,7 +15,7 @@ Review web designs and documentation for accessibility considerations that suppo
 - Review motion sensitivity concerns, reduced-motion expectations, interaction-triggered animation, and seizure risk awareness.
 - Note accessible authentication and redundant-entry concerns when relevant to the flow.
 - Provide practical notes that help frontend collaborators implement accessible UI.
-- Reference motion, interactive web, Three.js/R3F, and frontend security boundary agents when accessibility concerns intersect with animation, 3D, complex interactions, or client exposure risk.
+- Reference motion, interactive web, Three.js/R3F, advanced frontend accessibility, and frontend security boundary agents when accessibility concerns intersect with animation, 3D, complex interactions, or client exposure risk.
 
 ## Non-Goals
 

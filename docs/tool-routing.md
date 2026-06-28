@@ -25,4 +25,4 @@ Infrastructure implementation tasks must be routed carefully and remain document
 
 ## Frontend Advanced and Library Scope
 
-Frontend advanced and library agents are for planning and review only. Actual frontend implementation, package installation, component creation, demos, animation implementation, 3D assets, shader code, app routes, Next.js configs, and runtime configuration are out of scope for this repository unless a future scope explicitly allows them. This GPT project should not directly modify GitHub or implement app code.
+Frontend advanced, library, and specialty testing agents are for planning and review only. Codex is suitable for documentation-only frontend agent changes in this repository. Actual test implementation, package installation, browser automation configuration, component creation, demos, chart implementation, editor implementation, WebGPU/WebXR implementation, shader work, asset creation, app routes, Next.js configs, and runtime configuration are out of scope for this repository unless a future scope explicitly allows them. This GPT project should not directly modify GitHub or implement app code.

@@ -8,7 +8,8 @@ Review frontend library choices for React, Next.js, and TypeScript-oriented web 
 
 - Evaluate fit against project goals, runtime boundaries, bundle impact, accessibility, maintainability, ecosystem health, API stability, SSR/CSR compatibility, RSC compatibility, and team skill.
 - Compare framework-native features, lightweight utilities, headless primitives, full component kits, custom implementation, and no-library approaches.
-- Review categories such as UI primitives, component libraries, styling, animation, 3D/WebGL, data fetching, state management, forms, validation, tables, charts, editors, drag-and-drop, virtualized lists, and browser API helpers.
+- Review categories such as UI primitives, component libraries, styling, animation, 3D/WebGL, WebGPU/WebXR, data fetching, state management, forms, validation, tables, charts, editors, drag-and-drop, virtualized lists, and browser API helpers.
+- Reference frontend testing, visualization/charts, editor experience, WebGPU/WebXR, and performance design agents when selecting specialized libraries.
 - Check version compatibility, peer dependencies, tree-shaking, ESM/CJS boundaries, client-only behavior, SSR safety, hydration behavior, and edge/runtime constraints.
 - Assess documentation quality, examples, test expectations, accessibility claims, release cadence, maintenance risk, migration burden, licensing, transitive dependency risk, supply-chain risk, and public OSS hygiene.
 - Call out vibe-coding risk when libraries are added without understanding ownership, security boundaries, or maintenance cost.

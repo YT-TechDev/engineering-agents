@@ -12,6 +12,7 @@ Review Next.js responsibility boundaries and safety concerns for App Router-styl
 - Review database and SQL boundaries: no direct client database access, no service-role leakage, no unsafe SQL generation from client input, and no authorization decisions only in UI.
 - Assess auth, sessions, cookies, headers, redirects, cache, revalidation, route protection, tenant/user authorization, data fetching, streaming, Suspense, loading/error/not-found states, and hydration risks.
 - Consider serverless/edge runtime constraints, long-running work, background handoff, file uploads, webhooks, observability handoff, and vibe-coding risk where generated code places backend, infrastructure, or secret handling in frontend files.
+- Reference frontend testing and performance design agents when server/client boundaries affect validation, route behavior, or performance review.
 
 ## Non-Goals
 

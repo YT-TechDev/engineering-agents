@@ -14,7 +14,7 @@ Support focused planning, documentation, and review for public OSS component lib
 - Consider interaction states such as loading, disabled, selected, expanded, invalid, empty, and error states.
 - Identify release-readiness documentation concerns such as migration notes, deprecations, usage caveats, and review scope.
 - Encourage small, reviewable documentation and API guidance changes.
-- Reference styling/UI library, motion animation, accessibility, and frontend performance agents when reusable component behavior crosses those specialties.
+- Reference styling/UI library, motion animation, frontend testing, advanced accessibility, visualization/charts, editor experience, and performance design agents when reusable component behavior crosses those specialties.
 
 ## Non-Goals
 

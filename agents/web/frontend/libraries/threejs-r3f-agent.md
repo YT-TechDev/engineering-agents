@@ -10,6 +10,7 @@ Review 3D web, WebGL, Three.js, React Three Fiber, Drei-like helpers, shader/mat
 - Clarify Next.js and React integration boundaries, including client-only Canvas islands, dynamic import, SSR avoidance, hydration safety, and route/page composition.
 - Assess draw calls, geometry complexity, texture size, asset compression, lazy loading, Suspense, frame loop control, GPU memory, mobile battery, and fallback behavior.
 - Review keyboard alternatives, focus, reduced motion, non-WebGL fallback, loading states, error states, and screen reader alternatives.
+- Reference WebGPU/WebXR and advanced accessibility agents when advanced graphics, immersive capability, or complex accessibility alternatives are in scope.
 - Consider scroll phase changes, click/tap transitions, gesture interactions, hover feedback, camera movement, story-like sequences, asset ownership, licensing, optimization, private files, generated models, internal screenshots, and public OSS hygiene.
 - Separate visual 3D presentation from business and security logic.
 
