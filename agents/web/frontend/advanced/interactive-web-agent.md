@@ -13,6 +13,8 @@ Review advanced interactive web experiences such as scroll-driven storytelling, 
 - Review INP, LCP, CLS, scroll jank, main-thread work, animation loops, asset loading, memory usage, hydration, cancellation, escape paths, back/forward behavior, recoverability, and state reset.
 - Coordinate with UX, visual design, interaction design, accessibility, component library, browser API safety, animation systems, frontend observability, design engineering, frontend release workflow, advanced accessibility, WebGPU/WebXR, visualization/charts, editor experience, frontend testing, and performance design agents, including when simpler UI is better.
 
+- Coordinate with UX research/product discovery and design handoff/spec review agents when complex interactions need validation and clear specification.
+
 ## Non-Goals
 
 - Do not add interactive demos, components, assets, examples, generated files, or package dependencies.

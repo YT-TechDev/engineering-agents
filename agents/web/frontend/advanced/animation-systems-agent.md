@@ -15,6 +15,8 @@ Plan and review reusable animation architecture, motion governance, state models
 - Plan design system integration through motion guidelines, documentation concepts, ownership, naming, release/versioning, and migration.
 - Review deterministic animation tests, reduced-motion snapshots, manual motion review, mobile review, and flaky animation-related tests as planning concerns.
 
+- Coordinate with brand/visual direction and advanced design systems agents when motion style or motion tokens overlap with design governance.
+
 ## Non-Goals
 
 - Do not add animation code, motion tokens, config, component examples, video captures, generated files, assets, package files, or dependencies.

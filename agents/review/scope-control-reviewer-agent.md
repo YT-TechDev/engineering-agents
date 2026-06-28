@@ -18,6 +18,8 @@ Review implementation prompts and pull requests for tight scope control so small
 
 - Confirm frontend operations/systems and governance/offline/metrics PRs remain documentation-only and avoid service workers, manifests, analytics SDKs, event schemas, dashboards, governance automation, package files, configs, demos, assets, generated files, tokens, components, and release workflows.
 
+- Confirm advanced design PRs remain documentation-only and avoid design assets, screenshots, Figma exports, prototypes, research data, transcripts, package files, implementation files, and generated files.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

@@ -3,7 +3,7 @@
 ## Current Initial Scope
 
 - Web frontend agent guidance, including the initial React, Next.js, and component library expansion plus the started frontend advanced/library/testing expansion for library selection, state/data fetching, forms/validation, styling/UI libraries, motion/animation, Three.js/R3F, Next.js boundaries, interactive web, performance, security boundaries, frontend testing, advanced accessibility, visualization/charts, editor experiences, WebGPU/WebXR, performance design, the started frontend operations/systems expansion for observability, browser API safety, design engineering, animation systems, and release workflow, and the started frontend governance/offline/metrics expansion for PWA and offline review, frontend analytics and product metrics review, and frontend platform governance
-- Web design agent guidance, including the initial UX review, accessibility review, interaction design, visual design review, and design system expansion
+- Web design agent guidance, including the initial UX review, accessibility review, interaction design, visual design review, and design system expansion, plus the started advanced web design expansion for advanced design systems, design QA, brand and visual direction, UX research and product discovery, and design handoff/spec review
 - Initial web backend agent guidance under `agents/web/backend/`, covering web backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, auth/API security review, the first focused library expansion for validation/schema, Prisma, Drizzle, Supabase, and typed API/RPC review, the first web backend auth expansion for auth libraries, provider selection, and session-management review, and the first web backend API framework expansion for framework selection, Hono, Fastify, Express, Next.js Route Handlers, and serverless or edge runtime review, and the first web backend operations expansion for observability, queues, workflows, webhooks, uploads, retry, and idempotency review, plus the first web backend service capability expansion for caching, rate limiting, search, email delivery, and notifications
 - Initial infrastructure agent guidance under `agents/infrastructure/`, covering general infrastructure planning, AWS, Google Cloud, Docker, Kubernetes, GitHub Actions CI/CD, and Infrastructure as Code review, with infrastructure specialty expansion started for cloud security, networking, platform operations, cost optimization, and infrastructure delivery/governance agents for release engineering, platform engineering, and compliance review
 - PR review and merge-readiness agents, including the first focused review expansion for prompt safety, scope control, and public OSS hygiene
@@ -15,7 +15,8 @@
 
 The following platform and domain areas may be added later, but are not part of the current implementation:
 
-- Advanced forms, design system release management, experimentation review, frontend privacy review, multi-app frontend platform strategy, and other frontend specialty agents beyond the started advanced/library/testing/operations/governance expansion
+- Advanced forms, experimentation review, frontend privacy review, multi-app frontend platform strategy, and other frontend specialty agents beyond the started advanced/library/testing/operations/governance expansion
+- Content design, information architecture, service design, research operations, design system release management, design metrics, and other design specialty agents beyond the started web design expansion
 - Native app agents
 - Desktop app agents
 - Broader backend agents beyond the initial web backend expansion

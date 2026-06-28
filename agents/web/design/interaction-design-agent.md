@@ -20,6 +20,8 @@ Review and plan interactive web experiences so user actions feel clear, responsi
 
 - Coordinate with animation systems, browser API safety, and frontend observability agents when motion, browser capability, permissions, or user-impacting failures affect interaction design.
 
+- Coordinate with design handoff/spec review, design QA, and UX research/product discovery agents when complex behavior needs validation and specification.
+
 ## Non-Goals
 
 - Do not add animation code or implementation details.

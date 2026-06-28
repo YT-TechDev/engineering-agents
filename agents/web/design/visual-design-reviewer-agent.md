@@ -16,6 +16,8 @@ Review web interfaces for visual clarity, hierarchy, consistency, and task-suppo
 - Review practical UI-level brand expression without expanding into broad brand strategy.
 - Assess image and icon clarity, decorative-versus-informative use, and fallback considerations.
 
+- Coordinate with brand/visual direction and design QA agents when visual identity, consistency, or release-readiness needs deeper review.
+
 ## Non-Goals
 
 - Do not create production design assets.
