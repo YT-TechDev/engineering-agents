@@ -16,6 +16,11 @@ agents/
       component-library-agent.md
     design/
       ui-designer-agent.md
+      ux-reviewer-agent.md
+      accessibility-reviewer-agent.md
+      interaction-design-agent.md
+      visual-design-reviewer-agent.md
+      design-system-agent.md
   review/
     pr-reviewer-agent.md
     merge-readiness-agent.md
@@ -23,7 +28,7 @@ agents/
     codex-docs-agent.md
 ```
 
-The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains.
+The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. The web design area includes a general UI designer agent plus focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains.
 
 ## Future Expansion
 
