@@ -59,12 +59,23 @@ Infrastructure agents are documentation and review agents only. They do not crea
 - Prompt safety review.
 - Scope control review.
 - Public OSS hygiene review.
+- Merge-readiness coordination: `agents/review/merge-readiness-review-coordinator-agent.md`.
+- Public OSS PR body review: `agents/review/public-oss-pr-body-review-agent.md`.
+- Agent pack maintenance review: `agents/review/agent-pack-maintenance-reviewer-agent.md`.
 
-Use review agents when a change needs boundary checks, public-safe wording, prompt safety, PR readiness, or confirmation that a documentation-only task has not drifted into implementation work.
+Use review agents when a change needs boundary checks, public-safe wording, prompt safety, PR readiness, or confirmation that a documentation-only task has not drifted into implementation work. These agents support human review and merge-readiness judgment; they do not replace owner review.
 
 ### Docs
 
 `agents/docs/` contains documentation-focused agent guidance where applicable. Treat documentation agents as repository-facing guidance for docs and template maintenance, not as permission to add implementation files or generated artifacts.
+
+Codex documentation workflow agents live in `agents/docs/codex/`:
+
+- Codex prompt writing: `agents/docs/codex/codex-prompt-writer-agent.md`.
+- Codex docs PR planning: `agents/docs/codex/codex-docs-pr-planner-agent.md`.
+- Codex docs PR review: `agents/docs/codex/codex-docs-reviewer-agent.md`.
+
+These documentation and review workflow agents do not create Codex tasks, GitHub issues, GitHub comments, GitHub reviews, branches, commits, PRs, releases, automations, scripts, workflows, package files, or implementation artifacts.
 
 ## Cross-Cutting Guidance
 
@@ -80,8 +91,10 @@ Use review agents when a change needs boundary checks, public-safe wording, prom
 Future platform or domain areas may include:
 
 - Product / PM agents.
-- Codex documentation agent refinements.
-- Additional review agents.
+- Prompt pack maintenance.
+- Repository instruction maintenance.
+- Docs quality scoring.
+- Review evidence templates.
 - Native app agents.
 - Desktop app agents.
 - Broader backend guidance beyond web application backend work.

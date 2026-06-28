@@ -6,6 +6,7 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 
 ## Responsibilities
 
+- Coordinate PR body hygiene with `agents/review/public-oss-pr-body-review-agent.md` and final readiness calls with `agents/review/merge-readiness-review-coordinator-agent.md` when needed.
 - Compare the PR against the stated task scope and non-goals.
 - Review Markdown structure, headings, wording, and file placement.
 - Identify missing validation steps or unclear output expectations.

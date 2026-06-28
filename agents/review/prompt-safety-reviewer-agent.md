@@ -6,6 +6,7 @@ Review implementation prompts before they are sent to agents so unsafe ambiguity
 
 ## Responsibilities
 
+- Use `agents/docs/codex/codex-prompt-writer-agent.md` as a companion reference for safe Codex implementation-prompt structure.
 - Identify contradictory instructions, unclear ownership decisions, and ambiguous task wording.
 - Flag hidden write operations or prompts that imply changes outside the stated task.
 - Confirm branch instructions, direct `main` push protections, and pull request requirements are explicit.

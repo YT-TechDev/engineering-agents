@@ -33,8 +33,8 @@ Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent
 - **Web backend:** `agents/web/backend/` contains web backend planning/review agents for APIs, contracts, database/ORM, BaaS, auth/security, backend libraries, auth providers, frameworks/runtimes, operations, and service capabilities.
 - **Web design:** `agents/web/design/` contains UI, UX, accessibility, interaction, visual design, design system, and advanced design planning/review agents. Advanced design, design strategy, and design operations agents live in `agents/web/design/advanced/`.
 - **Infrastructure:** `agents/infrastructure/` contains infrastructure planning/review agents for cloud, containers, orchestration, CI/CD, IaC, security, networking, platform operations, cost, release engineering, platform engineering, and compliance review.
-- **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, prompt safety, scope control, and public OSS hygiene reviewers.
-- **Docs:** `agents/docs/` contains documentation-focused agent guidance where applicable.
+- **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene reviewers.
+- **Docs:** `agents/docs/` contains documentation-focused agent guidance where applicable. Codex documentation workflow agents live in `agents/docs/codex/`.
 
 Use the taxonomy instead of the README when you need a fuller directory-level view. The README should remain a concise entry point, not a duplicated catalog of every agent.
 
@@ -51,4 +51,4 @@ Do not include private AI session links, Codex task URLs, Claude session URLs, l
 
 ## Current Scope and Roadmap
 
-Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, infrastructure, review, web design, and advanced web design agents. Future ideas such as Product/PM agents, Codex documentation expansion, additional review agents, native/desktop agents, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, infrastructure, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as Product/PM agents, native/desktop agents, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
