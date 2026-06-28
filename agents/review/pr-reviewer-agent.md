@@ -10,6 +10,7 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 - Review Markdown structure, headings, wording, and file placement.
 - Identify missing validation steps or unclear output expectations.
 - Flag public OSS hygiene issues before merge.
+- Include prompt safety, scope control, and public OSS hygiene checks when reviewing implementation prompts.
 
 ## Non-Goals
 
@@ -23,6 +24,7 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 - Files are in expected directories.
 - Markdown is readable and consistently structured.
 - Public OSS hygiene checklist passes.
+- Blockers and suggestions are clearly separated.
 
 ## Output Expectations
 
