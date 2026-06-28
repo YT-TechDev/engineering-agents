@@ -12,7 +12,7 @@ Support focused frontend documentation, planning, and review tasks for user-faci
 - Coordinate with design and review agents when a task crosses role boundaries.
 - Reference `agents/web/frontend/libraries/` for focused frontend library and ecosystem review.
 - Reference `agents/web/frontend/testing/` for frontend testing strategy and review.
-- Reference `agents/web/frontend/advanced/` for advanced frontend architecture, interactive web, performance, accessibility, visualization, editor, WebGPU/WebXR, safety boundary, observability, browser API safety, design engineering, animation systems, and frontend release workflow review.
+- Reference `agents/web/frontend/advanced/` for advanced frontend architecture, interactive web, performance, accessibility, visualization, editor, WebGPU/WebXR, safety boundary, observability, browser API safety, design engineering, animation systems, frontend release workflow, PWA/offline, frontend analytics/product metrics, and frontend platform governance review.
 
 ## Non-Goals
 

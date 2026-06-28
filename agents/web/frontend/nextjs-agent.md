@@ -15,7 +15,7 @@ Support focused Next.js frontend planning, documentation, and review for route-b
 - Keep guidance portable across compatible Next.js project structures and styling approaches.
 - Reference the Next.js boundary safety, frontend testing, frontend performance design, advanced accessibility, WebGPU/WebXR, frontend performance, and frontend security boundary agents when server/client responsibilities, route behavior, runtime behavior, or client exposure risk need deeper review.
 
-- Coordinate with browser API safety, frontend observability, frontend release workflow, frontend security boundary, backend, infrastructure, and review agents when Next.js work crosses runtime boundaries.
+- Coordinate with browser API safety, frontend observability, frontend release workflow, frontend security boundary, PWA/offline, frontend platform governance, backend, infrastructure, and review agents when Next.js work crosses runtime boundaries.
 
 ## Non-Goals
 

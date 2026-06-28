@@ -16,7 +16,7 @@ Support focused planning, documentation, and review for public OSS component lib
 - Encourage small, reviewable documentation and API guidance changes.
 - Reference styling/UI library, motion animation, frontend testing, advanced accessibility, visualization/charts, editor experience, and performance design agents when reusable component behavior crosses those specialties.
 
-- Coordinate with design engineering, animation systems, frontend release workflow, frontend testing, accessibility, and review agents when component decisions cross boundaries.
+- Coordinate with design engineering, animation systems, frontend release workflow, frontend platform governance, frontend testing, accessibility, and review agents when component decisions cross boundaries.
 
 ## Non-Goals
 

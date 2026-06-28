@@ -19,6 +19,7 @@ Plan and review web application backend work while keeping API boundaries, data 
 - Reference `agents/web/frontend/advanced/nextjs-boundary-safety-agent.md` when API or backend ownership is being confused with frontend responsibilities.
 
 - Coordinate with the frontend observability agent when user-impacting failures need backend/API correlation.
+- Coordinate with the frontend analytics/product metrics agent when backend events, server-side tracking, or product measurement boundaries must align with frontend events.
 
 ## Non-Goals
 

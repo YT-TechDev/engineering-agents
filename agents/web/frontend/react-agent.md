@@ -17,7 +17,7 @@ Support focused React frontend planning, documentation, and review for component
 - Reference frontend testing, advanced accessibility, editor experience, visualization/charts, and performance design agents when React UI risk crosses those specialties.
 - Reference the frontend performance agent when React rendering cost, hydration, or large-list behavior is in scope.
 
-- Coordinate with frontend observability, browser API safety, design engineering, animation systems, frontend release workflow, and review agents when React work crosses boundaries.
+- Coordinate with frontend observability, browser API safety, design engineering, animation systems, frontend release workflow, PWA/offline, frontend analytics/product metrics, frontend platform governance, and review agents when React work crosses boundaries.
 
 ## Non-Goals
 
