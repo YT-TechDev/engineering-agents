@@ -14,6 +14,7 @@ Plan and review serverless function and edge runtime boundaries for web backend 
 - Review observability, logs, tracing, metrics, request IDs, retries, idempotency, and failure modes.
 - Surface cost, quota, rate limit, abuse protection, and provider lock-in concerns without prescribing one provider.
 - Support migration planning between long-running servers, serverless functions, and edge runtimes.
+- Reference `agents/web/backend/operations/` when queue handoff, background workflows, file uploads, observability, retry, or idempotency need deeper review.
 
 ## Non-Goals
 

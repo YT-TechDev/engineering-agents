@@ -13,6 +13,7 @@ Review web backend auth and API security plans for clear trust boundaries, autho
 - Reference `agents/web/backend/frameworks/` when middleware ordering, adapter behavior, or runtime constraints affect auth review.
 - Identify rate limiting, bot abuse, quota, and resource consumption risks.
 - Review SSRF, unsafe third-party API consumption, webhook verification, and replay risk concerns.
+- Reference `agents/web/backend/operations/webhook-agent.md` and `agents/web/backend/operations/file-upload-agent.md` when signature verification, replay protection, or sensitive file boundaries need deeper review.
 - Check for sensitive data exposure, overbroad response fields, and object property-level authorization risks.
 - Review secrets, environment variables, and credential handling expectations.
 - Consider input validation, output encoding, mass-assignment style risks, and safe defaults.
