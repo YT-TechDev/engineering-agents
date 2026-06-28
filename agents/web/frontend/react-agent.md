@@ -13,6 +13,8 @@ Support focused React frontend planning, documentation, and review for component
 - Ensure loading, error, empty, disabled, and success states are considered where user-facing behavior depends on data or async work.
 - Encourage maintainable UI logic that avoids unnecessary coupling, hidden side effects, and overly broad component changes.
 - Keep React guidance portable across styling approaches, routing setups, state tools, and build environments.
+- Reference frontend library agents for state/data fetching, forms/validation, motion, and styling review when those concerns need deeper focus.
+- Reference the frontend performance agent when React rendering cost, hydration, or large-list behavior is in scope.
 
 ## Non-Goals
 

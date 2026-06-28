@@ -10,6 +10,8 @@ Support focused frontend documentation, planning, and review tasks for user-faci
 - Review UI behavior, accessibility considerations, responsive behavior, and state handling at a documentation level.
 - Suggest small, reviewable frontend workflow improvements.
 - Coordinate with design and review agents when a task crosses role boundaries.
+- Reference `agents/web/frontend/libraries/` for focused frontend library and ecosystem review.
+- Reference `agents/web/frontend/advanced/` for advanced frontend architecture, interactive web, performance, and safety boundary review.
 
 ## Non-Goals
 

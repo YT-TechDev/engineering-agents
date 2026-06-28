@@ -12,6 +12,7 @@ Review implementation prompts and pull requests for tight scope control so small
 - Compare PR changes against the requested scope and approved files.
 - Confirm docs-only tasks do not add application code.
 - Flag unexpected dependencies, package files, CI, build tooling, generated files, or application code.
+- Confirm frontend library or advanced-agent PRs remain documentation-only and avoid package, config, demo, asset, route, component, style, or implementation files.
 - Identify roadmap ideas implemented before they were approved for the current PR.
 - Recommend splitting changes when a PR becomes too broad.
 
