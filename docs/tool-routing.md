@@ -20,4 +20,4 @@ Use Copilot for lightweight IDE assistance, wording suggestions, and small Markd
 
 ## Infrastructure Scope
 
-Infrastructure implementation tasks must be routed carefully and remain documentation-first in this repository. Actual infrastructure implementation, cloud account changes, CI workflow changes, IaC changes, Kubernetes manifests, Dockerfiles, and deployment configuration are out of scope unless explicitly approved in a future project scope. This GPT project should not directly modify GitHub or cloud infrastructure.
+Infrastructure implementation tasks must be routed carefully and remain documentation-first in this repository. Infrastructure specialty agents are for planning and review only. Actual infrastructure implementation, cloud account changes, CI workflow changes, IaC changes, Kubernetes manifests, Dockerfiles, budgets, dashboards, alerts, DNS records, IAM policies, firewall rules, and deployment configuration are out of scope unless explicitly approved in a future project scope. This GPT project should not directly modify GitHub or cloud infrastructure.

@@ -15,6 +15,8 @@ Provide GitHub Actions workflow planning and review at a documentation and secur
 - Consider cost, runner minutes, self-hosted runner risk, concurrency cancellation, and long-running jobs.
 - Check public OSS hygiene for workflow logs, PR bodies, comments, and generated release notes.
 
+- Route deeper deployment credential, environment gate, release operations, or workflow security concerns to the cloud security and platform operations agents when needed.
+
 ## Non-Goals
 
 - Do not add workflow YAML files, scripts, package files, examples, generated files, deployment config, or provider config.

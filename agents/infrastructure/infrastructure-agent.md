@@ -17,6 +17,8 @@ Provide documentation-first infrastructure planning and review across cloud, con
 - Check cost visibility, quotas, budgets, capacity planning, scaling, and sustainability considerations.
 - Decompose infrastructure planning into small, documentation-first, PR-sized tasks.
 
+- Route deeper specialty review to the cloud security, networking, platform operations, and cost optimization agents when those concerns need focused follow-up.
+
 ## Non-Goals
 
 - Do not add infrastructure code, cloud config, deployment config, CI workflows, Dockerfiles, Kubernetes manifests, Terraform/OpenTofu/Pulumi/CDK files, examples, or generated files.

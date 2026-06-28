@@ -14,6 +14,8 @@ Provide Docker image, container runtime, and local or containerized development 
 - Review CI image builds, multi-platform builds, cache strategy, artifact promotion, and registry push or pull boundaries.
 - Connect container decisions to Kubernetes, serverless containers, managed container platforms, and cloud registries when relevant.
 
+- Route deeper container security, operational readiness, or cost concerns to the cloud security, platform operations, and cost optimization agents when needed.
+
 ## Non-Goals
 
 - Do not add Dockerfiles, Compose files, container configs, package files, examples, build scripts, CI workflows, generated files, or registry config.
