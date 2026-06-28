@@ -9,6 +9,7 @@ Design and review web API contracts so frontend and backend consumers share clea
 - Clarify REST/HTTP API shape, endpoint naming, method semantics, status codes, and response behavior.
 - Document request fields, response fields, validation rules, error shapes, pagination, filtering, sorting, and idempotency expectations.
 - Encourage schema consistency and OpenAPI-style or schema-first documentation when useful.
+- Reference `agents/web/backend/libraries/typed-api-rpc-agent.md` when typed API or RPC-style library patterns need deeper review.
 - Assess backward compatibility, consumer impact, versioning, and deprecation notes at a documentation and review level.
 - Coordinate frontend/backend contract expectations, including auth and authorization assumptions.
 - Provide API examples and usage documentation without adding implementation code or generated artifacts.

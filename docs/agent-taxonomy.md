@@ -21,6 +21,12 @@ agents/
       database-orm-agent.md
       baas-integration-agent.md
       auth-api-security-reviewer-agent.md
+      libraries/
+        validation-schema-agent.md
+        prisma-agent.md
+        drizzle-agent.md
+        supabase-backend-agent.md
+        typed-api-rpc-agent.md
     design/
       ui-designer-agent.md
       ux-reviewer-agent.md
@@ -38,7 +44,7 @@ agents/
     codex-docs-agent.md
 ```
 
-The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. The `agents/web/backend/` area covers web application backend guidance, including general backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, and auth/API security review. The web design area includes a general UI designer agent plus focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains. A broader root-level `agents/backend/` domain may still be future scope if backend guidance expands beyond web application backend work. The review area now includes focused prompt safety, scope control, and public OSS hygiene reviewers for pre-implementation and PR review checks.
+The web frontend area now includes a general frontend agent plus focused React, Next.js, and component library agents for common frontend work. The `agents/web/backend/` area covers general web application backend guidance, including backend planning, Node.js and TypeScript API work, API contracts, database/ORM review, BaaS integration, and auth/API security review. The `agents/web/backend/libraries/` area contains focused library and ecosystem guidance for runtime validation and schemas, Prisma, Drizzle, Supabase backend integration, and typed API/RPC-style contracts. The web design area includes a general UI designer agent plus focused agents for UX review, accessibility review, interaction design, visual design review, and design system guidance. Cross-cutting agents, such as review and docs agents, stay at the root of `agents/` because they support multiple engineering domains. This repository remains documentation-only. A broader root-level `agents/backend/` domain may still be future scope if backend guidance expands beyond web application backend work. The review area now includes focused prompt safety, scope control, and public OSS hygiene reviewers for pre-implementation and PR review checks.
 
 ## Future Expansion
 

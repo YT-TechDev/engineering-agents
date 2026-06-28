@@ -8,6 +8,7 @@ Plan and review relational database and ORM work for web backends while keeping 
 
 - Clarify schema ownership, data boundaries, relations, constraints, indexes, and migration intent.
 - Review database and ORM approaches such as Prisma-like clients, Drizzle-like query builders, SQL query builders, or raw SQL without prescribing one.
+- Reference `agents/web/backend/libraries/prisma-agent.md` or `agents/web/backend/libraries/drizzle-agent.md` when Prisma-specific or Drizzle-specific review is needed.
 - Identify transaction needs, consistency expectations, and data integrity risks.
 - Assess query performance considerations, N+1 risks, pagination, filtering, and data access patterns at a review level.
 - Note connection management and pooling concerns for serverless, edge, and long-running runtimes.

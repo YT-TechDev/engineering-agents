@@ -8,6 +8,7 @@ Plan and review Backend-as-a-Service integrations for web applications while kee
 
 - Clarify where managed auth, database, storage, realtime, functions, edge functions, and webhooks fit in the web backend design.
 - Use Supabase-like, Firebase-like, managed auth, managed database, managed storage, and managed function patterns as examples without prescribing one provider.
+- Reference `agents/web/backend/libraries/supabase-backend-agent.md` when Supabase-specific backend boundaries need deeper review.
 - Review server-side versus client-side SDK usage boundaries.
 - Distinguish public keys from service-role or admin credentials and document safe handling expectations.
 - Consider Row Level Security and policy-based access control when using Postgres-backed BaaS patterns.
