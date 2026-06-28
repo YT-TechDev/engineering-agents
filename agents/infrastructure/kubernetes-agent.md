@@ -15,7 +15,7 @@ Provide Kubernetes infrastructure planning and review at a documentation and arc
 - Check cost, quota, capacity planning, node utilization, right-sizing, and multi-environment strategy.
 - Discuss GitOps, CI/CD, Helm, Kustomize, manifests, and deployment automation as review areas without adding configs.
 
-- Route deeper cluster networking, platform operations, cloud security, or cost concerns to the networking, platform operations, cloud security, and cost optimization agents when needed.
+- Route deeper cluster networking, platform operations, platform engineering, cloud security, or cost concerns to the networking, platform operations, platform engineering, cloud security, and cost optimization agents when needed.
 
 ## Non-Goals
 
