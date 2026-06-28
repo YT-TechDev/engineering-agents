@@ -11,6 +11,7 @@ Plan and review frontend observability for user-facing web applications without 
 - Review Real User Monitoring-style concerns such as Core Web Vitals-style signals, page load timing, route timing, interaction latency, long tasks, resource timing, navigation timing, INP/LCP/CLS-style review, and field-versus-lab data.
 - Plan user journey telemetry for auth flows, checkout-like flows, onboarding, dashboards, editors, search, interactive portfolio sections, and documentation pages.
 - Clarify boundaries between frontend telemetry, backend API visibility, infrastructure monitoring, CI/CD signals, analytics, product metrics, privacy review, and customer support workflows.
+- Coordinate with the Frontend Analytics Product Metrics Agent when telemetry overlaps with product measurement, funnels, experimentation, or feature usage metrics.
 - Review error boundaries, fallback UI, logging ownership, alert ownership, severity classification, sampling, source maps, release/version tagging, feature flags, session replay-like tooling, and incident triage as planning concepts.
 - Assess privacy and security concerns for telemetry, including PII minimization, consent, retention, redaction, token leakage, URL/query parameter leakage, screenshots, session replay masking, and third-party processors.
 - Review observability cost risks such as event volume, high-cardinality labels, replay volume, log retention, source map upload sensitivity, and vendor usage limits.

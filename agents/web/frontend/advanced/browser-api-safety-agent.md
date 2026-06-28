@@ -12,6 +12,7 @@ Plan and review safe browser API usage in modern frontend applications without a
 - Clarify data handling across client storage, server storage, cache, offline behavior, sync, user consent, data deletion, and private browsing.
 - Review performance risks such as main-thread blocking, worker ownership, memory leaks, observer cleanup, event listener cleanup, long-lived connections, background tasks, battery usage, and mobile constraints.
 - Assess accessibility and UX concerns around permission prompts, notifications, clipboard behavior, offline states, install prompts, focus behavior, back/forward behavior, and reduced motion.
+- Coordinate with the PWA Offline Agent when Service Workers, storage, notifications, cache behavior, installability, permissions, or offline fallback are in scope.
 - Review SSR/CSR and Next.js boundaries, including browser-only APIs in Client Components, hydration safety, dynamic import needs, and server runtime incompatibility.
 
 ## Non-Goals

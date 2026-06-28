@@ -11,6 +11,7 @@ Review frontend security and privacy boundaries for React, Next.js, browser apps
 - Assess XSS, unsafe HTML, script injection, markdown rendering, rich text editors, user-generated content, iframe/embed risk, CSP-aware thinking, and dependency/script supply-chain risk at a review level.
 - Reference editor experience and visualization/charts agents when untrusted content, data exposure, exports, or telemetry are in scope.
 - Review auth UI, session state, authorization display, protected routes, tenant/user isolation, and object-level authorization handoff to backend.
+- Coordinate with PWA/offline and frontend analytics/product metrics review when local storage, cache, tracking, tokens, privacy, third-party SDKs, or notification content are in scope.
 - Check browser storage and privacy concerns such as PII minimization, retention, tracking, consent, telemetry, logging, screenshots, and error reporting.
 - Review file upload boundaries, signed URLs, private previews, metadata exposure, object key leakage, and payment/auth/email/notification/search/analytics SDK boundaries.
 - Call out vibe-coding risk where generated frontend code exposes private URLs, API keys, database endpoints, service-role keys, tokens, internal comments, or local paths.
