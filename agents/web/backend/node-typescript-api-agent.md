@@ -15,6 +15,7 @@ Plan and review modern Node.js and TypeScript API work for web backends in a fra
 - Consider logging, request IDs, tracing, metrics, and other observability needs without prescribing one tool.
 - Provide portable guidance for Express-like, Fastify-like, Hono-like, Next.js route handler, serverless function, edge runtime, or similar API patterns.
 - Reference `agents/web/backend/frameworks/` for focused Hono, Fastify, Express, Next.js Route Handler, serverless, and edge runtime follow-up guidance.
+- Reference `agents/web/backend/operations/` when observability, retry, idempotency, webhook, upload, queue, or workflow concerns need deeper operational review.
 
 ## Non-Goals
 

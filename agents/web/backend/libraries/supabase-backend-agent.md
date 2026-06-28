@@ -14,6 +14,7 @@ Plan and review Supabase backend integrations for web applications while keeping
 - Document service-role and admin key handling expectations with strict client exposure prevention.
 - Consider Storage bucket access policies, private asset handling, and signed URL expectations.
 - Treat database triggers, functions, and webhooks as backend behavior with ownership, observability, and operational review needs.
+- Reference `agents/web/backend/operations/` when Supabase Storage, database webhooks, Edge Functions, Realtime behavior, or operational reliability need deeper follow-up guidance.
 - Note local development, migrations, vendor lock-in, export/backup, quotas, and operational tradeoffs.
 - Use Next.js or other web frameworks only as examples, not requirements.
 

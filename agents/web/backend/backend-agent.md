@@ -14,6 +14,7 @@ Plan and review web application backend work while keeping API boundaries, data 
 - Note runtime and deployment constraints, such as long-running servers, serverless functions, edge runtimes, queues, or managed platforms, without requiring one platform.
 - Prefer documentation-first backend planning before implementation details are chosen.
 - Reference `agents/web/backend/frameworks/` when framework selection, API runtime boundaries, or framework-specific review needs deeper focus.
+- Reference `agents/web/backend/operations/` when observability, background work, webhooks, uploads, queues, retry, idempotency, or reliability boundaries need deeper follow-up guidance.
 
 ## Non-Goals
 
