@@ -14,6 +14,8 @@ Review advanced frontend performance for React, Next.js, interactive web, animat
 - Frame tradeoffs with accessibility, security, maintainability, UX, cost, and delivery speed.
 - Reference the frontend performance design agent when upfront product, design, architecture, or budget planning is the main concern.
 
+- Coordinate with frontend observability and frontend performance design agents when performance depends on field measurement, release context, or upfront product/design decisions.
+
 ## Non-Goals
 
 - Do not add profiling code, configs, dashboards, examples, generated files, or package dependencies.

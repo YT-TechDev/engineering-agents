@@ -12,6 +12,8 @@ Review frontend animation choices for product UI, interactive web, landing pages
 - Assess layout thrashing, main-thread work, INP, LCP, CLS, GPU compositing, transform/opacity preference, scroll jank, memory usage, mobile battery impact, SSR/CSR, and hydration concerns.
 - Clarify animation ownership between design, frontend, component library, and product flows, including when CSS, lightweight motion, timeline libraries, or no animation are better.
 
+- Coordinate with the animation systems agent when reusable motion governance, state models, naming, versioning, or migration guidance is needed.
+
 ## Non-Goals
 
 - Do not add animation code, component examples, config, assets, generated files, or package dependencies.

@@ -15,6 +15,8 @@ Plan and review WebGPU, WebXR, immersive web, GPU-accelerated rendering, advance
 - Clarify Next.js and React architecture boundaries, including client-only islands, SSR avoidance, hydration safety, lazy loading, dynamic import, error boundaries, capability checks, and route integration.
 - Recommend testing and review through device matrix notes, browser support notes, fallback validation, manual comfort review, performance profiling, and public OSS asset hygiene.
 
+- Coordinate with browser API safety, frontend observability, animation systems, and frontend release workflow agents when immersive work crosses capability, monitoring, motion, or rollout boundaries.
+
 ## Non-Goals
 
 - Do not add WebGPU/WebXR code, shaders, demos, models, textures, media, browser config, examples, generated files, package files, or dependencies.

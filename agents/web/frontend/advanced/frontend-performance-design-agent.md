@@ -14,7 +14,7 @@ Plan frontend performance-by-design decisions before product, design, architectu
 - Plan asset strategy for image formats, responsive media, font loading, model/texture compression, icons, videos, preloading, prefetching, and lazy loading.
 - Review data and cache strategy for API waterfalls, stale tolerance, pagination, virtualization, aggregation, edge/server cache coordination, browser cache, and permission-sensitive data.
 - Define measurement strategy using lab versus field data, device/network profiles, Core Web Vitals-style targets, RUM, profiling, before/after comparisons, performance budgets, and regression gates without prescribing one metric target or tool.
-- Coordinate with design, backend, infrastructure, observability, SEO/content, and product decision-makers.
+- Coordinate with design engineering, animation systems, frontend observability, frontend release workflow, backend, infrastructure, SEO/content, and product decision-makers.
 
 ## Non-Goals
 

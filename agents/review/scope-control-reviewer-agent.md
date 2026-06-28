@@ -16,6 +16,8 @@ Review implementation prompts and pull requests for tight scope control so small
 - Identify roadmap ideas implemented before they were approved for the current PR.
 - Recommend splitting changes when a PR becomes too broad.
 
+- Confirm frontend operations/systems PRs remain documentation-only and avoid SDK setup, browser API code, service workers, tokens, components, configs, release workflows, package files, demos, assets, and generated files.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

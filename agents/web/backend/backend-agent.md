@@ -18,6 +18,8 @@ Plan and review web application backend work while keeping API boundaries, data 
 - Reference `agents/web/backend/services/` when caching, rate limiting, search, email delivery, or notification capability review needs deeper follow-up guidance.
 - Reference `agents/web/frontend/advanced/nextjs-boundary-safety-agent.md` when API or backend ownership is being confused with frontend responsibilities.
 
+- Coordinate with the frontend observability agent when user-impacting failures need backend/API correlation.
+
 ## Non-Goals
 
 - Do not add implementation code in this repository.

@@ -18,6 +18,8 @@ Provide platform operations planning and review for infrastructure and developer
 - Review incident learning, postmortems, remediation tracking, recurring incident prevention, and continuous improvement.
 - Preserve public OSS boundaries when documenting operations for open repositories.
 
+- Coordinate with the frontend observability agent when client-side operational visibility is in scope.
+
 ## Non-Goals
 
 - Do not add runbook templates with private operational data, dashboards, alert configs, workflow files, deployment configs, scripts, examples, generated files, provider config, or on-call process files.

@@ -14,6 +14,8 @@ Plan and review frontend testing strategy for React, Next.js, component librarie
 - Assess reliability risks from flakiness, async waits, race conditions, network dependence, animation timing, hidden selectors, brittle snapshots, and over-mocking.
 - Review CI concerns such as runtime, sharding, retries, browser install cost, artifact retention, screenshots/videos/traces, and required checks.
 
+- Coordinate with frontend release workflow and frontend observability agents when release gates or post-release monitoring are in scope.
+
 ## Non-Goals
 
 - Do not add test files, test configs, browser automation config, screenshots, videos, traces, fixtures, examples, package files, dependencies, or generated reports.

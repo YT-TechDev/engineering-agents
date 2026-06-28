@@ -17,6 +17,8 @@ Review web designs and documentation for accessibility considerations that suppo
 - Provide practical notes that help frontend collaborators implement accessible UI.
 - Reference motion, interactive web, Three.js/R3F, advanced frontend accessibility, and frontend security boundary agents when accessibility concerns intersect with animation, 3D, complex interactions, or client exposure risk.
 
+- Coordinate with animation systems and browser API safety agents when motion, permissions, or browser capability affects accessibility.
+
 ## Non-Goals
 
 - Do not claim legal compliance, certification, or audit completion.
