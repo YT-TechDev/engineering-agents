@@ -11,7 +11,7 @@ Review whether a product, documentation, or agent-pack release slice is appropri
 - Check whether the release slice is small, coherent, testable, reversible, and aligned with roadmap and product strategy.
 - Confirm design, frontend, backend, infrastructure, analytics, accessibility, support, privacy, security, documentation, and review concerns are considered where relevant.
 - Check whether release claims match the actual diff, validation evidence, and known risks.
-- Coordinate with roadmap planning, PRD review, user story and acceptance criteria review, frontend release workflow, infrastructure release engineering, design system release management, merge-readiness review coordinator, PR body review, and scope-control review agents.
+- Coordinate with roadmap planning, PRD review, user story and acceptance criteria review, frontend release workflow, infrastructure release engineering, design system release management, security boundary review, secrets/credential hygiene review, dependency/supply-chain review, privacy/data boundary review, merge-readiness review coordinator, PR body review, and scope-control review agents.
 
 ## Non-Goals
 

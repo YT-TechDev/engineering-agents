@@ -55,6 +55,19 @@ Design agents are for documentation, planning, and review. They do not add desig
 
 Product / PM agents are documentation and review agents. They help separate confirmed scope, active work, future ideas, and out-of-scope items. They do not create product strategy docs, PRD templates, roadmap templates, GitHub issues, milestones, labels, dashboards, analytics exports, project boards, releases, tags, package files, implementation files, private business artifacts, or product deliverables.
 
+### Security / Privacy
+
+`agents/security/` contains documentation and review agents for security, privacy, data-boundary, supply-chain, secret hygiene, threat modeling, and AI/agent safety review.
+
+- Security boundary review: `agents/security/security-boundary-review-agent.md`.
+- Privacy and data boundary review: `agents/security/privacy-data-boundary-review-agent.md`.
+- Secrets and credential hygiene review: `agents/security/secrets-credential-hygiene-review-agent.md`.
+- Dependency and supply-chain review: `agents/security/dependency-supply-chain-review-agent.md`.
+- Threat modeling and abuse case review: `agents/security/threat-modeling-abuse-case-review-agent.md`.
+- AI agent safety boundary review: `agents/security/ai-agent-safety-boundary-review-agent.md`.
+
+Security / Privacy agents are documentation and review agents. They do not create security tooling, scanner configs, SBOMs, SARIF files, vulnerability reports, threat model templates, privacy policy templates, legal documents, compliance reports, audit evidence, incident response playbooks, package files, implementation files, or private security artifacts. They coordinate with product, design, frontend, backend, infrastructure, docs, and review agents where security or privacy scope crosses those boundaries. They help separate public-safe review guidance from private security findings, private data, private architecture, credentials, and sensitive risk details.
+
 ### Infrastructure
 
 `agents/infrastructure/` contains root-level infrastructure planning and review agents.
@@ -113,6 +126,7 @@ Future platform or domain areas may include:
 - Broader backend guidance beyond web application backend work.
 - Additional frontend specialties such as advanced forms, experimentation review, frontend privacy review, advanced browser storage, and multi-app frontend platform strategy.
 - Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.
+- Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, and policy review.
 - Additional infrastructure refinements such as cloud-specific compliance packs, security audit review, sustainability review, enterprise governance review, advanced release automation review, and deeper platform operations guidance.
 
 Add future domains only when there is actual agent content to place there. Avoid empty directories, placeholder-only structures, broad rewrites, and generated catalogs.

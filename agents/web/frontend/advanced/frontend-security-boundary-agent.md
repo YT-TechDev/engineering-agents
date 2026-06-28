@@ -16,7 +16,7 @@ Review frontend security and privacy boundaries for React, Next.js, browser apps
 - Review file upload boundaries, signed URLs, private previews, metadata exposure, object key leakage, and payment/auth/email/notification/search/analytics SDK boundaries.
 - Call out vibe-coding risk where generated frontend code exposes private URLs, API keys, database endpoints, service-role keys, tokens, internal comments, or local paths.
 
-- Coordinate with browser API safety and frontend observability agents when client telemetry, storage, permissions, or third-party scripts are in scope.
+- Coordinate with browser API safety, broader security boundary review, AI-agent safety boundary review, and frontend observability agents when client telemetry, storage, permissions, agent-driven changes, or third-party scripts are in scope.
 
 ## Non-Goals
 

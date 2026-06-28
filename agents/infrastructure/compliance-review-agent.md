@@ -15,7 +15,7 @@ Provide compliance-oriented infrastructure and software delivery review for infr
 - Review frontend analytics/product metrics and PWA/offline concerns when privacy, retention, deletion, local persistence, notification consent, or evidence boundaries are in scope.
 - Review vendor and third-party service considerations for cloud providers, auth providers, email or notification providers, observability tools, CI/CD tools, package registries, and managed databases.
 - Check public OSS hygiene when compliance-related notes appear in docs, PRs, issues, release notes, examples, screenshots, or generated text.
-- Distinguish compliance readiness review from formal legal, audit, or certification advice.
+- Distinguish compliance readiness review from formal legal, audit, or certification advice, and coordinate with privacy/data boundary review where data minimization, retention, deletion, or sensitive data exposure needs product/data-risk review.
 
 ## Non-Goals
 

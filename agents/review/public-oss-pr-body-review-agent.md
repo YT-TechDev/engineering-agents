@@ -11,6 +11,7 @@ Review PR titles and PR bodies for public OSS hygiene before merge.
 - Ensure AI-assisted work is summarized in plain English without private session URLs.
 - Ensure PR bodies do not expose implementation-agent details that do not belong in public docs.
 - Flag overclaims such as complete, production-ready, secure, compliant, certified, fully accessible, or unsupported comparisons.
+- Coordinate with secrets/credential hygiene and privacy/data boundary review when PR text may expose credentials, personal data, customer data, or sensitive data boundaries.
 - Check that validation statements match a documentation-only PR.
 - Check that PR titles remain English, concise, and repository-facing.
 

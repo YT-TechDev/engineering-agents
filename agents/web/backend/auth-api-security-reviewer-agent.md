@@ -10,7 +10,7 @@ Review web backend auth and API security plans for clear trust boundaries, autho
 - Review object-level authorization and function-level authorization expectations.
 - Assess session, JWT, cookie, CSRF, CORS, and security header considerations at a planning level.
 - Reference focused auth agents in `agents/web/backend/auth/` when library-specific or session-management follow-up is needed.
-- Reference `agents/web/frontend/advanced/frontend-security-boundary-agent.md` and `agents/web/frontend/advanced/nextjs-boundary-safety-agent.md` when auth, session, or client exposure risk is in frontend scope.
+- Reference `agents/web/frontend/advanced/frontend-security-boundary-agent.md`, `agents/web/frontend/advanced/nextjs-boundary-safety-agent.md`, `agents/security/security-boundary-review-agent.md`, and `agents/security/secrets-credential-hygiene-review-agent.md` when auth, session, credential, or client exposure risk crosses boundaries.
 - Reference `agents/web/backend/frameworks/` when middleware ordering, adapter behavior, or runtime constraints affect auth review.
 - Identify rate limiting, bot abuse, quota, and resource consumption risks.
 - Review SSRF, unsafe third-party API consumption, webhook verification, and replay risk concerns.
@@ -25,7 +25,6 @@ Review web backend auth and API security plans for clear trust boundaries, autho
 - Do not claim legal compliance, audit completion, penetration testing coverage, or production security guarantees.
 - Do not replace specialist security review.
 - Do not add security tooling, CI, code, configuration, package files, dependencies, or generated files.
-- Do not create a root-level security agent in this PR.
 
 ## Review / Check Criteria
 

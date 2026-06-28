@@ -15,12 +15,11 @@ Provide cloud security planning and review across AWS, Google Cloud, container p
 - Review CI/CD and deployment security, including GitHub Actions OIDC-based cloud authentication, least-privilege deploy roles, protected environments, artifact integrity, provenance, and secret exposure prevention.
 - Review container and Kubernetes security concerns such as image provenance, vulnerability scanning, runtime privileges, RBAC, admission control, pod security, network policy, and workload identity.
 - Assess Infrastructure as Code security concerns such as state exposure, plan leakage, provider credentials, destructive changes, policy-as-code, static analysis, and drift review.
-- Consider security posture management, threat modeling, vulnerability management, supply-chain review, policy-as-code, release approval evidence, and compliance evidence as review concepts without claiming compliance, and route deeper supply-chain or evidence concerns to the release engineering and compliance review agents.
+- Consider security posture management, threat modeling, vulnerability management, supply-chain review, policy-as-code, release approval evidence, and compliance evidence as review concepts without claiming compliance, and route broader boundary concerns to the security boundary review agent and deeper supply-chain or evidence concerns to the dependency/supply-chain, release engineering, and compliance review agents.
 
 ## Non-Goals
 
 - Do not add IAM policies, security group rules, firewall rules, KMS config, cloud security config, provider config, Terraform/OpenTofu files, CI workflows, examples, generated files, dashboards, alerts, or security tool config.
-- Do not create a root-level security domain in this PR.
 - Do not prescribe one cloud security product or provider.
 - Do not make security, compliance, audit, privacy, availability, reliability, or production-readiness guarantees.
 - Do not create security setup tutorials.

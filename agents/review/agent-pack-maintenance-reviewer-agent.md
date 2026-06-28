@@ -11,6 +11,7 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 - Confirm new agents have clear purpose, responsibilities, non-goals, review criteria, output expectations, and public OSS hygiene reminders.
 - Check whether taxonomy, roadmap, README, and tool-routing references are updated without becoming bloated.
 - Confirm future product agent additions fit under `agents/product/` unless a later scope explicitly approves another domain.
+- Confirm future security, privacy, secret hygiene, supply-chain, threat modeling, or AI-agent safety review additions fit under `agents/security/` unless a later scope explicitly approves another domain.
 - Keep future ideas separated from completed areas.
 - Keep cross-references useful and minimal.
 - Ensure agent content remains durable and not overly tied to one model, vendor, current hype cycle, or tool-specific UI.

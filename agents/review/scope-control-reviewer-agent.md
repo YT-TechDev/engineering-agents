@@ -17,6 +17,7 @@ Review implementation prompts and pull requests for tight scope control so small
 - Confirm frontend library, testing, specialty, or advanced-agent PRs remain documentation-only and avoid tests, configs, demos, assets, routes, components, styles, package files, generated files, or implementation files.
 - Identify roadmap ideas implemented before they were approved for the current PR.
 - Recommend splitting changes when a PR becomes too broad.
+- Coordinate with security boundary, privacy/data boundary, and dependency/supply-chain review when scope introduces sensitive boundaries, credentials, dependencies, automation, or public/private data concerns.
 
 - Confirm frontend operations/systems and governance/offline/metrics PRs remain documentation-only and avoid service workers, manifests, analytics SDKs, event schemas, dashboards, governance automation, package files, configs, demos, assets, generated files, tokens, components, and release workflows.
 

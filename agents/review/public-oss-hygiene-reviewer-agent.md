@@ -13,6 +13,7 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 - Review PR titles, PR bodies, commit messages, docs, comments, and templates.
 - Flag PR body contradictions, such as claiming hygiene validation passed while including a private AI task or session link.
 - Distinguish valid documentation about forbidden categories from actual private links or private session references.
+- Coordinate with secrets/credential hygiene, privacy/data boundary review, and AI-agent safety boundary review when repository-facing content may expose sensitive data, credentials, or unsafe agent context.
 
 ## Non-Goals
 
