@@ -12,6 +12,7 @@ Review advanced frontend performance for React, Next.js, interactive web, animat
 - Review Next.js concerns such as RSC boundaries, static/dynamic rendering, caching, revalidation, streaming, metadata, image/font handling, route segment behavior, and edge/serverless constraints.
 - Assess scroll jank, animation loops, WebGL/3D frame budget, asset compression, GPU memory, mobile battery, reduced-motion fallbacks, lab versus field data, before/after comparison, device/network profiles, profiling, and performance budgets.
 - Frame tradeoffs with accessibility, security, maintainability, UX, cost, and delivery speed.
+- Reference the frontend performance design agent when upfront product, design, architecture, or budget planning is the main concern.
 
 ## Non-Goals
 

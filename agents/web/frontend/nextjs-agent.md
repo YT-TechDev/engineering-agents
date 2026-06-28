@@ -13,7 +13,7 @@ Support focused Next.js frontend planning, documentation, and review for route-b
 - Review accessibility, responsive behavior, focus management, and user-facing interaction flows.
 - Encourage small PR-sized plans for page, route, layout, and component changes.
 - Keep guidance portable across compatible Next.js project structures and styling approaches.
-- Reference the Next.js boundary safety, frontend performance, and frontend security boundary agents when server/client responsibilities, runtime behavior, or client exposure risk need deeper review.
+- Reference the Next.js boundary safety, frontend testing, frontend performance design, advanced accessibility, WebGPU/WebXR, frontend performance, and frontend security boundary agents when server/client responsibilities, route behavior, runtime behavior, or client exposure risk need deeper review.
 
 ## Non-Goals
 

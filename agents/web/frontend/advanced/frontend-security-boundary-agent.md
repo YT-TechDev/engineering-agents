@@ -9,6 +9,7 @@ Review frontend security and privacy boundaries for React, Next.js, browser apps
 - Clarify boundaries between UI security, backend/API security, auth/session security, infrastructure security, and user privacy.
 - Review client-side secrets, API keys, public keys, NEXT_PUBLIC values, tokens, cookies, localStorage/sessionStorage, IndexedDB, query params, analytics IDs, and third-party SDK exposure.
 - Assess XSS, unsafe HTML, script injection, markdown rendering, rich text editors, user-generated content, iframe/embed risk, CSP-aware thinking, and dependency/script supply-chain risk at a review level.
+- Reference editor experience and visualization/charts agents when untrusted content, data exposure, exports, or telemetry are in scope.
 - Review auth UI, session state, authorization display, protected routes, tenant/user isolation, and object-level authorization handoff to backend.
 - Check browser storage and privacy concerns such as PII minimization, retention, tracking, consent, telemetry, logging, screenshots, and error reporting.
 - Review file upload boundaries, signed URLs, private previews, metadata exposure, object key leakage, and payment/auth/email/notification/search/analytics SDK boundaries.

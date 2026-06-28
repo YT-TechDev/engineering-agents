@@ -16,7 +16,7 @@ Review and plan interactive web experiences so user actions feel clear, responsi
 - Check interaction states such as pressed, hovered, focused, selected, expanded, collapsed, loading, disabled, invalid, and completed.
 - Identify error recovery and escape paths for interactive flows.
 - Review mobile and touch interaction clarity.
-- Reference the frontend motion animation and interactive web agents when implementation-facing animation or immersive interaction review needs deeper coordination.
+- Reference the frontend motion animation, interactive web, editor experience, visualization/charts, WebGPU/WebXR, and performance design agents when implementation-facing interaction review needs deeper coordination.
 
 ## Non-Goals
 
