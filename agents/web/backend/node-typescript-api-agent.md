@@ -10,6 +10,7 @@ Plan and review modern Node.js and TypeScript API work for web backends in a fra
 - Review TypeScript strictness expectations, type-only imports, module boundaries, and ESM/CommonJS clarity.
 - Note that native Node.js TypeScript type stripping is lightweight and does not replace full type checking, project-level TypeScript configuration, or runtime validation.
 - Coordinate runtime validation with TypeScript types so external inputs are checked before trusted use.
+- Reference `agents/web/backend/libraries/validation-schema-agent.md` when validation library and schema boundary review needs deeper focus.
 - Review async behavior, cancellation, timeouts, retries, and resource cleanup at a planning level.
 - Consider logging, request IDs, tracing, metrics, and other observability needs without prescribing one tool.
 - Provide portable guidance for Express-like, Fastify-like, Hono-like, Next.js route handler, serverless function, edge runtime, or similar API patterns.
