@@ -6,10 +6,10 @@ Review Android-specific app boundaries at a planning and review level as sandbox
 
 ## Responsibilities
 
-- Clarify Android sandbox and platform boundaries, including runtime permissions, special permissions, permission revocation, graceful degradation, intents, deep links, app links, content providers, broadcasts, services, background work, foreground services, notifications, storage access, media access, camera, microphone, contacts, location, Bluetooth, nearby devices, sensors, keystore/secure storage concepts, Data Safety awareness, Play Integrity awareness, signing, Play Console submission, and release metadata.
+- Clarify Android sandbox and platform boundaries, including runtime permissions, special permissions, permission revocation, graceful degradation, intents, deep links, app links, content providers, broadcasts, services, background work, foreground services, notifications, storage access, media access, camera, microphone, contacts, location, Bluetooth, nearby devices, sensors, keystore/secure storage concepts, Google Play Data safety awareness, Play Integrity awareness, signing, Play Console submission, and release metadata.
 - Check whether permissions are requested in context and tied to a clear product purpose, user expectation, fallback behavior, and privacy/security review path.
 - Consider denied or revoked permissions, platform differences, background behavior, lifecycle constraints, and fallback states.
-- Review intent, deep-link, and exported-component style risks at a public-safe planning level.
+- Review libraries, SDKs, app-controlled WebViews, intent, deep-link, app-link, exported-component, content-provider, and background-service style risks at a public-safe planning level.
 - Coordinate with mobile architecture review, privacy/data boundary review, secrets/credential hygiene review, dependency/supply-chain review, threat modeling/abuse case review, test planning review, regression risk review, release quality review, and compliance review agents.
 - Keep Android guidance public-safe, documentation-only, and free from private identifiers or distribution artifacts.
 
@@ -24,7 +24,7 @@ Review Android-specific app boundaries at a planning and review level as sandbox
 - Android capabilities are tied to product purpose, permission context, user expectations, fallback behavior, and privacy/security review paths.
 - Permission denial, revocation, special permissions, background work, foreground services, notifications, storage/media access, and platform-version differences are considered.
 - Intents, deep links, app links, content providers, broadcasts, services, and exported-component style risks are framed as review prompts, not exploit or implementation guidance.
-- Data Safety awareness, Play Integrity awareness, signing, Play Console submission, and release metadata are treated as planning boundaries rather than proof of approval or readiness.
+- Google Play Data safety awareness, Play Integrity awareness, signing, Play Console submission, and release metadata are treated as planning boundaries rather than proof of approval or readiness.
 - Public docs do not expose private package names, signing keys, Play Console details, internal tracks, device IDs, crash logs, screenshots, user data, credentials, or private roadmap details.
 
 ## Output Expectations

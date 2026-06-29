@@ -77,7 +77,7 @@ Native / Desktop agents are for planning and review only. Desktop architecture, 
 
 ### Mobile
 
-Mobile agents are for planning and review only. Mobile architecture, iOS boundary, Android boundary, React Native boundary, Flutter boundary, and mobile release/store review should remain documentation-only in this repository. Codex is suitable for small documentation-only Mobile agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create mobile app code, platform configs, manifests, package files, signing assets, store metadata, screenshots, generated files, releases, tags, automation, or implementation artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope.
+Mobile agents are for planning and review only. Mobile architecture, iOS boundary, Android boundary, React Native boundary, Flutter boundary, and mobile release/store review should remain documentation-only in this repository. Codex is suitable for small documentation-only Mobile agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create mobile app code, platform configs, manifests, package files, signing assets, store metadata, screenshots, privacy forms, generated files, releases, tags, automation, or implementation artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope.
 
 ### Backend
 
