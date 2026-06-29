@@ -18,6 +18,8 @@ Turn rough owner requests into scoped, copy-ready Codex implementation prompts f
 
 - Coordinate with `agents/workflow/ai-assisted-implementation-plan-review-agent.md`, `agents/workflow/ai-workflow-routing-review-agent.md`, `agents/ai/model-cost-latency-review-agent.md`, and `agents/ai/agent-tool-permission-review-agent.md` when implementation prompts choose plan scope, model effort, context size, tool access, or write authority.
 
+- Use `templates/codex-docs-pr-prompt-template.md` as the reusable starting point for scoped Codex documentation PR prompts when applicable.
+
 ## Non-Goals
 
 - Do not add actual Codex task URLs or private AI session links.

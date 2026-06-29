@@ -32,6 +32,8 @@ Review implementation prompts and pull requests for tight scope control so small
 
 - Coordinate with `agents/workflow/ai-assisted-implementation-plan-review-agent.md` and `agents/workflow/ai-workflow-routing-review-agent.md` when AI-assisted work needs plan-size or routing review.
 
+- Reference `checklists/pr-review-checklist.md` and `checklists/tool-routing-decision-checklist.md` when scope control depends on changed files or tool-routing boundaries.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

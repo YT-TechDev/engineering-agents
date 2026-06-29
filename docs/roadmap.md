@@ -14,7 +14,7 @@ The following areas have current agent coverage and should be maintained as docu
 - Product / PM agents for product strategy, PRD review, roadmap planning, user story/acceptance criteria review, product metrics, and release scope review.
 - Quality / QA review agents for quality strategy, test planning review, acceptance validation review, regression risk review, bug triage/reproduction review, and release quality review.
 - Web design agents for UI, UX, accessibility, interaction design, visual design, design systems, advanced design systems, design QA, brand/visual direction, UX research/product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
-- Documentation-focused guidance, Codex documentation workflow guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, and docs-only checklists.
+- Documentation-focused guidance, Codex documentation workflow guidance, reusable role/task/review templates, public OSS hygiene guidance, language and locale guidance, docs-only checklists, and reusable agent usage templates and review checklists for practical PR and review workflows.
 - Developer Experience / Repository Governance review agents for contributor guidance, repository governance, documentation governance, taxonomy maintenance, template governance, and release note hygiene.
 - Native / Desktop review agents for desktop app architecture, Electron boundaries, Tauri boundaries, OS integration, local runtime processes, and native/desktop security and privacy boundaries.
 - Mobile App review agents for mobile architecture, iOS boundaries, Android boundaries, React Native boundaries, Flutter boundaries, and mobile release/store review boundaries.
@@ -31,6 +31,7 @@ Near-term work should focus on maintainability rather than expansion:
 - Keep `docs/agent-taxonomy.md` scan-friendly as existing areas grow.
 - Keep `docs/tool-routing.md` task-risk-based and resilient to future model improvements.
 - Keep roadmap language practical, avoiding claims that the repository is complete, production-ready, or superior to specific tools.
+- Maintain reusable templates and checklists as practical operating aids without turning future issue templates, PR template automation, generated catalogs, docs site tooling, CI validation, formal audit workflows, release automation, or policy automation into completed scope.
 - Reduce duplicated wording between the README, taxonomy, roadmap, routing docs, and individual agent files.
 - Preserve documentation-only boundaries and public OSS hygiene in every change.
 

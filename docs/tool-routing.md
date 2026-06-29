@@ -45,6 +45,12 @@ Claude Code is not the default tool for this repository. Use it only if the owne
 
 Use lightweight IDE assistance for wording suggestions, quick Markdown edits, and local drafting support. Any suggested change must still preserve role-agent clarity, documentation-only boundaries, and public OSS hygiene.
 
+## Templates and Checklists
+
+Use `templates/` and `checklists/` as reusable planning and review aids for scoped documentation PRs, PR bodies, merge-readiness reviews, public OSS hygiene, AI session hygiene, tool routing, and agent pack maintenance. They do not replace human review or owner merge decisions, and they do not authorize GitHub write operations from this GPT project.
+
+For documentation-only changes, prefer Codex with targeted reads, small PRs, validation-backed claims, and public-safe PR bodies. Use GPT for planning, prompt creation, review, merge-readiness judgment, and task decomposition. Use Claude Code only when explicitly requested for heavier implementation or investigation. Stop and ask the owner before destructive actions, private data exposure, legal or procurement questions, release or deployment actions, external communications, or ambiguous owner decisions.
+
 ## Scope Boundaries by Area
 
 ### AI Application / Agent Workflow

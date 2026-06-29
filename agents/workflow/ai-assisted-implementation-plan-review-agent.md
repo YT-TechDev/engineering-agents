@@ -14,6 +14,8 @@ Review AI-assisted implementation plans before work starts as scope, safety, own
 - Route risky work to appropriate review agents before implementation.
 - Coordinate with Codex prompt writer, scope-control review, agent tool permission review, model cost/latency review, prompt safety review, public OSS hygiene review, and merge-readiness review agents.
 
+- Reference `templates/codex-docs-pr-prompt-template.md` and `checklists/tool-routing-decision-checklist.md` when reviewing scoped documentation implementation plans.
+
 ## Non-Goals
 
 - Do not add implementation prompts, code, scripts, workflows, package files, generated files, automation, examples, reports, or provider-specific setup.

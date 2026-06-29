@@ -15,6 +15,8 @@ Review whether AI-assisted engineering work is routed to the right model, tool, 
 - Check whether expensive model use is justified by risk and whether low-risk documentation work stays cost-conscious.
 - Coordinate with model cost/latency review, agent tool permission review, Codex prompt writer, scope-control review, prompt safety review, AI-assisted implementation plan review, and merge-readiness review agents.
 
+- Reference `templates/agent-usage-routing-note-template.md` and `checklists/tool-routing-decision-checklist.md` for reusable routing notes and decisions.
+
 ## Non-Goals
 
 - Do not add provider comparison tables, model pricing tables, automation, scripts, workflows, configs, package files, generated reports, or implementation artifacts.

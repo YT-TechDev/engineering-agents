@@ -21,6 +21,8 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 
 - Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when public content mentions AI-assisted work, prompts, tool output, or session references.
 
+- Reference `checklists/public-oss-hygiene-checklist.md` and `checklists/ai-session-prompt-hygiene-checklist.md` for reusable public and AI session hygiene checks.
+
 ## Non-Goals
 
 - Do not remove valid public documentation rules just because they mention forbidden categories.

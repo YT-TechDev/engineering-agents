@@ -25,6 +25,8 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 
 - Treat `agents/workflow/` as the home for AI-assisted developer workflow review agents; do not split this coverage into root-level codex-workflow, claude-workflow, gpt-workflow, copilot-workflow, ai-dev-workflow, handoff, ai-session, model-routing, or ai-evidence directories without a future taxonomy decision.
 
+- Treat `templates/` and `checklists/` as reusable operating artifacts that support agent domains, not as new agent domains.
+
 ## Non-Goals
 
 - Do not add generated catalogs, taxonomy automation, scripts, configs, package files, dashboards, diagrams, generated files, or implementation files.

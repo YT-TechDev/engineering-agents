@@ -14,6 +14,8 @@ Review whether AI session references, prompt details, private context, and tool 
 - Check whether Codex task URLs are removed from PR bodies before merge.
 - Coordinate with public OSS hygiene review, prompt/context boundary review, template governance review, release note hygiene review, PR reviewer, and AI-generated diff risk review agents.
 
+- Reference `checklists/ai-session-prompt-hygiene-checklist.md` for reusable AI session and prompt artifact checks.
+
 ## Non-Goals
 
 - Do not add prompt libraries, session logs, AI transcripts, screenshots, examples, generated files, provider-specific metadata, or implementation artifacts.

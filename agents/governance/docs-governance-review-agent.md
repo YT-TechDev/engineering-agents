@@ -22,6 +22,8 @@ Treat docs governance as documentation architecture and review guidance, not as 
 
 - Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` and `agents/ai/prompt-context-boundary-review-agent.md` when repository docs include AI-assisted workflows, prompts, context boundaries, or public AI behavior descriptions.
 
+- Reference `checklists/public-oss-hygiene-checklist.md` when reviewing public-facing documentation hygiene.
+
 ## Non-Goals
 
 - Do not add generated catalogs, diagrams, screenshots, docs sites, build tooling, package files, scripts, workflows, generated files, or implementation files.

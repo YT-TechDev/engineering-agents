@@ -24,6 +24,8 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 
 - Coordinate with `agents/workflow/ai-review-evidence-review-agent.md` and `agents/workflow/human-in-the-loop-handoff-review-agent.md` when readiness depends on AI-assisted evidence or human-owner decision boundaries.
 
+- Reference `templates/merge-readiness-review-template.md` and `checklists/merge-readiness-checklist.md` for consistent readiness judgments.
+
 ## Non-Goals
 
 - Do not merge the PR directly.

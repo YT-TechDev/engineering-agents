@@ -17,6 +17,8 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 
 - Coordinate with `agents/workflow/ai-generated-diff-risk-review-agent.md` and `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when a PR includes AI-assisted changes or AI workflow references.
 
+- Reference `checklists/pr-review-checklist.md` for reusable PR scope, changed-file, validation, and hygiene checks.
+
 ## Non-Goals
 
 - Do not rewrite the full PR unless explicitly requested.
