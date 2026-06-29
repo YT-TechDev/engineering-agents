@@ -18,6 +18,7 @@ The following areas have current agent coverage and should be maintained as docu
 - Developer Experience / Repository Governance review agents for contributor guidance, repository governance, documentation governance, taxonomy maintenance, template governance, and release note hygiene.
 - Native / Desktop review agents for desktop app architecture, Electron boundaries, Tauri boundaries, OS integration, local runtime processes, and native/desktop security and privacy boundaries.
 - Mobile App review agents for mobile architecture, iOS boundaries, Android boundaries, React Native boundaries, Flutter boundaries, and mobile release/store review boundaries.
+- Data / Analytics review agents for data architecture, analytics instrumentation, event schema/tracking plan review, data quality/lineage, metric integrity, and BI/dashboard hygiene.
 
 ## Active Near-Term Areas
 
@@ -44,6 +45,7 @@ The following ideas may be considered later, but should not be marked complete u
 - Broader backend agents beyond web application backend work.
 - Additional frontend specialties such as advanced forms, experimentation review, frontend privacy review, advanced browser storage, and multi-app frontend platform strategy.
 - Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.
+- Future data areas such as experimentation review, data warehouse review, reverse ETL review, data contract review, data privacy operations review, ML data readiness review, customer feedback analytics review, support analytics review, and broader data implementation automation.
 - Additional backend and infrastructure refinements, including cloud-specific compliance packs, security audit review, sustainability review, enterprise governance review, advanced release automation review, and deeper platform operations guidance.
 
 ## Out of Scope or Not Yet Confirmed

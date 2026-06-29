@@ -11,7 +11,7 @@ Review privacy, data collection, data movement, data minimization, retention, co
 - Review data minimization, purpose clarity, collection necessity, retention awareness, deletion/offboarding implications, access boundaries, sharing boundaries, processor/third-party boundaries, and user expectations.
 - Check public OSS safety for product notes, PR bodies, docs, examples, prompts, screenshots, and logs.
 - Check whether data exposure risk appears in product strategy, PRD review, product metrics, design research, frontend analytics, backend APIs, infrastructure logging, AI tooling, and release scope.
-- Coordinate with product metrics, PRD review, UX research/product discovery, research operations, service design, frontend analytics/product metrics, backend API/security, compliance review, public OSS hygiene review, and PR body review agents.
+- Coordinate with product metrics, PRD review, UX research/product discovery, research operations, service design, frontend analytics/product metrics, data architecture review, analytics instrumentation review, event schema/tracking plan review, BI/dashboard hygiene review, backend API/security, compliance review, public OSS hygiene review, and PR body review agents.
 - Avoid privacy, legal, regulatory, or compliance guarantees.
 
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` when local files, logs, crash reports, screenshots, telemetry, clipboard data, or desktop storage are involved.

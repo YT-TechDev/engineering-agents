@@ -10,6 +10,7 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 
 - Review domain placement under `agents/`, naming conventions, root-level domain boundaries, nested directory choices, agent file names, role names, duplicate responsibilities, cross-references, and roadmap alignment.
 - Treat `agents/mobile/` as the home for mobile app review agents; do not split mobile review agents into root-level iOS, Android, React Native, Flutter, app-store, or mobile-release directories without a future taxonomy decision.
+- Treat `agents/data/` as the home for data and analytics review agents; do not split this coverage into root-level analytics, metrics, BI, reporting, data-quality, data-governance, data-engineering, event-tracking, or experimentation directories without a future taxonomy decision.
 - Check whether new agents belong under existing domains or require a new root-level domain.
 - Prevent unnecessary domain fragmentation such as creating many tiny top-level directories for one-off agents.
 - Prevent broad moves or renames unless there is a strong, explicit owner-approved reason.

@@ -68,6 +68,19 @@ Native / Desktop agents are documentation and review agents. They do not create 
 
 Mobile agents are documentation and review agents. They do not create iOS apps, Android apps, React Native apps, Flutter apps, mobile configs, manifests, package files, signing assets, store metadata, screenshots, privacy forms, Data safety forms, generated files, implementation files, releases, tags, or private mobile artifacts. They help separate public-safe review guidance from private app identifiers, signing details, store account details, screenshots, crash logs, device IDs, analytics exports, credentials, user data, and private release details. Future mobile areas may include mobile accessibility review, mobile performance review, mobile offline/local-first review, mobile observability review, push notification review, mobile design handoff review, mobile app store metadata review, wearable app review, Kotlin Multiplatform review, Expo review, Capacitor/Ionic review, and mobile security testing review, but they are not part of this PR.
 
+### Data / Analytics
+
+`agents/data/` contains documentation-first planning and review agents for data architecture, analytics instrumentation, event schema and tracking plan review, data quality and lineage, metric integrity, and BI/dashboard hygiene. These agents help product, frontend, backend, design, security/privacy, quality, mobile, native/desktop, infrastructure, governance, docs, and review workflows coordinate where data collection, analytics events, metric definitions, reporting, or data quality affect decisions.
+
+- Data architecture review: `agents/data/data-architecture-review-agent.md`.
+- Analytics instrumentation review: `agents/data/analytics-instrumentation-review-agent.md`.
+- Event schema and tracking plan review: `agents/data/event-schema-tracking-plan-review-agent.md`.
+- Data quality and lineage review: `agents/data/data-quality-lineage-review-agent.md`.
+- Metric integrity review: `agents/data/metric-integrity-review-agent.md`.
+- BI/dashboard hygiene review: `agents/data/bi-dashboard-hygiene-review-agent.md`.
+
+Data / Analytics agents are documentation and review agents. They do not create data pipelines, SQL, event schemas, tracking plans, dashboards, BI exports, analytics SDKs, warehouse configs, data files, generated files, implementation files, releases, tags, or private data artifacts. They help separate public-safe review guidance from private analytics exports, dashboards, screenshots, customer data, personal data, logs, stack traces, internal URLs, revenue data, pricing strategy, private roadmap details, and sensitive identifiers. Future data areas may include experimentation review, data warehouse review, reverse ETL review, data contract review, data privacy operations review, ML data readiness review, customer feedback analytics review, and support analytics review, but they are not part of this PR.
+
 ### Product / PM
 
 `agents/product/` contains documentation-first product planning and review agents. Product / PM agents help connect product decisions to design, frontend, backend, infrastructure, docs, release, and review workflows where product scope crosses those boundaries.

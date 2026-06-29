@@ -12,6 +12,7 @@ Plan and review frontend analytics and product metrics for user-facing web exper
 - Review event schema concepts such as naming, properties, versioning, ownership, deduplication, sampling, timestamp handling, route context, release context, feature flag context, locale/device/browser context, and event lifecycle.
 - Assess privacy and consent concerns such as PII minimization, sensitive property avoidance, token leakage, URL/query parameter leakage, IP or device identifiers, consent mode, opt-out behavior, retention, deletion, and third-party processors.
 - Clarify boundaries between frontend events, backend events, server-side tracking, data warehouse, product analytics tools, observability tools, A/B testing, and customer support.
+- Coordinate with analytics instrumentation review, event schema/tracking plan review, and metric integrity review when frontend tracking affects shared event definitions, cross-platform metrics, or public product claims.
 - Review data quality risks such as double-counting, bot traffic, reloads, retries, ad blockers, offline events, clock skew, missing events, inconsistent naming, and client-only trust limits.
 - Review experimentation concepts such as feature flags, cohorts, variants, guardrail metrics, sample size awareness, rollout safety, accessibility and performance impact, and rollback.
 - Preserve public OSS hygiene around analytics IDs, event names that reveal private roadmap, screenshots, exports, dashboards, customer data, and generated reports.
