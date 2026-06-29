@@ -15,6 +15,8 @@ Review product requirement documents and requirement-like planning notes for req
 - Surface contradictions, hidden assumptions, ambiguous wording, missing owner decisions, overbroad scope, and premature commitments.
 - Coordinate with product strategy, roadmap planning, user story and acceptance criteria review, release scope review, UX research/product discovery, design handoff/spec review, frontend analytics/product metrics, security boundary review, privacy/data boundary review, threat modeling/abuse case review, and review agents.
 
+- Coordinate with `agents/native/desktop-app-architecture-review-agent.md` and `agents/native/os-integration-review-agent.md` when requirements include local files, OS integration, helper processes, or desktop runtime behavior.
+
 ## Non-Goals
 
 - Do not add PRD templates, strategy docs, product specs, examples, screenshots, generated files, package files, dependencies, or implementation files.

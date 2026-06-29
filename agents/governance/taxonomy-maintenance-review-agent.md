@@ -16,6 +16,8 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 - Coordinate with agent pack maintenance review, repository governance review, docs governance review, scope-control review, and merge-readiness review agents.
 - Keep taxonomy changes small, explicit, and easy to review.
 
+- Treat `agents/native/` as the home for desktop and native runtime review agents.
+
 ## Non-Goals
 
 - Do not add generated catalogs, taxonomy automation, scripts, configs, package files, dashboards, diagrams, generated files, or implementation files.

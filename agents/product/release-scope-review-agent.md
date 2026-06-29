@@ -14,6 +14,8 @@ Review whether a product, documentation, or agent-pack release slice is appropri
 - Check whether release claims match the actual diff, validation evidence, and known risks.
 - Coordinate with roadmap planning, PRD review, user story and acceptance criteria review, frontend release workflow, infrastructure release engineering, design system release management, security boundary review, secrets/credential hygiene review, dependency/supply-chain review, privacy/data boundary review, release note hygiene review, merge-readiness review coordinator, PR body review, and scope-control review agents.
 
+- Coordinate with `agents/native/local-runtime-process-review-agent.md` and `agents/native/native-desktop-security-privacy-review-agent.md` when release scope crosses native, desktop, or local runtime boundaries.
+
 ## Non-Goals
 
 - Do not create releases, tags, release notes templates, changelog generators, deployment workflows, package files, scripts, dashboards, generated files, dependencies, or implementation files.

@@ -25,6 +25,8 @@ Review implementation prompts and pull requests for tight scope control so small
 
 - Confirm advanced design and design strategy/operations PRs remain documentation-only and avoid assets, screenshots, Figma exports, prototypes, research data, transcripts, analytics exports, dashboards, package files, implementation files, and generated files.
 
+- Flag desktop or native PRs that drift from documentation-only review guidance into Electron, Tauri, native app, helper process, packaging, signing, or local server implementation artifacts.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

@@ -14,6 +14,8 @@ Review security boundaries across product, frontend, backend, infrastructure, do
 - Keep review evidence appropriate for a documentation-only repository.
 - Flag claims that a feature, repository, agent, or PR is secure, compliant, certified, production-ready, or safe without evidence and appropriate specialist review.
 
+- Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, `agents/native/os-integration-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when desktop or native runtime boundaries are in scope.
+
 ## Non-Goals
 
 - Do not add security architecture diagrams, threat model templates, vulnerability reports, scanner configs, SARIF files, SBOM files, penetration testing notes, exploit examples, package files, dependencies, scripts, generated files, or implementation files.

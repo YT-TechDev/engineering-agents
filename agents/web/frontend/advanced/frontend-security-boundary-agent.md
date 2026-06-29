@@ -18,6 +18,8 @@ Review frontend security and privacy boundaries for React, Next.js, browser apps
 
 - Coordinate with browser API safety, broader security boundary review, AI-agent safety boundary review, and frontend observability agents when client telemetry, storage, permissions, agent-driven changes, or third-party scripts are in scope.
 
+- Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, and `agents/native/native-desktop-security-privacy-review-agent.md` when frontend code runs inside a desktop runtime.
+
 ## Non-Goals
 
 - Do not add security config, CSP config, auth code, examples, generated files, environment files, or package dependencies.

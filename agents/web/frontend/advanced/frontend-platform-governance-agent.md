@@ -18,6 +18,8 @@ Plan and review frontend platform governance for shared frontend architecture, t
 
 - Coordinate with the advanced design systems agent when design system governance overlaps with frontend platform ownership.
 
+- Coordinate with `agents/native/desktop-app-architecture-review-agent.md` when frontend platform decisions include desktop runtimes, webviews, or native process boundaries.
+
 ## Non-Goals
 
 - Do not add governance automation, lint rules, CI workflows, package configs, design tokens, code owners, branch protection config, policy files, dashboards, examples, generated files, package files, or dependencies.

@@ -20,6 +20,8 @@ Provide platform operations planning and review for infrastructure and developer
 
 - Coordinate with the frontend observability agent when client-side operational visibility is in scope.
 
+- Coordinate with `agents/native/local-runtime-process-review-agent.md` when platform operations concerns involve local helper processes or desktop runtime support.
+
 ## Non-Goals
 
 - Do not add runbook templates with private operational data, dashboards, alert configs, workflow files, deployment configs, scripts, examples, generated files, provider config, or on-call process files.

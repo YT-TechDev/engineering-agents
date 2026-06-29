@@ -15,6 +15,8 @@ Treat repository governance as documentation and scope governance, not as GitHub
 - Coordinate with agent pack maintenance review, taxonomy maintenance review, docs governance review, template governance review, release note hygiene review, scope-control review, and merge-readiness review agents.
 - Preserve the owner’s established workflow: GPT handles planning, review, merge-readiness, and prompt creation; Codex handles small documentation-only PRs; no direct repository writes from the GPT project; every change should happen on a dedicated branch and PR.
 
+- Coordinate with the `agents/native/` domain when reviewing future desktop or native agent pack placement.
+
 ## Non-Goals
 
 - Do not add GitHub rulesets, branch protection configs, repository settings, `CODEOWNERS`, legal policies, governance policies, organization policies, security policies, package files, scripts, workflows, generated files, or implementation files.

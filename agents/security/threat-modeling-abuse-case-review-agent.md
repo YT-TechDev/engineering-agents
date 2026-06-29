@@ -14,6 +14,8 @@ Review threats, misuse paths, abuse cases, and failure modes at a planning and r
 - Separate public-safe review guidance from private exploit details, vulnerability reports, incident details, or sensitive architecture.
 - Avoid formal risk scoring or compliance mappings unless future scope explicitly allows it.
 
+- Coordinate with `agents/native/os-integration-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` for protocol handlers, file associations, local servers, helper processes, and shell/open external behavior.
+
 ## Non-Goals
 
 - Do not add threat model templates, diagrams, exploit examples, attack playbooks, vulnerability reports, incident reports, red-team notes, formal risk registers, package files, dependencies, scripts, generated files, or implementation files.

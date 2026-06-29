@@ -14,6 +14,8 @@ Review privacy, data collection, data movement, data minimization, retention, co
 - Coordinate with product metrics, PRD review, UX research/product discovery, research operations, service design, frontend analytics/product metrics, backend API/security, compliance review, public OSS hygiene review, and PR body review agents.
 - Avoid privacy, legal, regulatory, or compliance guarantees.
 
+- Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` when local files, logs, crash reports, screenshots, telemetry, clipboard data, or desktop storage are involved.
+
 ## Non-Goals
 
 - Do not add privacy policy templates, DPIA templates, legal analysis, consent forms, data processing agreements, compliance mappings, analytics exports, dashboards, screenshots, sample datasets, research data, package files, dependencies, scripts, generated files, or implementation files.

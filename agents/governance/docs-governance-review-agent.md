@@ -16,6 +16,8 @@ Treat docs governance as documentation architecture and review guidance, not as 
 - Coordinate with taxonomy maintenance, template governance, contributor guidance review, release note hygiene review, Codex docs review, and agent pack maintenance review agents.
 - Keep docs changes small, reviewable, and targeted.
 
+- Include native documentation guidance when repository navigation includes desktop or local runtime domains.
+
 ## Non-Goals
 
 - Do not add generated catalogs, diagrams, screenshots, docs sites, build tooling, package files, scripts, workflows, generated files, or implementation files.
