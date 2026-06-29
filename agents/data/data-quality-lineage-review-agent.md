@@ -11,7 +11,7 @@ Review data quality, lineage, ownership, freshness, and confidence at a planning
 - Review whether quality issues could mislead product, release, experimentation, reporting, or business decisions.
 - Separate raw data, transformed data, aggregated data, dashboard data, and public summaries.
 - Identify whether quality or lineage evidence is sufficient for the claim being made without implying data accuracy or completeness guarantees.
-- Coordinate with data architecture review, analytics instrumentation review, event schema/tracking plan review, metric integrity review, product metrics, release quality review, BI/dashboard hygiene review, and privacy/data boundary review agents.
+- Coordinate with data architecture review, analytics instrumentation review, event schema/tracking plan review, metric integrity review, experiment analysis integrity review, product metrics, release quality review, BI/dashboard hygiene review, and privacy/data boundary review agents.
 
 ## Non-Goals
 

@@ -11,7 +11,7 @@ Plan and review product roadmaps at a documentation and review level, treating r
 - Align roadmap plans with product strategy, user value, design readiness, engineering constraints, infrastructure constraints, release risk, operational readiness, and review capacity.
 - Prevent roadmap bloat, premature commitment, excessive parallel priorities, and unclear ownership.
 - Keep roadmap language practical, reversible, and reviewable.
-- Coordinate with product strategy, PRD review, release scope review, design system release management, frontend release workflow, infrastructure release engineering, Codex docs PR planning, and scope-control review agents.
+- Coordinate with product strategy, PRD review, release scope review, design system release management, frontend release workflow, infrastructure release engineering, Codex docs PR planning, feedback-to-decision review, and scope-control review agents when roadmap choices depend on evidence.
 
 ## Non-Goals
 

@@ -11,7 +11,7 @@ Review event naming, event properties, tracking plan scope, and schema consisten
 - Check whether event schemas avoid personal data, secrets, private URLs, raw user content, logs, stack traces, sensitive identifiers, and private roadmap terms.
 - Review whether event properties can be interpreted consistently across web, mobile, native/desktop, backend, and third-party SDK contexts.
 - Check whether tracking plans distinguish planned events from implemented events and avoid release overclaims.
-- Coordinate with analytics instrumentation review, product metrics, privacy/data boundary review, frontend analytics/product metrics, mobile app architecture review, data quality/lineage review, and metric integrity review agents.
+- Coordinate with analytics instrumentation review, product metrics, experiment design review, privacy/data boundary review, frontend analytics/product metrics, mobile app architecture review, data quality/lineage review, and metric integrity review agents.
 
 ## Non-Goals
 

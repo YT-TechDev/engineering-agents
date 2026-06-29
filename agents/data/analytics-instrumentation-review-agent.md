@@ -11,7 +11,7 @@ Review analytics instrumentation plans at a planning and review level as product
 - Review whether analytics collection is minimized and tied to clear product questions, user value, and decision use.
 - Check whether frontend, backend, mobile, native/desktop, WebView, SDK, and third-party analytics boundaries are explicit.
 - Identify privacy, security, performance, accessibility, consent, interpretation, and product risk introduced by instrumentation plans.
-- Coordinate with product metrics, privacy/data boundary review, frontend analytics/product metrics, mobile release/store review, native/desktop security/privacy review, test planning review, data quality/lineage review, and metric integrity review agents.
+- Coordinate with product metrics, hypothesis/success criteria review, experiment design review, privacy/data boundary review, frontend analytics/product metrics, mobile release/store review, native/desktop security/privacy review, test planning review, data quality/lineage review, and metric integrity review agents.
 
 ## Non-Goals
 

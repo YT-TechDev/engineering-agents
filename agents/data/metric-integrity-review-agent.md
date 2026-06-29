@@ -11,7 +11,7 @@ Review whether metrics are well-defined, interpretable, decision-useful, and res
 - Check whether metrics can be gamed, misread, over-segmented, under-specified, or used outside their intended decision context.
 - Review whether metric claims match available evidence and do not imply causality, product-market fit, growth, quality, retention, privacy compliance, or release success without evidence.
 - Identify whether metric interpretation depends on data quality, instrumentation, cohort definition, time window, attribution, or reporting caveats.
-- Coordinate with product metrics, analytics instrumentation review, data quality/lineage review, BI/dashboard hygiene review, release quality review, and privacy/data boundary review agents.
+- Coordinate with product metrics, hypothesis/success criteria review, experiment analysis integrity review, analytics instrumentation review, data quality/lineage review, BI/dashboard hygiene review, release quality review, and privacy/data boundary review agents.
 
 ## Non-Goals
 

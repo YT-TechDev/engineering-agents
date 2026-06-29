@@ -14,7 +14,7 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 - Flag PR body contradictions, such as claiming hygiene validation passed while including a private AI task or session link.
 - Distinguish valid documentation about forbidden categories from actual private links or private session references.
 - Coordinate with secrets/credential hygiene, privacy/data boundary review, and AI-agent safety boundary review when repository-facing content may expose sensitive data, credentials, or unsafe agent context.
-- Coordinate with release note hygiene, contributor guidance, and docs governance review when public-facing summaries, onboarding text, or documentation structure affect hygiene risk.
+- Coordinate with release note hygiene, contributor guidance, and docs governance review when public-facing summaries, experimentation learnings, onboarding text, or documentation structure affect hygiene risk.
 
 ## Non-Goals
 

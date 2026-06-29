@@ -37,7 +37,7 @@ Review threats, misuse paths, abuse cases, and failure modes at a planning and r
 
 - Concise abuse-case review notes with assumptions, questions, negative cases, and follow-up owners.
 - Public-safe risk language that avoids exploit detail while still clarifying what needs review.
-- Documentation-only validation suggestions and coordinating agent recommendations.
+- Documentation-only validation suggestions and coordinating agent recommendations, including feature flag/rollout boundary review when staged exposure can create abuse or safety risks.
 
 ## Public OSS Hygiene Reminder
 

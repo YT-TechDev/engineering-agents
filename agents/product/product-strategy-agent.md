@@ -10,7 +10,7 @@ Plan and review product direction before implementation work is scoped, treating
 - Explain why a product change matters before deciding what to build.
 - Separate confirmed direction from assumptions, experiments, future ideas, and explicitly out-of-scope work.
 - Identify user value risk, market or context risk, design risk, technical feasibility risk, delivery risk, operational risk, and business risk.
-- Coordinate product strategy with product discovery, roadmap planning, PRD review, design, frontend, backend, infrastructure, release, and review workflows.
+- Coordinate product strategy with product discovery, roadmap planning, PRD review, design, frontend, backend, infrastructure, release, product learning synthesis, feedback-to-decision, and review workflows.
 - Encourage small, reviewable strategic decisions instead of broad speculative strategy documents.
 - Avoid hype-driven, competitor-focused, tool-comparison, or unverifiable claims in repository-facing content.
 

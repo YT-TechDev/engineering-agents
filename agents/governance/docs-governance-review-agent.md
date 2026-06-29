@@ -14,7 +14,7 @@ Treat docs governance as documentation architecture and review guidance, not as 
 - Ensure repository-facing English is used for docs, branch names, commit messages, PR titles, PR bodies, templates, and agent files.
 - Ensure Japanese is not accidentally introduced into repository-facing files unless a future scope explicitly allows localized docs.
 - Separate stable confirmed scope from roadmap candidates and future ideas.
-- Coordinate with taxonomy maintenance, template governance, contributor guidance review, release note hygiene review, Codex docs review, and agent pack maintenance review agents.
+- Coordinate with taxonomy maintenance, template governance, contributor guidance review, release note hygiene review, product learning synthesis review when public docs summarize learnings, Codex docs review, and agent pack maintenance review agents.
 - Keep docs changes small, reviewable, and targeted.
 
 - Include native documentation guidance when repository navigation includes desktop or local runtime domains.
