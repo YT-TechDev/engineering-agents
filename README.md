@@ -9,14 +9,14 @@ This repository helps teams keep agent responsibilities, prompts, review expecta
 ## Repository Map
 
 ```txt
-.github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions for web, native, mobile, AI application, AI-assisted developer workflow, product, data, experimentation, quality, security, infrastructure, governance, review, and docs work
-checklists/   Concise validation checklists
-docs/         Project guidance, taxonomy, roadmap, routing, and language notes
-templates/    Reusable prompt and workflow templates
+.github/      Existing repository collaboration instructions and PR template
+agents/       Role-based planning and review agent guidance
+checklists/   Reusable validation checklists and review aids
+docs/         Repository guidance, taxonomy, roadmap, routing, onboarding, and language notes
+templates/    Reusable prompt, PR body, routing, and review templates
 ```
 
-Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent areas. Use `docs/roadmap.md` to distinguish established coverage from future candidate areas.
+Start with `docs/getting-started.md` for the recommended first path, then use `docs/agent-taxonomy.md` for a scan-friendly map of current agent areas and `docs/roadmap.md` to distinguish established coverage from future candidate areas.
 
 ## Getting Started
 
@@ -70,4 +70,4 @@ Do not include private AI session links, Codex task URLs, Claude session URLs, l
 
 ## Current Scope and Roadmap
 
-Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Native / Desktop review agents, Mobile App review agents, AI Application / Agent Workflow review agents including AI supply-chain/vendor and dependency review, AI-assisted Developer Workflow review agents, Product / PM planning and review agents, Data / Analytics review agents, Experimentation / Product Learning review agents, Quality / QA review agents, security/privacy review agents, infrastructure, Developer Experience / Repository Governance review agents, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as mobile accessibility review, mobile performance review, platform-specific native packaging review, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+Current confirmed scope includes agent guidance for web frontend and backend, web design, native/desktop, mobile, AI application and AI supply-chain/vendor review, AI-assisted developer workflow review, product, data, experimentation, quality, security/privacy, infrastructure, governance, review, and Codex documentation workflows. Onboarding docs, templates, and checklists support usage and review; they are operating aids, not agent domains. Future ideas such as mobile accessibility review, mobile performance review, platform-specific native packaging review, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
