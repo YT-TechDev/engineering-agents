@@ -2,7 +2,7 @@
 
 ## What This Repository Is
 
-Engineering Agents is a documentation-only repository for role-based agent guidance, reusable workflow templates, practical checklists, and supporting docs for engineering-related planning and review work.
+Engineering Agents is a documentation-only repository for role-based agent guidance, reusable workflow templates, practical checklists, and supporting docs for engineering-related planning and review work. The current baseline is an initial public documentation baseline, not a completeness, certification, compliance, safety, or production-readiness claim.
 
 Use it to make AI-assisted and human review workflows more consistent, scoped, public-safe, and easier to hand off.
 
@@ -35,7 +35,7 @@ This repository is useful for:
 3. Read `docs/tool-routing.md` to choose GPT, Codex, Claude Code, local/manual work, or human-only review.
 4. Pick one relevant agent from `agents/`, starting with the narrowest fit.
 5. Use a template from `templates/` when drafting a prompt, PR body, routing note, or review.
-6. Use `checklists/` before review and merge.
+6. Use `checklists/` before review and merge. For cost-aware scoping and calibrated review language, also use `docs/cost-aware-workflows.md` and `docs/review-precision.md`.
 
 ## Working Style
 

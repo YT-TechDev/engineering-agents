@@ -14,7 +14,7 @@ Use agents together with `templates/` and `checklists/`:
 
 Start with the narrowest relevant agent. Add supporting agents only when the task crosses a real boundary, such as frontend analytics affecting product metrics, backend auth affecting privacy, or docs changes affecting repository governance.
 
-Avoid invoking many agents just because they exist. More agents can increase cost, review noise, and duplicated feedback.
+Avoid invoking many agents just because they exist. More agents can increase cost, review noise, and duplicated feedback. Use `docs/cost-aware-workflows.md` when deciding whether one agent, one checklist, or manual review is enough.
 
 ## Common Routing Categories
 
@@ -50,7 +50,7 @@ Use AI application and workflow agents for prompt/context boundaries, retrieval,
 
 ### Docs / Governance / Review
 
-Use docs, governance, and review agents for repository navigation, taxonomy, templates, checklists, PR review, merge readiness, scope control, public OSS hygiene, and agent pack maintenance. These are often the best starting points for changes to this repository itself.
+Use docs, governance, and review agents for repository navigation, taxonomy, templates, checklists, PR review, merge readiness, scope control, public OSS hygiene, review precision, and agent pack maintenance. These are often the best starting points for changes to this repository itself.
 
 ## Tool Choice
 
