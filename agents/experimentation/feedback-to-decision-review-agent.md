@@ -12,6 +12,8 @@ Review how feedback, analytics, experiments, support signals, and owner decision
 - Check whether public repository language separates user feedback, analytics signals, experiment results, owner preference, and roadmap commitments.
 - Coordinate with product strategy, roadmap planning, PRD review, product metrics, BI/dashboard hygiene review, privacy/data boundary review, public OSS hygiene review, docs governance review, and scope-control review agents.
 
+- Coordinate with `agents/ai/ai-application-boundary-review-agent.md` when AI-generated summaries or recommendations influence product decisions.
+
 ## Non-Goals
 
 - Do not add issue templates, feedback databases, research reports, dashboards, analytics exports, customer quotes, support tickets, recordings, transcripts, package files, scripts, workflows, generated files, or implementation files.

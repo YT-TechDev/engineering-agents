@@ -13,6 +13,8 @@ Review data quality, lineage, ownership, freshness, and confidence at a planning
 - Identify whether quality or lineage evidence is sufficient for the claim being made without implying data accuracy or completeness guarantees.
 - Coordinate with data architecture review, analytics instrumentation review, event schema/tracking plan review, metric integrity review, experiment analysis integrity review, product metrics, release quality review, BI/dashboard hygiene review, and privacy/data boundary review agents.
 
+- Coordinate with `agents/ai/rag-retrieval-boundary-review-agent.md` when retrieved evidence, embeddings, indexes, or AI summaries depend on freshness, lineage, or source quality.
+
 ## Non-Goals
 
 - Do not add data tests, SQL, data quality dashboards, lineage graphs, warehouse models, pipeline configs, generated catalogs, reports, screenshots, data files, package files, dependencies, scripts, workflows, or implementation files.

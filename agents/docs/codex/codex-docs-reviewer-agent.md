@@ -17,6 +17,8 @@ Review Codex-generated documentation pull requests for this repository before me
 - Coordinate with the Public OSS PR Body Review Agent for detailed PR body review.
 - Coordinate with docs governance and release note hygiene review when documentation consistency or public-facing summaries affect review readiness.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and public OSS hygiene review when docs include prompts, AI workflow examples, model traces, or tool outputs.
+
 ## Non-Goals
 
 - Do not request unrelated improvements or expand scope during review.

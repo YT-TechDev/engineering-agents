@@ -16,6 +16,8 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 - Coordinate with secrets/credential hygiene, privacy/data boundary review, and AI-agent safety boundary review when repository-facing content may expose sensitive data, credentials, or unsafe agent context.
 - Coordinate with release note hygiene, contributor guidance, and docs governance review when public-facing summaries, experimentation learnings, onboarding text, or documentation structure affect hygiene risk.
 
+- Coordinate with `agents/ai/rag-retrieval-boundary-review-agent.md` and `agents/ai/ai-evaluation-review-agent.md` when public docs mention AI outputs, retrieval, evals, prompts, model traces, or tool logs.
+
 ## Non-Goals
 
 - Do not remove valid public documentation rules just because they mention forbidden categories.

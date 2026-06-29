@@ -13,6 +13,8 @@ Review whether metrics are well-defined, interpretable, decision-useful, and res
 - Identify whether metric interpretation depends on data quality, instrumentation, cohort definition, time window, attribution, or reporting caveats.
 - Coordinate with product metrics, hypothesis/success criteria review, experiment analysis integrity review, analytics instrumentation review, data quality/lineage review, BI/dashboard hygiene review, release quality review, and privacy/data boundary review agents.
 
+- Coordinate with `agents/ai/ai-evaluation-review-agent.md` when AI quality, regression, or release claims rely on metrics or evaluation summaries.
+
 ## Non-Goals
 
 - Do not add metric dashboards, analytics exports, SQL, experiment reports, charts, screenshots, data files, tracking configs, package files, dependencies, scripts, workflows, generated files, or implementation files.

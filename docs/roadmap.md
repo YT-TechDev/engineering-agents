@@ -20,6 +20,7 @@ The following areas have current agent coverage and should be maintained as docu
 - Mobile App review agents for mobile architecture, iOS boundaries, Android boundaries, React Native boundaries, Flutter boundaries, and mobile release/store review boundaries.
 - Data / Analytics review agents for data architecture, analytics instrumentation, event schema/tracking plan review, data quality/lineage, metric integrity, and BI/dashboard hygiene.
 - Experimentation / Product Learning review agents for hypothesis/success criteria review, experiment design review, feature flag/rollout boundary review, experiment analysis integrity review, product learning synthesis review, and feedback-to-decision review.
+- AI Application / Agent Workflow review agents for AI application boundaries, prompt/context boundaries, RAG/retrieval boundaries, AI evaluation, agent tool permissions, and model cost/latency review.
 
 ## Active Near-Term Areas
 
@@ -41,6 +42,7 @@ The following ideas may be considered later, but should not be marked complete u
 - Additional review agents beyond the current documentation and review workflow pack.
 - Future quality areas such as localization QA review, accessibility QA deep review, performance QA review, observability evidence review, experiment QA review, support-quality feedback review, and QA operations review.
 - Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, formal compliance review, and legal review.
+- Future AI areas such as AI product UX review, AI incident communication review, AI red-team review, AI model vendor review, AI memory review, AI agent observability review, AI policy review, AI-assisted developer workflow review, AI supply-chain review, and broader AI implementation automation.
 - Future mobile areas such as mobile accessibility review, mobile performance review, mobile offline/local-first review, mobile observability review, push notification review, mobile design handoff review, mobile app store metadata review, wearable app review, Kotlin Multiplatform review, and broader mobile implementation automation.
 - Future native areas such as platform-specific packaging review, signing/notarization review, desktop app store review, desktop accessibility review, native performance review, native observability review, updater review, offline/local-first desktop review, native plugin review, and broader implementation automation.
 - Broader backend agents beyond web application backend work.

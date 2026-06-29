@@ -17,6 +17,8 @@ Review privacy, data collection, data movement, data minimization, retention, co
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` when local files, logs, crash reports, screenshots, telemetry, clipboard data, or desktop storage are involved.
 - Coordinate with `agents/mobile/mobile-app-architecture-review-agent.md` and `agents/mobile/mobile-release-store-review-agent.md` when mobile data collection, permissions, analytics, crash reports, telemetry, local storage, or store privacy disclosures are involved.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/rag-retrieval-boundary-review-agent.md` when prompts, files, retrieval sources, model outputs, or public summaries may include private data.
+
 ## Non-Goals
 
 - Do not add privacy policy templates, DPIA templates, legal analysis, consent forms, data processing agreements, compliance mappings, analytics exports, dashboards, screenshots, sample datasets, research data, package files, dependencies, scripts, generated files, or implementation files.

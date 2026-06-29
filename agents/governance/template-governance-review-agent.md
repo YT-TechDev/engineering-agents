@@ -15,6 +15,8 @@ Treat template governance as reuse and consistency review, not as template gener
 - Coordinate with Codex prompt writer, prompt safety review, public OSS hygiene review, PR body review, docs governance review, and scope-control review agents.
 - Keep templates durable across tools and models without hype-driven or competitor-comparison language.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/model-cost-latency-review-agent.md` when reusable prompts or templates affect AI workflow boundaries, context size, or tool effort.
+
 ## Non-Goals
 
 - Do not add issue templates, pull request templates, issue forms, GitHub configuration, automation, scripts, package files, generated files, dashboards, screenshots, or implementation files.

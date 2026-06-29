@@ -18,6 +18,8 @@ Treat repository governance as documentation and scope governance, not as GitHub
 - Coordinate with the `agents/native/` domain when reviewing future desktop or native agent pack placement.
 - Coordinate with the `agents/mobile/` domain when reviewing future mobile app review agent pack placement.
 
+- Coordinate with `agents/ai/agent-tool-permission-review-agent.md` when repository write boundaries, direct-main risks, branch rules, or AI tool authority are in scope.
+
 ## Non-Goals
 
 - Do not add GitHub rulesets, branch protection configs, repository settings, `CODEOWNERS`, legal policies, governance policies, organization policies, security policies, package files, scripts, workflows, generated files, or implementation files.

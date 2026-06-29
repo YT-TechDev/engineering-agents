@@ -13,6 +13,8 @@ Review BI, dashboard, report, and public-facing data summary language for safety
 - Identify whether dashboard or report evidence is appropriate for the product, release, governance, documentation, or review decision being made.
 - Coordinate with metric integrity review, data quality/lineage review, privacy/data boundary review, public OSS hygiene review, release note hygiene review, product metrics, experiment analysis integrity review, product learning synthesis review, and release quality review agents.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` when AI-generated summaries use dashboard, report, or BI content as context.
+
 ## Non-Goals
 
 - Do not add dashboards, BI configs, analytics exports, screenshots, reports, charts, SQL, data files, generated files, package files, dependencies, scripts, workflows, or implementation files.

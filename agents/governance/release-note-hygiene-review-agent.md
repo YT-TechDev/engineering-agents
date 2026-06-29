@@ -16,6 +16,8 @@ Treat release note hygiene as public communication and evidence review, not as r
 - Coordinate with mobile release/store review when public summaries mention app store, signing, privacy disclosures, mobile distribution, or mobile release claims.
 - Keep release-note review public-safe and documentation-only.
 
+- Coordinate with `agents/ai/ai-evaluation-review-agent.md` when release notes mention AI behavior, evaluation evidence, model output quality, or AI-assisted claims.
+
 ## Non-Goals
 
 - Do not create releases, tags, release note templates, changelog generators, release automation, scripts, workflows, package files, generated files, dashboards, screenshots, or implementation files.

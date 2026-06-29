@@ -16,6 +16,8 @@ Turn rough owner requests into scoped, copy-ready Codex implementation prompts f
 - Keep prompts copy-ready for Codex while still small enough for human review.
 - Coordinate with template governance review when Codex prompt structures, reusable validation blocks, or branch and PR requirements change.
 
+- Coordinate with `agents/ai/model-cost-latency-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when implementation prompts choose model effort, context size, tool access, or write authority.
+
 ## Non-Goals
 
 - Do not add actual Codex task URLs or private AI session links.
