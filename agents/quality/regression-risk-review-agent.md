@@ -16,6 +16,8 @@ Review regression risk across documentation, product, design, frontend, backend,
 - Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when desktop runtime changes can regress frontend, OS, or process behavior.
 - Coordinate with `agents/mobile/react-native-boundary-review-agent.md`, `agents/mobile/flutter-boundary-review-agent.md`, `agents/mobile/ios-app-boundary-review-agent.md`, and `agents/mobile/android-app-boundary-review-agent.md` when platform-specific mobile behavior, native bridge behavior, permissions, deep links, or release behavior can regress.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/rag-retrieval-boundary-review-agent.md` when prompt, context, retrieval, or source changes can regress AI behavior.
+
 ## Non-Goals
 
 - Do not add regression test files, snapshots, reports, dashboards, scripts, CI workflows, package files, dependencies, generated files, screenshots, or implementation files.

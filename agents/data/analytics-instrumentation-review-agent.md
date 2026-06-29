@@ -13,6 +13,8 @@ Review analytics instrumentation plans at a planning and review level as product
 - Identify privacy, security, performance, accessibility, consent, interpretation, and product risk introduced by instrumentation plans.
 - Coordinate with product metrics, hypothesis/success criteria review, experiment design review, privacy/data boundary review, frontend analytics/product metrics, mobile release/store review, native/desktop security/privacy review, test planning review, data quality/lineage review, and metric integrity review agents.
 
+- Coordinate with `agents/ai/ai-application-boundary-review-agent.md` when AI-assisted product behavior generates analytics signals or feedback events.
+
 ## Non-Goals
 
 - Do not add analytics SDKs, tracking code, event schemas, tracking plans, SQL, dashboards, reports, screenshots, data exports, package files, dependencies, scripts, workflows, generated files, or implementation files.

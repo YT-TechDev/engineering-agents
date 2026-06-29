@@ -95,6 +95,19 @@ Data / Analytics agents are documentation and review agents. They do not create 
 
 Experimentation / Product Learning agents are documentation and review agents. They do not create A/B tests, feature flag configs, experiment configs, SQL, tracking plans, dashboards, reports, analytics exports, package files, generated files, implementation files, releases, tags, or private learning artifacts. They help separate public-safe learning guidance from private experiments, dashboards, customer data, personal data, support tickets, recordings, transcripts, internal URLs, revenue data, private segment names, private experiment names, and roadmap commitments. Future experimentation areas may include growth experiment review, pricing experiment review, onboarding experiment review, lifecycle experiment review, qualitative research synthesis review, support-feedback triage review, and experimentation operations review, but they are not part of this PR.
 
+### AI Application / Agent Workflow
+
+`agents/ai/` contains documentation-first planning and review agents for AI-assisted product behavior, LLM workflows, prompt/context boundaries, RAG/retrieval boundaries, AI evaluation, agent tool permissions, and model cost/latency review. These agents coordinate with product, data/analytics, experimentation, security/privacy, quality, governance, docs, and review agents where AI workflow scope crosses those boundaries.
+
+- AI application boundary review: `agents/ai/ai-application-boundary-review-agent.md`.
+- Prompt and context boundary review: `agents/ai/prompt-context-boundary-review-agent.md`.
+- RAG and retrieval boundary review: `agents/ai/rag-retrieval-boundary-review-agent.md`.
+- AI evaluation review: `agents/ai/ai-evaluation-review-agent.md`.
+- Agent tool permission review: `agents/ai/agent-tool-permission-review-agent.md`.
+- Model cost and latency review: `agents/ai/model-cost-latency-review-agent.md`.
+
+AI Application / Agent Workflow agents are documentation and review agents. They do not create AI app code, prompt libraries, production prompts, model configs, RAG pipelines, vector database configs, eval datasets, benchmark reports, tool integrations, agent runtime configs, package files, generated files, implementation files, releases, tags, or private AI artifacts. They help separate public-safe review guidance from private prompts, private context, private retrieval sources, customer data, personal data, eval samples, model traces, tool logs, private AI session links, internal URLs, private datasets, private roadmap details, secrets, credentials, and sensitive artifacts. Future AI areas may include AI product UX review, AI incident communication review, AI red-team review, AI model vendor review, AI memory review, AI agent observability review, AI policy review, AI-assisted developer workflow review, and AI supply-chain review, but they are not part of this PR.
+
 ### Product / PM
 
 `agents/product/` contains documentation-first product planning and review agents. Product / PM agents help connect product decisions to design, frontend, backend, infrastructure, docs, release, and review workflows where product scope crosses those boundaries.

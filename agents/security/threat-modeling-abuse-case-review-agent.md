@@ -17,6 +17,8 @@ Review threats, misuse paths, abuse cases, and failure modes at a planning and r
 - Coordinate with `agents/native/os-integration-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` for protocol handlers, file associations, local servers, helper processes, and shell/open external behavior.
 - Coordinate with `agents/mobile/android-app-boundary-review-agent.md`, `agents/mobile/ios-app-boundary-review-agent.md`, and `agents/mobile/mobile-app-architecture-review-agent.md` when permissions, intents, deep links, universal links, app links, local storage, push notifications, or mobile background behavior are in scope.
 
+- Coordinate with `agents/ai/agent-tool-permission-review-agent.md` when AI agents can take external actions, write to repositories, access files, or invoke tools beyond advisory review.
+
 ## Non-Goals
 
 - Do not add threat model templates, diagrams, exploit examples, attack playbooks, vulnerability reports, incident reports, red-team notes, formal risk registers, package files, dependencies, scripts, generated files, or implementation files.

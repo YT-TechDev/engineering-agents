@@ -13,6 +13,8 @@ Review data architecture at a planning and review level as boundary, ownership, 
 - Identify whether private or sensitive data could leak through logs, analytics events, exports, dashboards, screenshots, AI prompts, or public docs.
 - Coordinate with privacy/data boundary review, product metrics, backend/API review, frontend analytics/product metrics, security boundary review, data quality/lineage review, metric integrity review, release quality review, and public OSS hygiene review agents.
 
+- Coordinate with `agents/ai/rag-retrieval-boundary-review-agent.md` when retrieval sources, indexed content, or AI context depend on data source boundaries.
+
 ## Non-Goals
 
 - Do not add data architecture diagrams, SQL, schemas, warehouse configs, pipeline configs, dashboards, data files, generated catalogs, package files, dependencies, scripts, workflows, screenshots, reports, or implementation files.

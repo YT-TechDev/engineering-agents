@@ -10,7 +10,7 @@ This repository helps teams keep agent responsibilities, prompts, review expecta
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions for web, native, mobile, product, data, experimentation, quality, security, infrastructure, governance, review, and docs work
+agents/       Role-based agent definitions for web, native, mobile, AI application, product, data, experimentation, quality, security, infrastructure, governance, review, and docs work
 checklists/   Concise validation checklists
 docs/         Project guidance, taxonomy, roadmap, routing, and language notes
 templates/    Reusable prompt and workflow templates
@@ -34,6 +34,7 @@ Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent
 - **Web design:** `agents/web/design/` contains UI, UX, accessibility, interaction, visual design, design system, and advanced design planning/review agents. Advanced design, design strategy, and design operations agents live in `agents/web/design/advanced/`.
 - **Native / Desktop:** `agents/native/` contains desktop architecture, Electron boundary, Tauri boundary, OS integration, local runtime process, and native/desktop security/privacy review agents.
 - **Mobile:** `agents/mobile/` contains mobile architecture, iOS boundary, Android boundary, React Native boundary, Flutter boundary, and mobile release/store review agents.
+- **AI Application / Agent Workflow:** `agents/ai/` contains AI application boundary, prompt/context boundary, RAG/retrieval boundary, AI evaluation, agent tool permission, and model cost/latency review agents.
 - **Product / PM:** `agents/product/` contains product strategy, PRD review, roadmap planning, user story/acceptance criteria, product metrics, and release scope review agents.
 - **Data / Analytics:** `agents/data/` contains data architecture, analytics instrumentation, event schema/tracking plan, data quality/lineage, metric integrity, and BI/dashboard hygiene review agents.
 - **Experimentation / Product Learning:** `agents/experimentation/` contains hypothesis/success criteria, experiment design, feature flag/rollout boundary, experiment analysis integrity, product learning synthesis, and feedback-to-decision review agents.
@@ -59,4 +60,4 @@ Do not include private AI session links, Codex task URLs, Claude session URLs, l
 
 ## Current Scope and Roadmap
 
-Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Native / Desktop review agents, Mobile App review agents, Product / PM planning and review agents, Data / Analytics review agents, Experimentation / Product Learning review agents, Quality / QA review agents, security/privacy review agents, infrastructure, Developer Experience / Repository Governance review agents, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as mobile accessibility review, mobile performance review, platform-specific native packaging review, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Native / Desktop review agents, Mobile App review agents, AI Application / Agent Workflow review agents, Product / PM planning and review agents, Data / Analytics review agents, Experimentation / Product Learning review agents, Quality / QA review agents, security/privacy review agents, infrastructure, Developer Experience / Repository Governance review agents, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as mobile accessibility review, mobile performance review, platform-specific native packaging review, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.

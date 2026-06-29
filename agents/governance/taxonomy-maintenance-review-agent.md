@@ -20,6 +20,8 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 
 - Treat `agents/native/` as the home for desktop and native runtime review agents.
 
+- Treat `agents/ai/` as the home for AI application and agent workflow review agents; do not split this coverage into root-level LLM, RAG, evals, retrieval, prompting, tool-use, model-cost, or agent-ops directories without a future taxonomy decision.
+
 ## Non-Goals
 
 - Do not add generated catalogs, taxonomy automation, scripts, configs, package files, dashboards, diagrams, generated files, or implementation files.

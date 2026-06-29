@@ -47,6 +47,10 @@ Use lightweight IDE assistance for wording suggestions, quick Markdown edits, an
 
 ## Scope Boundaries by Area
 
+### AI Application / Agent Workflow
+
+AI Application / Agent Workflow agents are for planning and review only. AI application boundary, prompt/context boundary, RAG/retrieval boundary, AI evaluation, agent tool permission, and model cost/latency review should remain documentation-only in this repository. Codex is suitable for small documentation-only AI agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create AI app code, prompt libraries, production prompts, model configs, RAG pipelines, vector database configs, eval datasets, benchmark reports, tool integrations, agent runtime configs, package files, generated files, releases, tags, automation, or implementation artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope. High-reasoning or high-cost model usage should be reserved for risky architecture, security/privacy, AI behavior, tool permission, release, or merge-readiness decisions; docs-only routine edits should remain tightly scoped and cost-conscious.
+
 ### Data / Analytics
 
 Data / Analytics agents are for planning and review only. Data architecture, analytics instrumentation, event schema/tracking plan, data quality/lineage, metric integrity, and BI/dashboard hygiene review should remain documentation-only in this repository. Codex is suitable for small documentation-only Data / Analytics agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create data pipelines, SQL, event schemas, tracking plans, dashboards, BI exports, analytics SDKs, warehouse configs, data files, generated files, releases, tags, automation, or implementation artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope.

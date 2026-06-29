@@ -19,6 +19,8 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 
 - Route native or desktop boundary concerns to the relevant `agents/native/` review agent before making a merge-readiness recommendation.
 
+- Coordinate with `agents/ai/ai-evaluation-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when AI behavior, eval evidence, or AI-assisted tool workflows affect merge confidence.
+
 ## Non-Goals
 
 - Do not merge the PR directly.

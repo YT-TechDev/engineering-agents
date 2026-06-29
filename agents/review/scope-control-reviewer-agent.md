@@ -27,6 +27,8 @@ Review implementation prompts and pull requests for tight scope control so small
 
 - Flag desktop or native PRs that drift from documentation-only review guidance into Electron, Tauri, native app, helper process, packaging, signing, or local server implementation artifacts.
 
+- Coordinate with `agents/ai/model-cost-latency-review-agent.md` when prompts request broad scans, high-cost reasoning, excessive context, repeated retries, or unbounded tool use.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

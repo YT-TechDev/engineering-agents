@@ -18,6 +18,8 @@ Review implementation prompts before they are sent to agents so unsafe ambiguity
 - Coordinate with AI-agent safety boundary review and security boundary review when prompts affect tool authority, repository write boundaries, private context, credentials, or security-sensitive work.
 - Coordinate with template governance and repository governance review when prompts affect reusable prompt structure, branch and PR rules, hidden writes, or private workflow details.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when prompts include LLM context boundaries, untrusted content, or AI tool authority.
+
 ## Non-Goals
 
 - Do not rewrite the whole prompt without explaining the underlying risk.

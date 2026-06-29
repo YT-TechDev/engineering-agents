@@ -16,6 +16,8 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` when tokens, secure storage, environment variables, or local runtime logs are in scope.
 - Coordinate with `agents/mobile/mobile-release-store-review-agent.md` when signing details, API keys, keystores, provisioning profiles, store account details, or internal testing links are in scope.
 
+- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when AI workflows could expose secrets through prompts, context, tool outputs, files, or overbroad tool authority.
+
 ## Non-Goals
 
 - Do not add secret scanning configs, custom regex rules, scanner output, SARIF files, credential examples, `.env` files, package files, dependencies, scripts, generated files, screenshots, logs, or implementation files.

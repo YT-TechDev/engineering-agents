@@ -12,6 +12,8 @@ Review experiment results, analysis claims, confidence language, and interpretat
 - Check whether public summaries avoid private dashboard URLs, raw data exports, customer data, screenshots, revenue data, private experiment names, private segment names, and unsupported business claims.
 - Coordinate with metric integrity review, data quality/lineage review, BI/dashboard hygiene review, product metrics, release quality review, product learning synthesis review, and public OSS hygiene review agents.
 
+- Coordinate with `agents/ai/ai-evaluation-review-agent.md` when AI-generated analysis, summaries, or quality claims are involved in experiment interpretation.
+
 ## Non-Goals
 
 - Do not add experiment reports, SQL, dashboards, charts, screenshots, analytics exports, data files, statistical notebooks, packages, scripts, workflows, generated files, or implementation files.

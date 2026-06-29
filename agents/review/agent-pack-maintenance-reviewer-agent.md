@@ -21,6 +21,8 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 
 - Review Native / Desktop pack additions under `agents/native/` for documentation-only scope, public OSS hygiene, and useful cross-domain references.
 
+- Coordinate with `agents/governance/taxonomy-maintenance-review-agent.md` and `agents/ai/ai-application-boundary-review-agent.md` when AI-related agent packs are added or updated.
+
 ## Non-Goals
 
 - Do not block every future expansion.
