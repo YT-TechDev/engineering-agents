@@ -6,6 +6,8 @@ This repository uses a platform/domain-first structure to keep role agents easy 
 
 All agent files in this repository are documentation and review guidance only. They do not create implementation code, dependencies, generated files, assets, build tooling, CI workflows, infrastructure resources, research data, analytics exports, or private artifacts.
 
+Usage and onboarding docs live under `docs/getting-started.md`, `docs/using-agents.md`, `docs/common-workflows.md`, and `docs/maintainer-guide.md`. These are repository usage guides, not agent domains, generated catalogs, automation, legal artifacts, compliance artifacts, or audit reports.
+
 ## Current Agent Areas
 
 ### Web Frontend
@@ -214,6 +216,10 @@ Codex documentation workflow agents live in `agents/docs/codex/`:
 - Codex docs PR review: `agents/docs/codex/codex-docs-reviewer-agent.md`.
 
 These documentation and review workflow agents do not create Codex tasks, GitHub issues, GitHub comments, GitHub reviews, branches, commits, PRs, releases, automations, scripts, workflows, package files, or implementation artifacts.
+
+## Usage And Onboarding Docs
+
+`docs/getting-started.md`, `docs/using-agents.md`, `docs/common-workflows.md`, and `docs/maintainer-guide.md` connect the existing agents, templates, checklists, taxonomy, roadmap, and routing guidance into practical first-use and maintenance workflows. They are usage docs, not new agent domains.
 
 ## Reusable Operating Artifacts
 
