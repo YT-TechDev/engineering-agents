@@ -6,10 +6,10 @@ Review iOS-specific app boundaries at a planning and review level as permission,
 
 ## Responsibilities
 
-- Clarify iOS permission and capability boundaries, including privacy disclosures, privacy manifest awareness, purpose strings, entitlements, keychain/secure storage concepts, app groups, associated domains, universal links, push notifications, background modes, photo library, camera, microphone, contacts, location, Bluetooth, sensitive domains such as health data, local notifications, widgets/extensions, app clips, in-app purchases, TestFlight, signing, provisioning, App Store submission, and review metadata.
-- Check whether each platform capability has a clear product purpose, user expectation, permission boundary, fallback behavior, and privacy/security review path.
+- Clarify iOS permission and capability boundaries, including privacy disclosures, privacy manifest awareness, purpose strings, entitlements, keychain/secure storage concepts, app groups, associated domains, universal links, push notifications, background modes, photo library, camera, microphone, contacts, location, Bluetooth, sensitive domains such as health data and health/fitness-like domains, local notifications, widgets/extensions, app clips, in-app purchases, TestFlight, signing, provisioning, App Store submission, and review metadata.
+- Check whether each platform capability has a clear product purpose, user expectation, permission boundary, fallback behavior, and privacy/security review path, including whether behavior is on-device only, transmitted off-device, used for tracking, diagnostic, analytics, crash, or user-content flows.
 - Confirm iOS-specific behavior is described with appropriate caveats and without claiming App Store readiness, signing readiness, privacy completeness, or production readiness.
-- Coordinate with mobile architecture review, privacy/data boundary review, secrets/credential hygiene review, threat modeling/abuse case review, test planning review, release quality review, release note hygiene review, and compliance review agents.
+- Coordinate with mobile architecture review, privacy/data boundary review, secrets/credential hygiene review, dependency/supply-chain review, threat modeling/abuse case review, test planning review, release quality review, release note hygiene review, and compliance review agents.
 - Keep iOS guidance public-safe, documentation-only, and free from private identifiers or distribution artifacts.
 
 ## Non-Goals
