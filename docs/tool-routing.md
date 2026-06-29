@@ -1,10 +1,10 @@
 # Tool Routing
 
-Use the smallest suitable tool for the task. Prefer task-risk-based routing over model-hype-based routing, and keep prompts model-aware without making the repository structure depend on a single model's current capabilities.
+Use the smallest suitable tool for the task. Prefer task-risk-based routing over model-hype-based routing, and keep prompts model-aware without making the repository structure depend on a single model's current capabilities. Cost-aware routing is not just choosing a cheaper tool; it is choosing the smallest effective scope, context, authority, validation plan, and review path for the task.
 
 ## Routing Principles
 
-- Match the tool to the risk, scope, and artifact type.
+- Match the tool to the risk, scope, artifact type, context size, validation needs, and expected review cost.
 - Keep repository-facing artifacts in English unless the repository owner explicitly requests otherwise.
 - User-facing chat can be Japanese by default or match the user's language.
 - Do not assume only one model can perform a task forever; update prompts and practices as models improve without reorganizing the repository for every model change.

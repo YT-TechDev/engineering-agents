@@ -37,7 +37,8 @@ For a first pass, read these in order:
 4. `docs/maintainer-guide.md` for maintaining agent packs and navigation without broad rewrites.
 5. `docs/agent-taxonomy.md` for the current scan-friendly map of agent areas.
 6. `docs/tool-routing.md` for choosing GPT, Codex, Claude Code, local/manual work, or human-only review.
-7. `templates/` and `checklists/` for reusable operating aids.
+7. `docs/cost-aware-workflows.md` and `checklists/cost-aware-workflow-checklist.md` for choosing the smallest effective scope, context, validation, and review effort.
+8. `templates/` and `checklists/` for reusable operating aids.
 
 ## Basic Usage
 
@@ -46,7 +47,8 @@ For a first pass, read these in order:
 3. Keep repository changes small, focused, documentation-only, branch-based, PR-reviewed, and public-safe.
 4. Use the relevant checklist before opening, reviewing, or merging a pull request.
 5. Follow `docs/tool-routing.md` when deciding whether GPT, Codex, Claude Code, local/manual work, or human-only review is appropriate.
-6. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
+6. Use `docs/cost-aware-workflows.md` and `checklists/cost-aware-workflow-checklist.md` to keep context, validation, review, and changed-file scope proportional to the task.
+7. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
 
 ## Tool Routing Summary
 

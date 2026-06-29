@@ -97,6 +97,23 @@ Steps:
 3. Summarize AI-assisted work in plain text instead of pasting private logs.
 4. Keep private retrieved documents, eval samples, and production prompts out of repository-facing content.
 
+## Cost-Aware Workflow Planning
+
+Use:
+
+- `docs/cost-aware-workflows.md`
+- `checklists/cost-aware-workflow-checklist.md`
+- `checklists/tool-routing-decision-checklist.md`
+- `templates/agent-usage-routing-note-template.md`
+
+Steps:
+
+1. Size the task by risk, changed-file scope, data sensitivity, context needs, and review cost.
+2. Choose the smallest effective path: no tool, local/manual work, GPT, Codex, Claude Code, or human-only review.
+3. Keep reads targeted and explain any additional reads beyond the expected boundary.
+4. Match validation to task risk without unnecessary builds, installs, generated files, or long-running work for documentation-only changes.
+5. Stop and ask the owner when authority, data sensitivity, changed-file scope, or risk becomes unclear.
+
 ## Tool Routing
 
 Use:
