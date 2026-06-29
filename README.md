@@ -62,6 +62,8 @@ For a first pass, read these in order:
 
 ## Current Scope
 
+For reusable public-facing baseline announcement text, see `docs/releases/v0.1-baseline-notes.md`.
+
 Current confirmed scope for the v0.1 baseline includes documentation-only guidance and operating aids for:
 
 - role-based engineering planning and review agents;
