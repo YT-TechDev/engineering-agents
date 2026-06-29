@@ -9,7 +9,7 @@ Review AI-agent, coding-agent, prompt, tool, repository, data, and public-output
 - Review prompt boundaries, tool boundaries, repository write boundaries, GitHub read/write boundaries, private context boundaries, connector boundaries, local path boundaries, file-access boundaries, secret exposure boundaries, generated content boundaries, and public OSS output boundaries.
 - Review prompts for hidden write operations, ambiguous authority, broad repository scans, unnecessary build/install work, direct `main` push risk, private AI session links, local paths, private artifacts, and unsafe repository-facing content.
 - Check whether AI-generated output could expose private user context, private business context, private product strategy, credentials, security findings, local environment details, private links, or unreleased roadmap details.
-- Coordinate with Codex prompt writer, Codex docs reviewer, prompt safety reviewer, scope-control reviewer, public OSS hygiene reviewer, PR body review agent, security boundary review, privacy/data boundary review, and merge-readiness review coordinator.
+- Coordinate with Codex prompt writer, Codex docs reviewer, prompt safety reviewer, template governance review, repository governance review, scope-control reviewer, public OSS hygiene reviewer, PR body review agent, security boundary review, privacy/data boundary review, and merge-readiness review coordinator.
 - Keep task routing risk-based rather than hype-driven or model-comparison-driven.
 - Avoid claims that one model, agent, or workflow is categorically safe, superior, compliant, or autonomous without review.
 

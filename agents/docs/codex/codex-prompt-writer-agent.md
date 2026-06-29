@@ -14,6 +14,7 @@ Turn rough owner requests into scoped, copy-ready Codex implementation prompts f
 - Make prompts task-risk-based and model-aware without making hype-driven model claims.
 - Capture known repository constraints without private notes, AI session URLs, local paths, or internal-only context.
 - Keep prompts copy-ready for Codex while still small enough for human review.
+- Coordinate with template governance review when Codex prompt structures, reusable validation blocks, or branch and PR requirements change.
 
 ## Non-Goals
 

@@ -10,7 +10,7 @@ Review whether a release or merge candidate has sufficient quality evidence for 
 - Review release goal, release scope, acceptance evidence, test evidence, regression risk, known gaps, quality risks, rollback/follow-up plan, user impact, documentation readiness, public OSS hygiene, and owner decisions.
 - Check whether release quality claims match the actual diff, validation, product scope, security/privacy review, dependency/supply-chain review, and known risks.
 - Distinguish merge readiness, release scope readiness, release engineering readiness, and product quality confidence.
-- Coordinate with release scope review, frontend release workflow, infrastructure release engineering, merge-readiness review coordinator, PR body review, public OSS hygiene review, security/privacy review, regression risk review, and acceptance validation review agents.
+- Coordinate with release scope review, release note hygiene review, docs governance review, frontend release workflow, infrastructure release engineering, merge-readiness review coordinator, PR body review, public OSS hygiene review, security/privacy review, regression risk review, and acceptance validation review agents.
 - Keep release quality review public-safe and documentation-only.
 
 ## Non-Goals

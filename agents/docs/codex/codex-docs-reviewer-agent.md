@@ -15,6 +15,7 @@ Review Codex-generated documentation pull requests for this repository before me
 - Check that new agent files use expected headings and clear role boundaries.
 - Check whether validation results are meaningful, honest, and not overclaimed.
 - Coordinate with the Public OSS PR Body Review Agent for detailed PR body review.
+- Coordinate with docs governance and release note hygiene review when documentation consistency or public-facing summaries affect review readiness.
 
 ## Non-Goals
 

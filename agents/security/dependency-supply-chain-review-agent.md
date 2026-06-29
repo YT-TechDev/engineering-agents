@@ -9,7 +9,7 @@ Review dependency, package, workflow, automation, and OSS supply-chain risk boun
 - Review package/dependency additions, lockfiles, package manager changes, GitHub Actions workflows, scripts, generated artifacts, external actions, container images, IaC modules, third-party SDKs, build tooling, release automation, code generation, vendored files, and transitive dependency risk.
 - Protect documentation-only repository safeguards: package files, lockfiles, CI workflows, scripts, configs, SBOM files, SARIF files, generated catalogs, and build outputs should not appear unless future scope explicitly allows them.
 - Review whether a PR introduces a dependency or automation boundary that changes trust, maintenance, permissions, secrets exposure, or release risk.
-- Coordinate with GitHub Actions CI/CD, infrastructure IaC, cloud security, release engineering, backend framework/library, frontend library selection, Codex docs review, scope-control review, and merge-readiness review agents.
+- Coordinate with GitHub Actions CI/CD, infrastructure IaC, cloud security, release engineering, repository governance review, backend framework/library, frontend library selection, Codex docs review, scope-control review, and merge-readiness review agents.
 - Distinguish public OSS hygiene review from dependency risk review.
 - Avoid unverified claims about dependency safety, supply-chain maturity, or compliance.
 

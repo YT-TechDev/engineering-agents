@@ -16,6 +16,7 @@ Review implementation prompts before they are sent to agents so unsafe ambiguity
 - Identify tool-routing conflicts, such as asking for heavy implementation when the task should remain docs-only or owner-approved.
 - Check prompts, commit guidance, PR bodies, and docs instructions for public OSS hygiene risks.
 - Coordinate with AI-agent safety boundary review and security boundary review when prompts affect tool authority, repository write boundaries, private context, credentials, or security-sensitive work.
+- Coordinate with template governance and repository governance review when prompts affect reusable prompt structure, branch and PR rules, hidden writes, or private workflow details.
 
 ## Non-Goals
 
