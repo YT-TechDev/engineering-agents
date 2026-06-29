@@ -1,6 +1,6 @@
 # PR Review Checklist
 
-Use this checklist to review scoped repository PRs for clarity, scope control, documentation quality, validation, and public OSS readiness.
+Use this checklist to review scoped repository PRs for clarity, scope control, documentation quality, validation, and public OSS readiness. Use `checklists/evidence-confidence-review-checklist.md` when the review needs more explicit evidence, confidence, assumption, limitation, blocker, and owner-decision calibration.
 
 ## Scope and Branch
 

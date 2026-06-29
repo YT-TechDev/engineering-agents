@@ -69,6 +69,24 @@ Steps:
 4. Avoid claims of legal, compliance, security, privacy, or production readiness unless explicitly supported and in scope.
 5. Recommend merge, cleanup, changes, or more information.
 
+## Review Precision
+
+Use:
+
+- `docs/review-precision.md`
+- `templates/evidence-confidence-review-template.md`
+- `checklists/evidence-confidence-review-checklist.md`
+- `templates/merge-readiness-review-template.md`
+- `checklists/merge-readiness-checklist.md`
+
+Steps:
+
+1. Name what was inspected and what was not inspected.
+2. Separate evidence, confidence, assumptions, limitations, and skipped checks.
+3. Distinguish blockers, non-blocking improvements, and owner decision points.
+4. Keep validation claims scoped to what the checks directly support.
+5. Use modest merge-readiness language that avoids global correctness, security, privacy, compliance, production-readiness, or exhaustive-review claims.
+
 ## Public OSS Hygiene
 
 Use:

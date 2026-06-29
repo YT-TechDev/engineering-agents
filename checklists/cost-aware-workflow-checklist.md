@@ -44,8 +44,8 @@ Use this checklist before and after AI-assisted work to confirm the task is scop
 
 - [ ] Review depth matches changed-file count, task risk, and ambiguity.
 - [ ] Duplicated agent reviews were avoided unless new evidence or changed scope justified them.
-- [ ] Review output names blockers, non-blocking improvements, and owner decision points separately.
-- [ ] Merge-readiness claims are limited to evidence from the scoped change.
+- [ ] Review output names evidence, confidence, assumptions, skipped checks, blockers, non-blocking improvements, and owner decision points separately when relevant.
+- [ ] Merge-readiness claims are limited to evidence from the scoped change and do not imply exhaustive review coverage.
 
 ## Escalation / De-Escalation
 

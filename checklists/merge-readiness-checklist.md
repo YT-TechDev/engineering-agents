@@ -1,6 +1,6 @@
 # Merge-Readiness Checklist
 
-Merge-readiness is a judgment based on scope and evidence. It is not proof of correctness, security, privacy, compliance, or production readiness.
+Merge-readiness is a judgment based on scope and evidence. It is not proof of correctness, security, privacy, compliance, or production readiness. Use `checklists/evidence-confidence-review-checklist.md` when confidence, skipped checks, assumptions, or owner decision points need more explicit calibration.
 
 ## PR State
 

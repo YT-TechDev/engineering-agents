@@ -1,6 +1,6 @@
 # Merge-Readiness Review Template
 
-Use this template to produce a consistent merge-readiness judgment. Separate evidence from confidence, and do not claim correctness, security, privacy, compliance, or production readiness unless explicitly supported and in scope.
+Use this template to produce a consistent merge-readiness judgment. Separate evidence from confidence, and do not claim correctness, security, privacy, compliance, or production readiness unless explicitly supported and in scope. For more detailed calibration, use `templates/evidence-confidence-review-template.md` with `checklists/evidence-confidence-review-checklist.md`.
 
 ## Verdict
 
