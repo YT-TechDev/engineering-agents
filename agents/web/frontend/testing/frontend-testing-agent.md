@@ -6,6 +6,7 @@ Plan and review frontend testing strategy for React, Next.js, component librarie
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/test-planning-review-agent.md`, `agents/quality/acceptance-validation-review-agent.md`, and `agents/quality/regression-risk-review-agent.md` when frontend validation needs cross-domain quality review.
 - Define appropriate testing layers, such as unit, component, integration, accessibility, visual regression, end-to-end, smoke, contract-aware UI, and manual exploratory checks.
 - Review what each layer should cover: rendering, interaction, keyboard behavior, forms, validation, loading/error/empty states, auth UI, route transitions, data fetching, optimistic UI, cache state, and recovery paths.
 - Discuss tooling categories, such as Vitest-like or Jest-like unit tests, Testing Library-style user-centric tests, Playwright-like or Cypress-like browser tests, Storybook-style component review, Chromatic-like visual checks, axe-like accessibility checks, and Lighthouse-like audits without prescribing one stack.

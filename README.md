@@ -10,7 +10,7 @@ This repository helps teams keep agent responsibilities, prompts, review expecta
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions for web, product, security, infrastructure, review, and docs work
+agents/       Role-based agent definitions for web, product, quality, security, infrastructure, review, and docs work
 checklists/   Concise validation checklists
 docs/         Project guidance, taxonomy, roadmap, routing, and language notes
 templates/    Reusable prompt and workflow templates
@@ -33,6 +33,7 @@ Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent
 - **Web backend:** `agents/web/backend/` contains web backend planning/review agents for APIs, contracts, database/ORM, BaaS, auth/security, backend libraries, auth providers, frameworks/runtimes, operations, and service capabilities.
 - **Web design:** `agents/web/design/` contains UI, UX, accessibility, interaction, visual design, design system, and advanced design planning/review agents. Advanced design, design strategy, and design operations agents live in `agents/web/design/advanced/`.
 - **Product / PM:** `agents/product/` contains product strategy, PRD review, roadmap planning, user story/acceptance criteria, product metrics, and release scope review agents.
+- **Quality / QA:** `agents/quality/` contains quality strategy, test planning, acceptance validation, regression risk, bug triage/reproduction, and release quality review agents.
 - **Security / Privacy:** `agents/security/` contains security boundary, privacy/data boundary, secrets/credential hygiene, dependency/supply-chain, threat modeling/abuse case, and AI-agent safety boundary review agents.
 - **Infrastructure:** `agents/infrastructure/` contains infrastructure planning/review agents for cloud, containers, orchestration, CI/CD, IaC, security, networking, platform operations, cost, release engineering, platform engineering, and compliance review.
 - **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene reviewers.
@@ -53,4 +54,4 @@ Do not include private AI session links, Codex task URLs, Claude session URLs, l
 
 ## Current Scope and Roadmap
 
-Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Product / PM planning and review agents, security/privacy review agents, infrastructure, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as native/desktop agents and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Product / PM planning and review agents, Quality / QA review agents, security/privacy review agents, infrastructure, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as native/desktop agents and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.

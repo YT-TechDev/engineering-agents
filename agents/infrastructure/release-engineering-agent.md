@@ -6,6 +6,7 @@ Provide release engineering planning and review for open-source and product repo
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/release-quality-review-agent.md` when release evidence crosses product, quality, and infrastructure boundaries.
 - Review release strategy, versioning approach, release branches, tags, changelogs, release notes, release candidates, prereleases, stable releases, hotfixes, rollback, and deprecation planning.
 - Apply semantic versioning-style impact review where relevant without requiring SemVer for every project.
 - Assess build artifact ownership for packages, container images, binaries, checksums, signatures, provenance, attestations, and SBOM awareness at a planning level.

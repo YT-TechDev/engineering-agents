@@ -6,6 +6,7 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 
 ## Responsibilities
 
+- Confirm future quality, QA, validation, regression, bug triage, or release quality review additions fit under `agents/quality/` unless a later scope explicitly approves another domain.
 - Check whether new agent packs fit the existing repository structure.
 - Check whether agent packs are too broad, too narrow, duplicated, or misplaced.
 - Confirm new agents have clear purpose, responsibilities, non-goals, review criteria, output expectations, and public OSS hygiene reminders.

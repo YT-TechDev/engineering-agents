@@ -6,6 +6,7 @@ Plan and review design handoff and implementation-facing specs for frontend impl
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/acceptance-validation-review-agent.md` when design specs affect behavior readiness or acceptance evidence.
 - Review handoff clarity for scope, user flow, component mapping, states, breakpoints, tokens, spacing, typography, color, content, validation, accessibility notes, interaction notes, animation notes, data states, and edge cases.
 - Coordinate spec review between design, frontend, backend, QA, accessibility, product, and design engineering.
 - Assess implementation readiness through acceptance criteria, non-goals, unknowns, dependencies, risks, staged delivery, and owner decisions.

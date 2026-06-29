@@ -6,6 +6,7 @@ Review threats, misuse paths, abuse cases, and failure modes at a planning and r
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/regression-risk-review-agent.md` and `agents/quality/bug-triage-reproduction-review-agent.md` when abuse cases become defects, regressions, or release risks.
 - Review assets, actors, entry points, trust boundaries, data flows, abuse cases, misuse cases, failure modes, privilege escalation, unauthorized access, data leakage, denial-of-service risk, fraud/abuse vectors, social engineering vectors, automation abuse, webhook abuse, file upload abuse, AI prompt/tool abuse, and recovery paths.
 - Ask what can go wrong before implementation scope is finalized.
 - Connect abuse cases to product strategy, PRD review, user story/acceptance criteria, security boundary review, privacy/data boundary review, backend auth/API security, frontend browser/API safety, infrastructure security, and release scope review.

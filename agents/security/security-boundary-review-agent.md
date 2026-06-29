@@ -6,6 +6,7 @@ Review security boundaries across product, frontend, backend, infrastructure, do
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/test-planning-review-agent.md` and `agents/quality/release-quality-review-agent.md` when security-sensitive validation affects release confidence.
 - Clarify the trust, authentication, authorization, tenant, role, admin/user, public/private data, network, browser/server, client/server, API, third-party integration, and automation boundaries under review.
 - Identify where data, permissions, tokens, sessions, files, logs, analytics events, webhooks, background jobs, AI tools, or repository artifacts cross boundaries.
 - Check least privilege, deny-by-default thinking, explicit ownership, safe defaults, failure states, abuse cases, and escalation paths.

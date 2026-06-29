@@ -6,6 +6,7 @@ Review whether a product, documentation, or agent-pack release slice is appropri
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/release-quality-review-agent.md` and `agents/quality/regression-risk-review-agent.md` when release scope depends on quality evidence or adjacent-area risk.
 - Review release goal, included scope, excluded scope, user impact, dependency impact, validation evidence, rollback or follow-up plan, documentation needs, release notes boundaries, owner decisions, and known risks.
 - Separate release readiness from implementation completion.
 - Check whether the release slice is small, coherent, testable, reversible, and aligned with roadmap and product strategy.
