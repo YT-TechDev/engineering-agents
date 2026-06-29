@@ -15,6 +15,8 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 
 - Coordinate with Experimentation / Product Learning review agents when a PR introduces product learning or experimentation guidance, and with Native / Desktop review agents when a PR introduces desktop architecture, Electron, Tauri, OS integration, local runtime, or native privacy/security guidance.
 
+- Coordinate with `agents/workflow/ai-generated-diff-risk-review-agent.md` and `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when a PR includes AI-assisted changes or AI workflow references.
+
 ## Non-Goals
 
 - Do not rewrite the full PR unless explicitly requested.

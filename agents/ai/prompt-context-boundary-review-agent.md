@@ -12,7 +12,7 @@ Review prompt, context, instruction, memory, retrieved context, and output-bound
 - Check whether prompts contain secrets, local paths, private links, private AI session URLs, customer data, raw logs, stack traces, transcripts, recordings, or private business context.
 - Review whether prompts over-authorize the model to act, browse, write, execute tools, change files, access private data, make unsupported claims, or bypass review.
 - Check whether context boundaries are explicit enough for product, security/privacy, quality, docs, and merge-readiness review.
-- Coordinate with prompt safety review, template governance review, agent tool permission review, AI evaluation review, RAG/retrieval boundary review, privacy/data boundary review, public OSS hygiene review, and merge-readiness review agents.
+- Coordinate with prompt safety review, template governance review, agent tool permission review, AI session/prompt hygiene review, AI evaluation review, RAG/retrieval boundary review, privacy/data boundary review, public OSS hygiene review, and merge-readiness review agents.
 
 ## Non-Goals
 

@@ -106,7 +106,21 @@ Experimentation / Product Learning agents are documentation and review agents. T
 - Agent tool permission review: `agents/ai/agent-tool-permission-review-agent.md`.
 - Model cost and latency review: `agents/ai/model-cost-latency-review-agent.md`.
 
-AI Application / Agent Workflow agents are documentation and review agents. They do not create AI app code, prompt libraries, production prompts, model configs, RAG pipelines, vector database configs, eval datasets, benchmark reports, tool integrations, agent runtime configs, package files, generated files, implementation files, releases, tags, or private AI artifacts. They help separate public-safe review guidance from private prompts, private context, private retrieval sources, customer data, personal data, eval samples, model traces, tool logs, private AI session links, internal URLs, private datasets, private roadmap details, secrets, credentials, and sensitive artifacts. Future AI areas may include AI product UX review, AI incident communication review, AI red-team review, AI model vendor review, AI memory review, AI agent observability review, AI policy review, AI-assisted developer workflow review, and AI supply-chain review, but they are not part of this PR.
+AI Application / Agent Workflow agents are documentation and review agents. They do not create AI app code, prompt libraries, production prompts, model configs, RAG pipelines, vector database configs, eval datasets, benchmark reports, tool integrations, agent runtime configs, package files, generated files, implementation files, releases, tags, or private AI artifacts. They help separate public-safe review guidance from private prompts, private context, private retrieval sources, customer data, personal data, eval samples, model traces, tool logs, private AI session links, internal URLs, private datasets, private roadmap details, secrets, credentials, and sensitive artifacts. Future AI areas may include AI product UX review, AI incident communication review, AI red-team review, AI model vendor review, AI memory review, AI agent observability review, AI policy review, and AI supply-chain review, but they are not part of this PR.
+
+
+### AI-assisted Developer Workflow
+
+`agents/workflow/` contains documentation-first review agents for AI-assisted engineering workflows. These agents help product, frontend, backend, infrastructure, security/privacy, quality, governance, docs, review, and AI workflow agents coordinate when humans use GPT, Codex, Claude Code, GitHub Copilot coding agent, local agents, MCP-connected agents, or other AI-assisted development tools during engineering work.
+
+- AI-assisted implementation plan review: `agents/workflow/ai-assisted-implementation-plan-review-agent.md`.
+- AI-generated diff risk review: `agents/workflow/ai-generated-diff-risk-review-agent.md`.
+- Human-in-the-loop handoff review: `agents/workflow/human-in-the-loop-handoff-review-agent.md`.
+- AI review evidence review: `agents/workflow/ai-review-evidence-review-agent.md`.
+- AI session and prompt hygiene review: `agents/workflow/ai-session-prompt-hygiene-review-agent.md`.
+- AI workflow routing review: `agents/workflow/ai-workflow-routing-review-agent.md`.
+
+AI-assisted Developer Workflow agents are documentation and review agents. They do not create implementation prompts, AI session logs, AI transcripts, provider-specific setup, automation, scripts, workflows, generated reports, package files, implementation files, releases, tags, or private workflow artifacts. They coordinate with AI, docs, review, security/privacy, quality, governance, and domain agents where AI-assisted engineering workflows cross those boundaries. They help separate public-safe workflow guidance from private AI session links, Codex task URLs, Claude session URLs, private prompts, local paths, tool logs, model traces, generated-by signatures, private tool metadata, private review evidence, repository settings screenshots, branch protection screenshots, and internal-only notes. Future workflow areas may include maintainer workflow review, release workflow evidence review, multi-agent orchestration review, local-agent workflow review, AI incident workflow review, AI-assisted code ownership review, AI-assisted release workflow review, and AI workflow cost governance review, but they are not part of this PR.
 
 ### Product / PM
 

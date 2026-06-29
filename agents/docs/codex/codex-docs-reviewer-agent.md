@@ -19,6 +19,8 @@ Review Codex-generated documentation pull requests for this repository before me
 
 - Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and public OSS hygiene review when docs include prompts, AI workflow examples, model traces, or tool outputs.
 
+- Coordinate with `agents/workflow/ai-generated-diff-risk-review-agent.md` and `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when Codex-generated docs need AI-assisted diff scope or session/prompt hygiene review.
+
 ## Non-Goals
 
 - Do not request unrelated improvements or expand scope during review.

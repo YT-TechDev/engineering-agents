@@ -23,6 +23,8 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 
 - Coordinate with `agents/governance/taxonomy-maintenance-review-agent.md` and `agents/ai/ai-application-boundary-review-agent.md` when AI-related agent packs are added or updated.
 
+- Coordinate with taxonomy maintenance when `agents/workflow/` placement, naming, or AI-assisted developer workflow pack boundaries are in scope.
+
 ## Non-Goals
 
 - Do not block every future expansion.

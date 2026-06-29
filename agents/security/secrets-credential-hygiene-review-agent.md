@@ -18,6 +18,8 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 
 - Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when AI workflows could expose secrets through prompts, context, tool outputs, files, or overbroad tool authority.
 
+- Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when prompts, session artifacts, tool output, or handoff notes could expose secrets.
+
 ## Non-Goals
 
 - Do not add secret scanning configs, custom regex rules, scanner output, SARIF files, credential examples, `.env` files, package files, dependencies, scripts, generated files, screenshots, logs, or implementation files.

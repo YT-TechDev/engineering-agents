@@ -18,6 +18,8 @@ Review whether a release or merge candidate has sufficient quality evidence for 
 
 - Coordinate with `agents/ai/ai-evaluation-review-agent.md` and `agents/ai/model-cost-latency-review-agent.md` when release quality depends on AI behavior, eval evidence, cost, latency, or workflow fit.
 
+- Coordinate with `agents/workflow/ai-review-evidence-review-agent.md` when release-quality claims depend on AI-assisted review evidence or validation summaries.
+
 ## Non-Goals
 
 - Do not create releases, tags, release notes templates, changelog generators, release checklists, QA reports, dashboards, scripts, workflows, package files, dependencies, generated files, screenshots, or implementation files.

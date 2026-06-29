@@ -29,6 +29,8 @@ Review implementation prompts and pull requests for tight scope control so small
 
 - Coordinate with `agents/ai/model-cost-latency-review-agent.md` when prompts request broad scans, high-cost reasoning, excessive context, repeated retries, or unbounded tool use.
 
+- Coordinate with `agents/workflow/ai-assisted-implementation-plan-review-agent.md` and `agents/workflow/ai-workflow-routing-review-agent.md` when AI-assisted work needs plan-size or routing review.
+
 ## Non-Goals
 
 - Do not request unrelated improvements.

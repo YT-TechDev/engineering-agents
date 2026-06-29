@@ -18,6 +18,8 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 
 - Coordinate with `agents/ai/rag-retrieval-boundary-review-agent.md` and `agents/ai/ai-evaluation-review-agent.md` when public docs mention AI outputs, retrieval, evals, prompts, model traces, or tool logs.
 
+- Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when public content mentions AI-assisted work, prompts, tool output, or session references.
+
 ## Non-Goals
 
 - Do not remove valid public documentation rules just because they mention forbidden categories.

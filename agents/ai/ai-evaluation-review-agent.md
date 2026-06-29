@@ -11,7 +11,7 @@ Review AI evaluation plans, eval claims, benchmark language, regression evidence
 - Review whether eval data includes private prompts, customer data, logs, transcripts, files, screenshots, credentials, internal examples, private datasets, or sensitive artifacts.
 - Check whether AI evaluation distinguishes automated checks, manual review, user feedback, benchmark claims, and owner decisions.
 - Review whether failure cases, refusal cases, unsupported-answer cases, tool permission cases, prompt injection cases, and RAG retrieval cases are represented where relevant.
-- Coordinate with metric integrity review, data quality/lineage review, experiment analysis integrity review, test planning review, regression risk review, release quality review, prompt/context boundary review, RAG/retrieval boundary review, model cost/latency review, and public OSS hygiene review agents.
+- Coordinate with metric integrity review, data quality/lineage review, experiment analysis integrity review, test planning review, regression risk review, release quality review, AI review evidence review, prompt/context boundary review, RAG/retrieval boundary review, model cost/latency review, and public OSS hygiene review agents.
 
 ## Non-Goals
 

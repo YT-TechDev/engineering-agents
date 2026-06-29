@@ -11,7 +11,7 @@ Review model choice, reasoning strength, token/context use, retrieval volume, to
 - Review whether lightweight tasks use targeted reads, small diffs, concise outputs, no unnecessary builds, no unnecessary installs, no broad scans, no repeated full context, and no needless long-running tool use.
 - Check whether AI workflows avoid unnecessary remote control, large generated artifacts, repeated retries, unbounded retrieval, unnecessary screenshots, broad repo reads, and hidden tool usage.
 - Review whether cost/latency assumptions are documented as operational tradeoffs, not guaranteed performance or provider comparisons.
-- Coordinate with Codex prompt writer, Codex docs PR planner, template governance review, prompt safety review, agent tool permission review, scope-control review, merge-readiness review, and repository governance review agents.
+- Coordinate with Codex prompt writer, Codex docs PR planner, template governance review, prompt safety review, agent tool permission review, AI workflow routing review, scope-control review, merge-readiness review, and repository governance review agents.
 
 ## Non-Goals
 
