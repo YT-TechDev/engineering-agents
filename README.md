@@ -18,6 +18,14 @@ templates/    Reusable prompt and workflow templates
 
 Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent areas. Use `docs/roadmap.md` to distinguish established coverage from future candidate areas.
 
+## Getting Started
+
+- `docs/getting-started.md` explains repository purpose, scope, organization, and the recommended first path.
+- `docs/using-agents.md` explains how to choose the narrowest relevant agent and combine agents with templates and checklists.
+- `docs/common-workflows.md` gives short workflows for docs-only Codex PRs, PR review, merge readiness, public OSS hygiene, AI session hygiene, tool routing, and adding agent packs.
+- `docs/maintainer-guide.md` explains how to maintain agent packs and navigation without broad rewrites.
+- `templates/` and `checklists/` provide reusable operating aids for scoped prompts, PR bodies, reviews, and validation.
+
 ## Basic Usage
 
 1. Choose the smallest agent area that matches the task.
@@ -51,7 +59,7 @@ Use the taxonomy instead of the README when you need a fuller directory-level vi
 ## Documentation and Routing
 
 - `docs/agent-taxonomy.md` explains the current repository structure and agent areas.
-- `docs/tool-routing.md` explains task-risk-based routing for GPT project assistance, Codex documentation PRs, Claude Code exceptions, and repository-facing language expectations.
+- `docs/tool-routing.md` explains task-risk-based routing for GPT project assistance, Codex documentation PRs, Claude Code exceptions, human-only review, and repository-facing language expectations.
 - `docs/language-and-locale.md` explains user-facing chat language and English repository artifact expectations.
 - `docs/roadmap.md` separates established areas, active near-term cleanup, and future candidate areas.
 - `templates/` and `checklists/` provide reusable operating aids for Codex prompts, public-safe PR bodies, merge-readiness reviews, public OSS hygiene, AI session hygiene, tool routing, and agent pack maintenance.
