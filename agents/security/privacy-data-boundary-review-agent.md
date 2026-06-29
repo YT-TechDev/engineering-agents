@@ -6,6 +6,7 @@ Review privacy, data collection, data movement, data minimization, retention, co
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/acceptance-validation-review-agent.md` and `agents/quality/test-planning-review-agent.md` when privacy-sensitive behavior must be validated.
 - Clarify the personal data, sensitive data, customer data, participant data, analytics data, telemetry, logs, screenshots, attachments, transcripts, recordings, survey data, support data, AI prompt/context data, and generated outputs involved.
 - Review data minimization, purpose clarity, collection necessity, retention awareness, deletion/offboarding implications, access boundaries, sharing boundaries, processor/third-party boundaries, and user expectations.
 - Check public OSS safety for product notes, PR bodies, docs, examples, prompts, screenshots, and logs.

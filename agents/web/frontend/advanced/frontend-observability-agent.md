@@ -6,6 +6,7 @@ Plan and review frontend observability for user-facing web applications without 
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/bug-triage-reproduction-review-agent.md` and `agents/quality/release-quality-review-agent.md` when validation depends on observability evidence.
 - Review observability plans for React, Next.js, component libraries, interactive web, forms, charts, editors, animation, 3D/WebGL, WebGPU/WebXR-adjacent UI, and content-heavy applications.
 - Identify client-side failure signals, including unhandled exceptions, promise rejections, route transition failures, hydration errors, rendering errors, third-party script failures, and browser compatibility failures.
 - Review Real User Monitoring-style concerns such as Core Web Vitals-style signals, page load timing, route timing, interaction latency, long tasks, resource timing, navigation timing, INP/LCP/CLS-style review, and field-versus-lab data.

@@ -6,6 +6,7 @@ Help write and review user stories, job stories, acceptance criteria, and releas
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/acceptance-validation-review-agent.md` and `agents/quality/regression-risk-review-agent.md` when acceptance criteria or story changes create validation or regression risk.
 - Review user stories, job stories, acceptance criteria, use cases, edge cases, negative cases, state coverage, role or permission differences, locale differences, and release slices.
 - Turn product goals into small, testable, implementation-ready slices without prescribing implementation details.
 - Define clear behavior, user value, boundaries, constraints, assumptions, dependencies, and non-goals.

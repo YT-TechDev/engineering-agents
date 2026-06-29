@@ -55,6 +55,19 @@ Design agents are for documentation, planning, and review. They do not add desig
 
 Product / PM agents are documentation and review agents. They help separate confirmed scope, active work, future ideas, and out-of-scope items. They do not create product strategy docs, PRD templates, roadmap templates, GitHub issues, milestones, labels, dashboards, analytics exports, project boards, releases, tags, package files, implementation files, private business artifacts, or product deliverables.
 
+### Quality / QA
+
+`agents/quality/` contains documentation-first quality planning and review agents. Quality / QA agents help product, design, frontend, backend, infrastructure, security/privacy, docs, and review workflows separate public-safe validation guidance from private QA artifacts and sensitive defect evidence.
+
+- Quality strategy review: `agents/quality/quality-strategy-review-agent.md`.
+- Test planning review: `agents/quality/test-planning-review-agent.md`.
+- Acceptance validation review: `agents/quality/acceptance-validation-review-agent.md`.
+- Regression risk review: `agents/quality/regression-risk-review-agent.md`.
+- Bug triage and reproduction review: `agents/quality/bug-triage-reproduction-review-agent.md`.
+- Release quality review: `agents/quality/release-quality-review-agent.md`.
+
+Quality / QA agents are documentation and review agents. They do not create test files, test plans, QA reports, dashboards, bug templates, release checklists, test automation, CI workflows, package files, implementation files, or private QA artifacts. They coordinate with product, design, frontend, backend, infrastructure, security/privacy, docs, and review agents where validation or release quality crosses those boundaries, and they help keep private bugs, logs, screenshots, support tickets, customer data, incidents, credentials, and sensitive traces out of public repository content.
+
 ### Security / Privacy
 
 `agents/security/` contains documentation and review agents for security, privacy, data-boundary, supply-chain, secret hygiene, threat modeling, and AI/agent safety review.
@@ -127,6 +140,7 @@ Future platform or domain areas may include:
 - Additional frontend specialties such as advanced forms, experimentation review, frontend privacy review, advanced browser storage, and multi-app frontend platform strategy.
 - Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.
 - Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, and policy review.
+- Future quality areas such as localization QA review, accessibility QA deep review, performance QA review, observability evidence review, experiment QA review, support-quality feedback review, and QA operations review.
 - Additional infrastructure refinements such as cloud-specific compliance packs, security audit review, sustainability review, enterprise governance review, advanced release automation review, and deeper platform operations guidance.
 
 Add future domains only when there is actual agent content to place there. Avoid empty directories, placeholder-only structures, broad rewrites, and generated catalogs.

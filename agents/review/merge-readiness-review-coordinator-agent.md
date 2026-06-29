@@ -6,6 +6,7 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 
 ## Responsibilities
 
+- Coordinate with `agents/quality/release-quality-review-agent.md` and `agents/quality/regression-risk-review-agent.md` when merge readiness depends on validation confidence or adjacent-area risk.
 - Produce a clear judgment: merge-ready, merge-ready after minor fix, or not merge-ready.
 - Separate blocking issues from non-blocking improvements.
 - Check scope, changed files, validation evidence, public OSS hygiene, branch/base status, PR body, and repository consistency.
