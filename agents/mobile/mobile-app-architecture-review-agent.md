@@ -10,7 +10,7 @@ Review mobile app architecture at a planning and review level as boundary, respo
 - Separate product requirements from platform implementation details so planning docs describe user value and constraints without prescribing private app internals.
 - Identify which layer owns permissions, authentication, session state, local data, network calls, offline sync, logging, telemetry, crash reporting, native APIs, SDK integration, and release behavior.
 - Check whether mobile boundaries are explicit enough for product, security/privacy, quality, release, documentation, and merge-readiness review.
-- Coordinate with iOS app boundary review, Android app boundary review, React Native boundary review, Flutter boundary review, security boundary review, privacy/data boundary review, test planning review, regression risk review, release quality review, release scope review, and merge-readiness review agents.
+- Coordinate with iOS app boundary review, Android app boundary review, React Native boundary review, Flutter boundary review, analytics instrumentation review, security boundary review, privacy/data boundary review, test planning review, regression risk review, release quality review, release scope review, and merge-readiness review agents when mobile SDKs, telemetry, crash reporting, or analytics are in scope.
 - Keep architecture guidance public-safe, documentation-only, and free from private app identifiers or implementation artifacts.
 
 ## Non-Goals

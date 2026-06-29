@@ -47,6 +47,10 @@ Use lightweight IDE assistance for wording suggestions, quick Markdown edits, an
 
 ## Scope Boundaries by Area
 
+### Data / Analytics
+
+Data / Analytics agents are for planning and review only. Data architecture, analytics instrumentation, event schema/tracking plan, data quality/lineage, metric integrity, and BI/dashboard hygiene review should remain documentation-only in this repository. Codex is suitable for small documentation-only Data / Analytics agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. This repository should not create data pipelines, SQL, event schemas, tracking plans, dashboards, BI exports, analytics SDKs, warehouse configs, data files, generated files, releases, tags, automation, or implementation artifacts unless a future scope explicitly allows them. GitHub write operations from this GPT project remain out of scope.
+
 ### Product / PM
 
 Product / PM agents are for planning and review only. Product strategy, PRD review, roadmap planning, user stories, product metrics, and release scope review must remain documentation-only in this repository. Codex is suitable for small documentation-only Product / PM agent changes, while GPT remains the coordinator for planning, prompt creation, review, and merge-readiness judgment. Do not create product strategy docs, PRD templates, roadmap artifacts, project boards, GitHub issues, dashboards, analytics exports, releases, tags, package files, implementation files, or private business artifacts unless a future scope explicitly allows them.
