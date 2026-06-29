@@ -14,6 +14,7 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 - Recommend removal, rotation, or private remediation language without exposing the secret in the public PR.
 
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` when tokens, secure storage, environment variables, or local runtime logs are in scope.
+- Coordinate with `agents/mobile/mobile-release-store-review-agent.md` when signing details, API keys, keystores, provisioning profiles, store account details, or internal testing links are in scope.
 
 ## Non-Goals
 

@@ -15,6 +15,7 @@ Review security boundaries across product, frontend, backend, infrastructure, do
 - Flag claims that a feature, repository, agent, or PR is secure, compliant, certified, production-ready, or safe without evidence and appropriate specialist review.
 
 - Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, `agents/native/os-integration-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when desktop or native runtime boundaries are in scope.
+- Coordinate with `agents/mobile/ios-app-boundary-review-agent.md`, `agents/mobile/android-app-boundary-review-agent.md`, `agents/mobile/react-native-boundary-review-agent.md`, and `agents/mobile/flutter-boundary-review-agent.md` when mobile platform, native bridge, platform channel, permission, or app sandbox boundaries are in scope.
 
 ## Non-Goals
 

@@ -14,6 +14,7 @@ Review regression risk across documentation, product, design, frontend, backend,
 - Keep regression review appropriate for docs-only PRs and public-safe output.
 
 - Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when desktop runtime changes can regress frontend, OS, or process behavior.
+- Coordinate with `agents/mobile/react-native-boundary-review-agent.md`, `agents/mobile/flutter-boundary-review-agent.md`, `agents/mobile/ios-app-boundary-review-agent.md`, and `agents/mobile/android-app-boundary-review-agent.md` when platform-specific mobile behavior, native bridge behavior, permissions, deep links, or release behavior can regress.
 
 ## Non-Goals
 

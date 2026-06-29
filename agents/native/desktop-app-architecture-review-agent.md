@@ -11,6 +11,7 @@ Review native and desktop app architecture at a planning and review level as bou
 - Identify which process owns filesystem access, network access, shell access, OS APIs, permissions, secrets, user data, telemetry, logs, and lifecycle decisions.
 - Check whether architecture boundaries are explicit enough for product, security/privacy, quality, release, documentation, and merge-readiness review.
 - Coordinate with Electron boundary review, Tauri boundary review, OS integration review, local runtime process review, frontend security boundary, browser API safety, release scope review, security boundary review, privacy/data boundary review, dependency/supply-chain review, regression risk review, release quality review, and merge-readiness review agents.
+- Coordinate with mobile app architecture review only when native/desktop and mobile runtime concerns overlap, such as shared local storage concepts, OS integrations, permissions, telemetry, or release/distribution language.
 - Keep architecture guidance public-safe, documentation-only, and free from private runtime details.
 
 ## Non-Goals

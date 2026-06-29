@@ -15,6 +15,7 @@ Provide release engineering planning and review for open-source and product repo
 - Review CI/CD release workflows, protected branches, protected tags, required checks, environment approvals, release gates, manual approvals, and least-privilege release credentials.
 - Assess release validation, smoke tests, compatibility checks, migration notes, upgrade and downgrade notes, and post-release verification.
 - Review release communication, known issues, security advisories, support windows, and user-facing change summaries at a documentation level.
+- Coordinate with `agents/mobile/mobile-release-store-review-agent.md` when release evidence touches mobile store, signing, distribution, internal testing, staged rollout, or app privacy disclosure concepts.
 - Consider incident response for failed releases, bad artifacts, leaked secrets, compromised release credentials, and yanked or deprecated releases.
 - Check public OSS hygiene for release notes, PR bodies, changelogs, commit messages, generated notes, and artifact metadata.
 

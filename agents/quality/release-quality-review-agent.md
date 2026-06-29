@@ -11,6 +11,7 @@ Review whether a release or merge candidate has sufficient quality evidence for 
 - Check whether release quality claims match the actual diff, validation, product scope, security/privacy review, dependency/supply-chain review, and known risks.
 - Distinguish merge readiness, release scope readiness, release engineering readiness, and product quality confidence.
 - Coordinate with release scope review, release note hygiene review, docs governance review, frontend release workflow, infrastructure release engineering, merge-readiness review coordinator, PR body review, public OSS hygiene review, security/privacy review, regression risk review, and acceptance validation review agents.
+- Coordinate with mobile release/store review when release quality depends on mobile validation evidence, store-review boundaries, app privacy disclosures, signing/distribution assumptions, or staged rollout risk.
 - Keep release quality review public-safe and documentation-only.
 
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` when release quality depends on desktop runtime evidence.

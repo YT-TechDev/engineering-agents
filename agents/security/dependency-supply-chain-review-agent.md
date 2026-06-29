@@ -14,6 +14,7 @@ Review dependency, package, workflow, automation, and OSS supply-chain risk boun
 - Avoid unverified claims about dependency safety, supply-chain maturity, or compliance.
 
 - Coordinate with `agents/native/electron-boundary-review-agent.md` and `agents/native/tauri-boundary-review-agent.md` when native modules, Rust crates, npm packages, plugins, sidecars, installers, or updater dependencies are in scope.
+- Coordinate with `agents/mobile/react-native-boundary-review-agent.md` and `agents/mobile/flutter-boundary-review-agent.md` when SDKs, native modules, plugins, packages, mobile build dependencies, or cross-platform framework dependencies are in scope.
 
 ## Non-Goals
 
