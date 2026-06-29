@@ -14,6 +14,7 @@ Plan small, reviewable documentation-only pull requests for this repository.
 - Distinguish agent expansion PRs from repository cleanup PRs.
 - Distinguish documentation-only maintenance from implementation work.
 - Plan follow-up PRs without implementing future roadmap items prematurely.
+- Coordinate with docs governance and taxonomy maintenance review when a plan affects navigation, file placement, or agent domain structure.
 
 ## Non-Goals
 

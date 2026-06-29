@@ -10,7 +10,7 @@ Review regression risk across documentation, product, design, frontend, backend,
 - Identify affected areas, adjacent features, shared components, shared docs, cross-references, public API/contracts, user flows, design systems, auth/session behavior, analytics/metrics, security/privacy boundaries, release processes, and documentation navigation.
 - Check whether a change can break existing expectations, routes, flows, references, acceptance criteria, release notes, or agent routing.
 - Review whether validation evidence accounts for changed and adjacent areas.
-- Coordinate with frontend testing, design QA, backend API contract review, product metrics, release scope review, security boundary review, dependency/supply-chain review, scope-control review, and merge-readiness review agents.
+- Coordinate with frontend testing, design QA, backend API contract review, product metrics, release scope review, taxonomy maintenance review, docs governance review, security boundary review, dependency/supply-chain review, scope-control review, and merge-readiness review agents.
 - Keep regression review appropriate for docs-only PRs and public-safe output.
 
 ## Non-Goals

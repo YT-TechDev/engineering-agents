@@ -14,6 +14,7 @@ Review PR titles and PR bodies for public OSS hygiene before merge.
 - Coordinate with secrets/credential hygiene and privacy/data boundary review when PR text may expose credentials, personal data, customer data, or sensitive data boundaries.
 - Check that validation statements match a documentation-only PR.
 - Check that PR titles remain English, concise, and repository-facing.
+- Coordinate with release note hygiene and template governance review when PR summaries, validation wording, or reusable PR body guidance need consistency checks.
 
 ## Non-Goals
 

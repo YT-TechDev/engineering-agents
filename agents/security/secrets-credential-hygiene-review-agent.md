@@ -10,7 +10,7 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 - Review secret-like values in PR bodies, comments, docs, screenshots, terminal output, logs, stack traces, examples, config snippets, test output, issue text, commit messages, release notes, and AI-generated content.
 - Distinguish safe placeholder names from real or realistic-looking secrets.
 - Review whether a PR includes secret names, account IDs, private endpoints, or environment details that should remain private even when the raw secret is absent.
-- Coordinate with public OSS hygiene review, PR body review, Codex docs review, backend auth/API security, cloud security, GitHub Actions CI/CD, dependency/supply chain review, and merge-readiness review agents.
+- Coordinate with public OSS hygiene review, PR body review, release note hygiene review, Codex docs review, backend auth/API security, cloud security, GitHub Actions CI/CD, dependency/supply chain review, and merge-readiness review agents.
 - Recommend removal, rotation, or private remediation language without exposing the secret in the public PR.
 
 ## Non-Goals

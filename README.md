@@ -10,7 +10,7 @@ This repository helps teams keep agent responsibilities, prompts, review expecta
 
 ```txt
 .github/      Repository collaboration instructions and PR template
-agents/       Role-based agent definitions for web, product, quality, security, infrastructure, review, and docs work
+agents/       Role-based agent definitions for web, product, quality, security, infrastructure, governance, review, and docs work
 checklists/   Concise validation checklists
 docs/         Project guidance, taxonomy, roadmap, routing, and language notes
 templates/    Reusable prompt and workflow templates
@@ -37,6 +37,7 @@ Start with `docs/agent-taxonomy.md` for a scan-friendly map of the current agent
 - **Security / Privacy:** `agents/security/` contains security boundary, privacy/data boundary, secrets/credential hygiene, dependency/supply-chain, threat modeling/abuse case, and AI-agent safety boundary review agents.
 - **Infrastructure:** `agents/infrastructure/` contains infrastructure planning/review agents for cloud, containers, orchestration, CI/CD, IaC, security, networking, platform operations, cost, release engineering, platform engineering, and compliance review.
 - **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene reviewers.
+- **Developer Experience / Repository Governance:** `agents/governance/` contains contributor guidance, repository governance, documentation governance, taxonomy maintenance, template governance, and release note hygiene review agents.
 - **Docs:** `agents/docs/` contains documentation-focused agent guidance where applicable. Codex documentation workflow agents live in `agents/docs/codex/`.
 
 Use the taxonomy instead of the README when you need a fuller directory-level view. The README should remain a concise entry point, not a duplicated catalog of every agent.
@@ -54,4 +55,4 @@ Do not include private AI session links, Codex task URLs, Claude session URLs, l
 
 ## Current Scope and Roadmap
 
-Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Product / PM planning and review agents, Quality / QA review agents, security/privacy review agents, infrastructure, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as native/desktop agents and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+Current confirmed scope includes web frontend, web frontend libraries/testing/advanced agents, web backend, Product / PM planning and review agents, Quality / QA review agents, security/privacy review agents, infrastructure, Developer Experience / Repository Governance review agents, review, web design, advanced web design agents, and Codex documentation/review workflow guidance. Future ideas such as native/desktop agents and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.

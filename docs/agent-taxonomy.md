@@ -90,6 +90,19 @@ Security / Privacy agents are documentation and review agents. They do not creat
 
 Infrastructure agents are documentation and review agents only. They do not create releases, CI workflows, deployment config, cloud resources, IaC files, Dockerfiles, Kubernetes manifests, compliance reports, audit evidence packages, budgets, dashboards, alerts, DNS records, IAM policies, firewall rules, or provider configuration.
 
+### Developer Experience / Repository Governance
+
+`agents/governance/` contains documentation-first repository governance and developer experience review agents. These agents help keep repository-facing guidance, domain placement, templates, docs structure, and public-facing change summaries maintainable as more agent domains are added.
+
+- Contributor guidance review: `agents/governance/contributor-guidance-review-agent.md`.
+- Repository governance review: `agents/governance/repository-governance-review-agent.md`.
+- Documentation governance review: `agents/governance/docs-governance-review-agent.md`.
+- Taxonomy maintenance review: `agents/governance/taxonomy-maintenance-review-agent.md`.
+- Template governance review: `agents/governance/template-governance-review-agent.md`.
+- Release note hygiene review: `agents/governance/release-note-hygiene-review-agent.md`.
+
+Developer Experience / Repository Governance agents are documentation and review agents. They do not create GitHub settings, branch protections, rulesets, `CODEOWNERS`, community health files, issue templates, pull request templates, project boards, labels, milestones, release automation, package files, implementation files, or private governance artifacts. They coordinate with product, security/privacy, quality, docs, review, infrastructure, frontend, backend, and design agents where repository structure, templates, docs, release summaries, or contributor guidance crosses those boundaries. They also help keep public repository content free from private AI links, local paths, generated-by signatures, private task URLs, internal-only notes, private links, customer data, logs, screenshots, credentials, and sensitive artifacts.
+
 ### Review
 
 `agents/review/` contains cross-cutting reviewers that support multiple domains.
@@ -141,6 +154,7 @@ Future platform or domain areas may include:
 - Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.
 - Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, and policy review.
 - Future quality areas such as localization QA review, accessibility QA deep review, performance QA review, observability evidence review, experiment QA review, support-quality feedback review, and QA operations review.
+- Future governance areas such as community health review, repository settings review, `CODEOWNERS` review, issue/PR template review, maintainer handoff review, project board governance review, versioning policy review, changelog governance review, and OSS sustainability review.
 - Additional infrastructure refinements such as cloud-specific compliance packs, security audit review, sustainability review, enterprise governance review, advanced release automation review, and deeper platform operations guidance.
 
 Add future domains only when there is actual agent content to place there. Avoid empty directories, placeholder-only structures, broad rewrites, and generated catalogs.
