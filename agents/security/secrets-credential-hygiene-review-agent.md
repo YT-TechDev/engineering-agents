@@ -6,6 +6,7 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md`, `agents/ai/ai-sdk-dependency-review-agent.md`, and `agents/ai/model-provider-vendor-review-agent.md` when credentials or provider keys are in scope.
 - Check for API keys, tokens, OAuth client secrets, service-role keys, session secrets, JWT signing secrets, private keys, webhook secrets, signing secrets, database URLs, cloud credentials, access keys, SSH keys, deploy keys, certificates, cookies, refresh tokens, connection strings, environment variable values, and provider-specific credentials.
 - Review secret-like values in PR bodies, comments, docs, screenshots, terminal output, logs, stack traces, examples, config snippets, test output, issue text, commit messages, release notes, and AI-generated content.
 - Distinguish safe placeholder names from real or realistic-looking secrets.

@@ -6,6 +6,7 @@ Review prompt, context, instruction, memory, retrieved context, and output-bound
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md` and `agents/ai/plugin-extension-supply-chain-review-agent.md` when prompt context can come from external tools, plugins, or extensions.
 - Review system, developer, user, retrieved, memory, file, tool-output, and example context boundaries.
 - Clarify prompt inputs, context windows, memory, retrieved context, tool outputs, file snippets, examples, hidden/private instructions, output constraints, fallback behavior, and public-facing summaries.
 - Identify prompt injection and indirect prompt injection risks from files, retrieved docs, web pages, user comments, issue text, emails, logs, tool outputs, or external content.

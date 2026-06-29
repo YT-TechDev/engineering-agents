@@ -6,6 +6,7 @@ Review implementation prompts and pull requests for tight scope control so small
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-sdk-dependency-review-agent.md` when dependency or package changes appear outside a documentation-only scope.
 - Coordinate with `agents/quality/regression-risk-review-agent.md` and `agents/quality/release-quality-review-agent.md` when scope changes create validation risk or release quality uncertainty.
 - Coordinate docs PR planning with `agents/docs/codex/codex-docs-pr-planner-agent.md` and agent pack fit with `agents/review/agent-pack-maintenance-reviewer-agent.md` when relevant.
 - Coordinate with taxonomy maintenance and repository governance review when scope changes create new domains, directory structure, or repository rule changes.

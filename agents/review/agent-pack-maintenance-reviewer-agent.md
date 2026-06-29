@@ -6,6 +6,7 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 
 ## Responsibilities
 
+- Coordinate with taxonomy maintenance for the expanded `agents/ai/` supply-chain/vendor review coverage.
 - Confirm future quality, QA, validation, regression, bug triage, or release quality review additions fit under `agents/quality/` unless a later scope explicitly approves another domain.
 - Check whether new agent packs fit the existing repository structure.
 - Coordinate with taxonomy maintenance, docs governance, and repository governance review when new packs affect domain placement, navigation, or repository rules.

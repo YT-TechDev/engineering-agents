@@ -6,6 +6,7 @@ Review AI evaluation plans, eval claims, benchmark language, regression evidence
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` when model or provider changes affect evaluation evidence or release confidence.
 - Review evaluation purpose, target behavior, eval cases, expected outputs, failure modes, human review, rubric, graders, acceptance criteria, regression risk, safety cases, privacy cases, prompt/context cases, tool-use cases, retrieval cases, cost/latency cases, and release confidence.
 - Check whether eval evidence matches the AI feature claim and does not overstate quality, safety, reasoning, accuracy, reliability, or superiority.
 - Review whether eval data includes private prompts, customer data, logs, transcripts, files, screenshots, credentials, internal examples, private datasets, or sensitive artifacts.

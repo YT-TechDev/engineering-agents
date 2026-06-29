@@ -6,6 +6,7 @@ Review tool access, write authority, file access, external actions, and human-co
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md` and `agents/ai/plugin-extension-supply-chain-review-agent.md` when tool permissions come from MCP servers, plugins, or extensions.
 - Review tool inventory, read/write boundaries, repository permissions, local file access, shell access, network access, browser access, connector access, email/calendar access, GitHub write access, deployment access, cloud access, secrets access, approval requirements, dry-run behavior, rollback expectations, audit trail expectations, and owner decision points.
 - Check whether agents can perform hidden writes, broad scans, destructive changes, private data access, direct main pushes, unreviewed PR actions, release actions, tag creation, package publishing, deployment, external communication, or calendar/email actions without explicit owner approval.
 - Review whether tool authority matches task scope, model strength, cost expectations, public OSS hygiene, and repository safety rules.

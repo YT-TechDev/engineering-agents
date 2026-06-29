@@ -6,6 +6,7 @@ Review model choice, reasoning strength, token/context use, retrieval volume, to
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` and `agents/ai/ai-vendor-risk-review-agent.md` when cost, rate limit, outage, or latency risk depends on hosted providers.
 - Review model/task fit, reasoning level, context size, prompt size, repeated context, prompt caching awareness, retrieval volume, tool calls, retry behavior, batch behavior, streaming needs, output length, latency expectations, cost boundaries, credit/token-saving rules, evaluation needs, fallback behavior, and owner approval for expensive work.
 - Check whether high-reasoning or high-cost models are reserved for high-risk architecture, privacy, security, native/runtime, AI behavior, release, or merge-readiness decisions.
 - Review whether lightweight tasks use targeted reads, small diffs, concise outputs, no unnecessary builds, no unnecessary installs, no broad scans, no repeated full context, and no needless long-running tool use.

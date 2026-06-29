@@ -6,6 +6,7 @@ Review whether a release or merge candidate has sufficient quality evidence for 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-vendor-risk-review-agent.md` and `agents/ai/model-provider-vendor-review-agent.md` where release confidence depends on hosted AI behavior.
 - Treat release quality review as final evidence and risk review, not as release automation or certification.
 - Review release goal, release scope, acceptance evidence, test evidence, regression risk, known gaps, quality risks, rollback/follow-up plan, user impact, documentation readiness, public OSS hygiene, and owner decisions.
 - Check whether release quality claims match the actual diff, validation, product scope, security/privacy review, dependency/supply-chain review, and known risks.

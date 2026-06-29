@@ -6,6 +6,7 @@ Review whether AI session references, prompt details, private context, and tool 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md` and `agents/ai/plugin-extension-supply-chain-review-agent.md` when tool metadata or private session artifacts may leak.
 - Review ChatGPT shared links, Codex task URLs, Claude session URLs, private AI session links, private prompts, hidden prompts, private system/developer prompts, private context, local paths, tool metadata, generated-by signatures, model traces, tool logs, screenshots, transcripts, and internal-only notes.
 - Check whether public PR bodies, commits, docs, templates, release notes, checklists, and comments avoid private AI session artifacts.
 - Ensure AI-assisted work is summarized in plain text without exposing private links, session URLs, task URLs, transcripts, prompt fragments, or tool-specific metadata.

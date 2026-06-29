@@ -6,6 +6,7 @@ Review AI-assisted implementation plans before work starts as scope, safety, own
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-sdk-dependency-review-agent.md` and `agents/ai/ai-vendor-risk-review-agent.md` when implementation plans introduce AI dependencies or vendor-managed services.
 - Review task goal, repository scope, branch name, expected files, non-goals, validation steps, PR requirement, no-direct-main requirement, public OSS hygiene, model/tool routing, owner approval, rollback expectations, and cost-control expectations.
 - Check whether the planned work is small enough for one reviewable PR or should be split, clarified, delayed, or decided by a human owner first.
 - Confirm the plan avoids broad repository scans, unnecessary builds, unnecessary installs, hidden writes, release actions, tag creation, package publishing, deployments, and external actions.

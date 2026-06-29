@@ -6,6 +6,7 @@ Review whether AI-assisted engineering work is routed to the right model, tool, 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md`, `agents/ai/plugin-extension-supply-chain-review-agent.md`, and `agents/ai/model-provider-vendor-review-agent.md` when routing work to AI tools or hosted providers.
 - Review task type, risk level, model strength, tool access, repository scope, expected files, cost/latency expectations, validation needs, review agents, implementation tool, owner approval, and fallback path.
 - Check whether docs-only work is routed to lightweight, scoped Codex-style workflows.
 - Check whether high-risk architecture, security/privacy, AI behavior, native/runtime, release, destructive actions, external actions, or merge-readiness decisions receive stronger review.

@@ -8,6 +8,7 @@ Treat template governance as reuse and consistency review, not as template gener
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-data-processor-boundary-review-agent.md` where templates mention vendor or processor review.
 - Review prompt templates, PR body guidance, review templates, checklists, validation blocks, public OSS hygiene blocks, branch and PR rules, non-goals, expected files, and output expectations.
 - Check whether templates are concise, copy-ready, scoped, non-duplicative, and aligned with current repository rules.
 - Ensure Codex prompts include model, repository, branch name, task goal, expected files, non-goals, validation steps, PR title suggestion, PR body guidance, public OSS hygiene, PR requirement, and direct `main` push prohibition.

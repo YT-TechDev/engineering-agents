@@ -6,6 +6,7 @@ Review data architecture at a planning and review level as boundary, ownership, 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-data-processor-boundary-review-agent.md` when data flows through AI vendors or processors.
 - Review data sources, collection points, storage, transformations, aggregations, retention, deletion, exports, reporting surfaces, access boundaries, ownership, and downstream consumers.
 - Separate product data needs from implementation-specific storage, pipeline, warehouse, or reporting choices.
 - Clarify whether data is user data, customer data, personal data, telemetry, analytics data, operational data, support data, research data, billing-like data, or generated data.

@@ -8,6 +8,7 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 
 ## Responsibilities
 
+- Treat the AI supply-chain/vendor review agents as part of `agents/ai/` unless a future taxonomy decision explicitly creates another domain.
 - Review domain placement under `agents/`, naming conventions, root-level domain boundaries, nested directory choices, agent file names, role names, duplicate responsibilities, cross-references, and roadmap alignment.
 - Treat `agents/mobile/` as the home for mobile app review agents; do not split mobile review agents into root-level iOS, Android, React Native, Flutter, app-store, or mobile-release directories without a future taxonomy decision.
 - Treat `agents/data/` as the home for data and analytics review agents, and `agents/experimentation/` as the home for experimentation and product learning review agents; do not split this coverage into root-level analytics, metrics, BI, reporting, data-quality, data-governance, data-engineering, event-tracking, A/B testing, feature-flag, growth, or product-learning directories without a future taxonomy decision.

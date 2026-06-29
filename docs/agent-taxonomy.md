@@ -97,7 +97,7 @@ Experimentation / Product Learning agents are documentation and review agents. T
 
 ### AI Application / Agent Workflow
 
-`agents/ai/` contains documentation-first planning and review agents for AI-assisted product behavior, LLM workflows, prompt/context boundaries, RAG/retrieval boundaries, AI evaluation, agent tool permissions, and model cost/latency review. These agents coordinate with product, data/analytics, experimentation, security/privacy, quality, governance, docs, and review agents where AI workflow scope crosses those boundaries.
+`agents/ai/` contains documentation-first planning and review agents for AI-assisted product behavior, LLM workflows, prompt/context boundaries, RAG/retrieval boundaries, AI evaluation, agent tool permissions, model cost/latency review, and AI Supply Chain / Vendor & Dependency review. These agents coordinate with product, data/analytics, experimentation, security/privacy, quality, governance, docs, workflow, and review agents where AI workflow or vendor/dependency scope crosses those boundaries.
 
 - AI application boundary review: `agents/ai/ai-application-boundary-review-agent.md`.
 - Prompt and context boundary review: `agents/ai/prompt-context-boundary-review-agent.md`.
@@ -105,8 +105,14 @@ Experimentation / Product Learning agents are documentation and review agents. T
 - AI evaluation review: `agents/ai/ai-evaluation-review-agent.md`.
 - Agent tool permission review: `agents/ai/agent-tool-permission-review-agent.md`.
 - Model cost and latency review: `agents/ai/model-cost-latency-review-agent.md`.
+- AI SDK and dependency review: `agents/ai/ai-sdk-dependency-review-agent.md`.
+- Model provider vendor review: `agents/ai/model-provider-vendor-review-agent.md`.
+- MCP server boundary review: `agents/ai/mcp-server-boundary-review-agent.md`.
+- Plugin and extension supply-chain review: `agents/ai/plugin-extension-supply-chain-review-agent.md`.
+- AI data processor boundary review: `agents/ai/ai-data-processor-boundary-review-agent.md`.
+- AI vendor risk review: `agents/ai/ai-vendor-risk-review-agent.md`.
 
-AI Application / Agent Workflow agents are documentation and review agents. They do not create AI app code, prompt libraries, production prompts, model configs, RAG pipelines, vector database configs, eval datasets, benchmark reports, tool integrations, agent runtime configs, package files, generated files, implementation files, releases, tags, or private AI artifacts. They help separate public-safe review guidance from private prompts, private context, private retrieval sources, customer data, personal data, eval samples, model traces, tool logs, private AI session links, internal URLs, private datasets, private roadmap details, secrets, credentials, and sensitive artifacts. Future AI areas may include AI product UX review, AI incident communication review, AI red-team review, AI model vendor review, AI memory review, AI agent observability review, AI policy review, and AI supply-chain review, but they are not part of this PR.
+AI Application / Agent Workflow agents are documentation and review agents. AI Supply Chain / Vendor & Dependency agents live within the existing `agents/ai/` domain; they do not create AI SDK integrations, dependency updates, package files, lockfiles, SBOMs, vendor comparison tables, provider setup guides, MCP configs, plugin manifests, extension configs, legal templates, compliance docs, DPA templates, generated files, implementation files, releases, tags, or private vendor artifacts. They help separate public-safe review guidance from private provider dashboards, private account IDs, billing data, pricing data, contract terms, procurement notes, legal analysis, security questionnaires, support tickets, customer data, private AI session links, private prompts, tool logs, model traces, local paths, credentials, secrets, and sensitive artifacts. Future AI supply-chain areas may include AI SBOM review, model provenance review, AI dependency update review, AI service incident review, AI vendor exit planning review, AI marketplace risk review, AI agent marketplace review, and AI policy/vendor alignment review, but they are not part of this PR.
 
 
 ### AI-assisted Developer Workflow

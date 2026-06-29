@@ -6,6 +6,7 @@ Review AI-assisted product and application behavior at a planning and review lev
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md`, `agents/ai/ai-sdk-dependency-review-agent.md`, and `agents/ai/ai-data-processor-boundary-review-agent.md` when AI application scope depends on external providers, SDKs, or processors.
 - Clarify the AI feature purpose, user-visible behavior, input data, context data, model output, retrieval sources, tool actions, memory, logs, telemetry, feedback, fallback behavior, human review, safety boundaries, and owner decisions.
 - Separate AI-assisted behavior from deterministic application behavior, especially where outputs are probabilistic, model-dependent, or context-dependent.
 - Identify whether AI output is advisory, automated, user-visible, repository-facing, internal-only, or action-taking.
