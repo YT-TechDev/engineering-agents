@@ -79,7 +79,21 @@ Mobile agents are documentation and review agents. They do not create iOS apps, 
 - Metric integrity review: `agents/data/metric-integrity-review-agent.md`.
 - BI/dashboard hygiene review: `agents/data/bi-dashboard-hygiene-review-agent.md`.
 
-Data / Analytics agents are documentation and review agents. They do not create data pipelines, SQL, event schemas, tracking plans, dashboards, BI exports, analytics SDKs, warehouse configs, data files, generated files, implementation files, releases, tags, or private data artifacts. They help separate public-safe review guidance from private analytics exports, dashboards, screenshots, customer data, personal data, logs, stack traces, internal URLs, revenue data, pricing strategy, private roadmap details, and sensitive identifiers. Future data areas may include experimentation review, data warehouse review, reverse ETL review, data contract review, data privacy operations review, ML data readiness review, customer feedback analytics review, and support analytics review, but they are not part of this PR.
+Data / Analytics agents are documentation and review agents. They do not create data pipelines, SQL, event schemas, tracking plans, dashboards, BI exports, analytics SDKs, warehouse configs, data files, generated files, implementation files, releases, tags, or private data artifacts. They help separate public-safe review guidance from private analytics exports, dashboards, screenshots, customer data, personal data, logs, stack traces, internal URLs, revenue data, pricing strategy, private roadmap details, and sensitive identifiers. Future data areas may include data warehouse review, reverse ETL review, data contract review, data privacy operations review, ML data readiness review, customer feedback analytics review, and support analytics review, but they are not part of this PR.
+
+
+### Experimentation / Product Learning
+
+`agents/experimentation/` contains documentation-first review agents for product learning, hypothesis review, experiment design review, feature flag and rollout boundaries, experiment analysis interpretation, learning synthesis, and feedback-to-decision traceability. These agents coordinate with product, data/analytics, design, frontend, backend, security/privacy, quality, mobile, native/desktop, governance, docs, and review agents where product learning or experimentation scope crosses those boundaries.
+
+- Hypothesis and success criteria review: `agents/experimentation/hypothesis-success-criteria-review-agent.md`.
+- Experiment design review: `agents/experimentation/experiment-design-review-agent.md`.
+- Feature flag and rollout boundary review: `agents/experimentation/feature-flag-rollout-boundary-review-agent.md`.
+- Experiment analysis integrity review: `agents/experimentation/experiment-analysis-integrity-review-agent.md`.
+- Product learning synthesis review: `agents/experimentation/product-learning-synthesis-review-agent.md`.
+- Feedback-to-decision review: `agents/experimentation/feedback-to-decision-review-agent.md`.
+
+Experimentation / Product Learning agents are documentation and review agents. They do not create A/B tests, feature flag configs, experiment configs, SQL, tracking plans, dashboards, reports, analytics exports, package files, generated files, implementation files, releases, tags, or private learning artifacts. They help separate public-safe learning guidance from private experiments, dashboards, customer data, personal data, support tickets, recordings, transcripts, internal URLs, revenue data, private segment names, private experiment names, and roadmap commitments. Future experimentation areas may include growth experiment review, pricing experiment review, onboarding experiment review, lifecycle experiment review, qualitative research synthesis review, support-feedback triage review, and experimentation operations review, but they are not part of this PR.
 
 ### Product / PM
 

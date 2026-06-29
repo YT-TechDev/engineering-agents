@@ -10,12 +10,12 @@ Treat taxonomy maintenance as structure and scope review, not as automatic catal
 
 - Review domain placement under `agents/`, naming conventions, root-level domain boundaries, nested directory choices, agent file names, role names, duplicate responsibilities, cross-references, and roadmap alignment.
 - Treat `agents/mobile/` as the home for mobile app review agents; do not split mobile review agents into root-level iOS, Android, React Native, Flutter, app-store, or mobile-release directories without a future taxonomy decision.
-- Treat `agents/data/` as the home for data and analytics review agents; do not split this coverage into root-level analytics, metrics, BI, reporting, data-quality, data-governance, data-engineering, event-tracking, or experimentation directories without a future taxonomy decision.
+- Treat `agents/data/` as the home for data and analytics review agents, and `agents/experimentation/` as the home for experimentation and product learning review agents; do not split this coverage into root-level analytics, metrics, BI, reporting, data-quality, data-governance, data-engineering, event-tracking, A/B testing, feature-flag, growth, or product-learning directories without a future taxonomy decision.
 - Check whether new agents belong under existing domains or require a new root-level domain.
 - Prevent unnecessary domain fragmentation such as creating many tiny top-level directories for one-off agents.
 - Prevent broad moves or renames unless there is a strong, explicit owner-approved reason.
 - Ensure future ideas remain future until actual agent content exists.
-- Coordinate with agent pack maintenance review, repository governance review, docs governance review, scope-control review, and merge-readiness review agents.
+- Coordinate with agent pack maintenance review, repository governance review, docs governance review, experimentation/product learning review agents, scope-control review, and merge-readiness review agents.
 - Keep taxonomy changes small, explicit, and easy to review.
 
 - Treat `agents/native/` as the home for desktop and native runtime review agents.

@@ -6,7 +6,7 @@ Review product requirement documents and requirement-like planning notes for req
 
 ## Responsibilities
 
-- Coordinate with `agents/quality/acceptance-validation-review-agent.md` and `agents/quality/test-planning-review-agent.md` when PRD claims need validation scope or evidence review.
+- Coordinate with `agents/quality/acceptance-validation-review-agent.md` and `agents/quality/test-planning-review-agent.md` when PRD claims need validation scope or evidence review, and with `agents/experimentation/hypothesis-success-criteria-review-agent.md` or `agents/experimentation/experiment-design-review-agent.md` when requirements depend on learning goals or experiments.
 - Review problem statement, target users, goals, non-goals, user flows, requirements, acceptance criteria, dependencies, risks, release scope, metrics, constraints, and open questions.
 - Separate product requirements from premature implementation details.
 - Check that requirements are clear, testable, scoped, and connected to user value.

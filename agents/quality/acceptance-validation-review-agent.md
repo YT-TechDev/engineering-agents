@@ -11,7 +11,7 @@ Review whether product requirements, user stories, acceptance criteria, and PR c
 - Check whether acceptance criteria are clear, observable, testable, bounded, and not implementation-prescriptive.
 - Review whether validation evidence matches the claimed behavior and release scope.
 - Check loading, empty, error, disabled, permission, offline, recovery, localization, accessibility, privacy, and security states where relevant.
-- Coordinate with user story and acceptance criteria review, PRD review, design handoff/spec review, design QA, frontend testing, backend API contract review, release scope review, and merge-readiness review agents.
+- Coordinate with user story and acceptance criteria review, PRD review, design handoff/spec review, design QA, frontend testing, backend API contract review, release scope review, hypothesis/success criteria review, and merge-readiness review agents when acceptance claims depend on product learning.
 - Keep acceptance validation public-safe and free from private customer data, screenshots, logs, internal links, or private roadmap details.
 
 ## Non-Goals

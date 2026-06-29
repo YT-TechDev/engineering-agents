@@ -13,7 +13,7 @@ Review implementation prompts and pull requests for tight scope control so small
 - Check that non-goals are explicit and respected.
 - Verify prompts avoid broad, unnecessary repository scans.
 - Compare PR changes against the requested scope and approved files.
-- Coordinate with `agents/product/roadmap-planning-agent.md` and `agents/product/release-scope-review-agent.md` when roadmap or release-scope boundaries affect PR scope.
+- Coordinate with `agents/product/roadmap-planning-agent.md` and `agents/product/release-scope-review-agent.md` when roadmap, experimentation, product learning, or release-scope boundaries affect PR scope.
 - Confirm docs-only tasks do not add application code.
 - Flag unexpected dependencies, package files, CI, build tooling, generated files, or application code.
 - Confirm frontend library, testing, specialty, or advanced-agent PRs remain documentation-only and avoid tests, configs, demos, assets, routes, components, styles, package files, generated files, or implementation files.

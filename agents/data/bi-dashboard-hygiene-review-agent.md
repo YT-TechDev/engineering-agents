@@ -11,7 +11,7 @@ Review BI, dashboard, report, and public-facing data summary language for safety
 - Review whether report claims match data quality, metric definitions, and known limitations.
 - Check whether public summaries avoid overclaims, unsupported comparisons, private roadmap details, and AI session or task links.
 - Identify whether dashboard or report evidence is appropriate for the product, release, governance, documentation, or review decision being made.
-- Coordinate with metric integrity review, data quality/lineage review, privacy/data boundary review, public OSS hygiene review, release note hygiene review, product metrics, and release quality review agents.
+- Coordinate with metric integrity review, data quality/lineage review, privacy/data boundary review, public OSS hygiene review, release note hygiene review, product metrics, experiment analysis integrity review, product learning synthesis review, and release quality review agents.
 
 ## Non-Goals
 

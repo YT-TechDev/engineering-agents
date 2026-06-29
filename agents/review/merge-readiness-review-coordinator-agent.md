@@ -13,7 +13,7 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 - Confirm no direct `main` push occurred and the PR is not a draft.
 - Confirm no Codex task URL or private AI session link is present in the PR body.
 - Confirm docs-only PRs do not include implementation files, package files, scripts, generated files, assets, screenshots, configs, or workflows.
-- Coordinate with scope control, public OSS hygiene, PR review, Codex docs review, and `agents/product/release-scope-review-agent.md` when merge readiness depends on product release scope.
+- Coordinate with scope control, public OSS hygiene, PR review, Codex docs review, and `agents/product/release-scope-review-agent.md` when merge readiness depends on product release scope, experimentation scope, product learning claims, or rollout boundaries.
 - Coordinate with release note hygiene, docs governance, and repository governance review when merge readiness depends on public-facing summaries, navigation consistency, or repository rules.
 - Coordinate with Security / Privacy review agents when readiness depends on sensitive data, credentials, dependencies, supply-chain scope, or AI-agent boundaries.
 

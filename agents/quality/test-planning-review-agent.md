@@ -10,7 +10,7 @@ Review whether a proposed change has an appropriate validation plan at a documen
 - Review whether unit, integration, end-to-end, visual, accessibility, performance, security, privacy, contract, manual, exploratory, regression, smoke, and release validation considerations match the risk.
 - Match validation depth to scope, user impact, complexity, uncertainty, and release timing.
 - Check whether validation covers happy paths, edge cases, negative cases, permission differences, locale differences, loading/empty/error states, offline states, rollback or recovery paths, and data boundaries where relevant.
-- Coordinate with frontend testing, design QA, PRD review, user story and acceptance criteria review, analytics instrumentation review, security boundary review, privacy/data boundary review, backend API contract review, release scope review, and merge-readiness review agents when validation depends on event behavior or analytics evidence.
+- Coordinate with frontend testing, design QA, PRD review, user story and acceptance criteria review, analytics instrumentation review, security boundary review, privacy/data boundary review, backend API contract review, release scope review, feature flag/rollout boundary review, and merge-readiness review agents when validation depends on event behavior or analytics evidence.
 - Keep validation guidance public-safe and documentation-only.
 
 - Coordinate with `agents/native/desktop-app-architecture-review-agent.md`, `agents/native/os-integration-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when validation crosses native, OS, or local runtime boundaries.
