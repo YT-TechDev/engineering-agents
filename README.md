@@ -1,6 +1,6 @@
 # Engineering Agents
 
-Engineering Agents is a public, documentation-only repository for engineering-focused agent guidance and reusable workflow aids. It collects role-based planning and review agents, prompt and PR templates, validation checklists, tool-routing guidance, and public OSS hygiene reminders for AI-assisted development work.
+Engineering Agents is a public, documentation-only repository for engineering-focused agent guidance and reusable workflow aids. It is currently maintained as an initial public v0.1 documentation baseline. It collects role-based planning and review agents, prompt and PR templates, validation checklists, tool-routing guidance, cost-aware workflow guidance, review precision guidance, and public OSS hygiene reminders for AI-assisted development work.
 
 Use it when you want practical structure for scoped agent responsibilities, clearer Codex documentation PR prompts, safer PR bodies, merge-readiness review, public repository hygiene, AI session/prompt hygiene, tool-routing decisions, and agent pack maintenance.
 
@@ -62,7 +62,7 @@ For a first pass, read these in order:
 
 ## Current Scope
 
-Current confirmed scope includes documentation and operating aids for:
+Current confirmed scope for the v0.1 baseline includes documentation-only guidance and operating aids for:
 
 - role-based engineering planning and review agents;
 - Codex documentation PR prompts and PR body hygiene;

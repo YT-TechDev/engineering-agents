@@ -1,10 +1,10 @@
 # Roadmap
 
-This roadmap separates established repository coverage from active cleanup and future candidate areas. It should guide small, documentation-only changes without implying that the repository is complete or exhaustive.
+This roadmap separates established repository coverage from active cleanup and future candidate areas. It supports an initial public v0.1 documentation baseline without implying that the repository is complete, exhaustive, certified, compliant, or production-ready.
 
-## Completed or Established Areas
+## Current Confirmed Coverage
 
-The following areas have current agent coverage and should be maintained as documentation-only guidance:
+The following areas have current agent coverage or repository-level operating guidance and should be maintained as documentation-only guidance:
 
 - Web frontend agents for core frontend work, React, Next.js, component libraries, frontend libraries, frontend testing, and advanced frontend planning/review.
 - Web backend agents for web backend planning, Node.js and TypeScript APIs, API contracts, database/ORM review, BaaS integration, auth/security, backend libraries, auth providers, API frameworks/runtimes, operations, and service capabilities.
