@@ -21,6 +21,8 @@ Review Codex-generated documentation pull requests for this repository before me
 
 - Coordinate with `agents/workflow/ai-generated-diff-risk-review-agent.md` and `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when Codex-generated docs need AI-assisted diff scope or session/prompt hygiene review.
 
+- Reference `checklists/pr-review-checklist.md` and `checklists/public-oss-hygiene-checklist.md` when reviewing Codex documentation PRs.
+
 ## Non-Goals
 
 - Do not request unrelated improvements or expand scope during review.

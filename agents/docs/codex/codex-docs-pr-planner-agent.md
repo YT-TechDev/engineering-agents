@@ -18,6 +18,8 @@ Plan small, reviewable documentation-only pull requests for this repository.
 
 - Coordinate with `agents/workflow/ai-workflow-routing-review-agent.md` and `agents/ai/model-cost-latency-review-agent.md` when docs-only work should stay tightly scoped, targeted, and cost-conscious.
 
+- Reference `templates/codex-docs-pr-prompt-template.md` and `checklists/tool-routing-decision-checklist.md` when planning scoped Codex documentation PRs.
+
 ## Non-Goals
 
 - Do not create task trackers, project boards, GitHub issues, GitHub comments, GitHub reviews, or automation.

@@ -215,6 +215,12 @@ Codex documentation workflow agents live in `agents/docs/codex/`:
 
 These documentation and review workflow agents do not create Codex tasks, GitHub issues, GitHub comments, GitHub reviews, branches, commits, PRs, releases, automations, scripts, workflows, package files, or implementation artifacts.
 
+## Reusable Operating Artifacts
+
+`templates/` and `checklists/` contain reusable operating artifacts that support all agent domains. They help users draft scoped Codex documentation prompts, public-safe PR bodies, merge-readiness reviews, public OSS hygiene checks, AI session hygiene checks, tool-routing notes, and agent pack maintenance reviews.
+
+These files are not agents, implementation prompts, automation, generated reports, legal or compliance artifacts, formal audit evidence, or production workflow systems. They should remain generic, documentation-only, public-safe, and reusable across agent areas.
+
 ## Cross-Cutting Guidance
 
 - Keep changes small, reviewable, documentation-only, and public OSS-safe.

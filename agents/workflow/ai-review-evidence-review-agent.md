@@ -13,6 +13,8 @@ Review evidence used to support AI-assisted review, merge-readiness, or release-
 - Check whether evidence includes private logs, screenshots, local paths, AI session links, tool traces, model traces, customer data, secrets, or private repository settings.
 - Coordinate with AI evaluation review, regression risk review, release quality review, merge-readiness review, public OSS hygiene review, metric integrity review, and human-in-the-loop handoff review agents.
 
+- Reference `templates/merge-readiness-review-template.md` and `checklists/merge-readiness-checklist.md` when evidence affects readiness claims.
+
 ## Non-Goals
 
 - Do not add test reports, generated evidence files, screenshots, logs, dashboards, automation, scripts, workflows, package files, or implementation artifacts.

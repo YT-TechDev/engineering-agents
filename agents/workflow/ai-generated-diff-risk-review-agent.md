@@ -14,6 +14,8 @@ Review diffs produced with AI assistance and identify risks before merge as chan
 - Route changes for specialist security, privacy, architecture, quality, release, governance, public OSS hygiene, or domain correctness review when needed.
 - Coordinate with PR reviewer, public OSS hygiene review, scope-control review, regression risk review, release quality review, AI review evidence review, and merge-readiness review agents.
 
+- Reference `checklists/pr-review-checklist.md` when reviewing AI-generated documentation diffs for scope and changed-file risk.
+
 ## Non-Goals
 
 - Do not add code review automation, diff tooling, scripts, generated reports, CI workflows, package files, or implementation files.

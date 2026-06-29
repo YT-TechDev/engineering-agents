@@ -18,6 +18,8 @@ Treat template governance as reuse and consistency review, not as template gener
 
 - Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md`, `agents/ai/prompt-context-boundary-review-agent.md`, and `agents/ai/model-cost-latency-review-agent.md` when reusable prompts or templates affect AI workflow boundaries, context size, prompt/session hygiene, or tool effort.
 
+- Review `templates/` and `checklists/` as reusable operating artifacts, including the Codex prompt, PR body, merge-readiness, routing, review, hygiene, and maintenance aids.
+
 ## Non-Goals
 
 - Do not add issue templates, pull request templates, issue forms, GitHub configuration, automation, scripts, package files, generated files, dashboards, screenshots, or implementation files.

@@ -54,6 +54,7 @@ Use the taxonomy instead of the README when you need a fuller directory-level vi
 - `docs/tool-routing.md` explains task-risk-based routing for GPT project assistance, Codex documentation PRs, Claude Code exceptions, and repository-facing language expectations.
 - `docs/language-and-locale.md` explains user-facing chat language and English repository artifact expectations.
 - `docs/roadmap.md` separates established areas, active near-term cleanup, and future candidate areas.
+- `templates/` and `checklists/` provide reusable operating aids for Codex prompts, public-safe PR bodies, merge-readiness reviews, public OSS hygiene, AI session hygiene, tool routing, and agent pack maintenance.
 
 ## Public OSS Hygiene
 
