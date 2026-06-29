@@ -38,7 +38,8 @@ For a first pass, read these in order:
 5. `docs/agent-taxonomy.md` for the current scan-friendly map of agent areas.
 6. `docs/tool-routing.md` for choosing GPT, Codex, Claude Code, local/manual work, or human-only review.
 7. `docs/cost-aware-workflows.md` and `checklists/cost-aware-workflow-checklist.md` for choosing the smallest effective scope, context, validation, and review effort.
-8. `templates/` and `checklists/` for reusable operating aids.
+8. `docs/review-precision.md`, `templates/evidence-confidence-review-template.md`, and `checklists/evidence-confidence-review-checklist.md` for calibrated review evidence, confidence, assumptions, limitations, and merge-readiness language.
+9. `templates/` and `checklists/` for reusable operating aids.
 
 ## Basic Usage
 
@@ -48,7 +49,8 @@ For a first pass, read these in order:
 4. Use the relevant checklist before opening, reviewing, or merging a pull request.
 5. Follow `docs/tool-routing.md` when deciding whether GPT, Codex, Claude Code, local/manual work, or human-only review is appropriate.
 6. Use `docs/cost-aware-workflows.md` and `checklists/cost-aware-workflow-checklist.md` to keep context, validation, review, and changed-file scope proportional to the task.
-7. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
+7. Use `docs/review-precision.md`, `templates/evidence-confidence-review-template.md`, and `checklists/evidence-confidence-review-checklist.md` when review output needs clearer evidence, confidence, limitation, blocker, and owner-decision separation.
+8. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
 
 ## Tool Routing Summary
 

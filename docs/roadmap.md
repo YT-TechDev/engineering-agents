@@ -14,7 +14,7 @@ The following areas have current agent coverage and should be maintained as docu
 - Product / PM agents for product strategy, PRD review, roadmap planning, user story/acceptance criteria review, product metrics, and release scope review.
 - Quality / QA review agents for quality strategy, test planning review, acceptance validation review, regression risk review, bug triage/reproduction review, and release quality review.
 - Web design agents for UI, UX, accessibility, interaction design, visual design, design systems, advanced design systems, design QA, brand/visual direction, UX research/product discovery, design handoff/spec review, content design, information architecture, service design, research operations, design system release management, and design metrics.
-- Documentation-focused guidance, Codex documentation workflow guidance, repository onboarding and usage docs, cost-aware workflow guidance, public OSS hygiene guidance, language and locale guidance, and reusable templates/checklists that operate as PR and review aids rather than agent domains.
+- Documentation-focused guidance, Codex documentation workflow guidance, repository onboarding and usage docs, cost-aware workflow guidance, review precision and evidence/confidence calibration guidance, public OSS hygiene guidance, language and locale guidance, and reusable templates/checklists that operate as PR and review aids rather than agent domains.
 - Developer Experience / Repository Governance review agents for contributor guidance, repository governance, documentation governance, taxonomy maintenance, template governance, and release note hygiene.
 - Native / Desktop review agents for desktop app architecture, Electron boundaries, Tauri boundaries, OS integration, local runtime processes, and native/desktop security and privacy boundaries.
 - Mobile App review agents for mobile architecture, iOS boundaries, Android boundaries, React Native boundaries, Flutter boundaries, and mobile release/store review boundaries.
@@ -30,7 +30,7 @@ Near-term work should focus on maintainability rather than expansion:
 - Keep README navigation concise and aligned with the taxonomy.
 - Keep `docs/agent-taxonomy.md` scan-friendly as existing areas grow.
 - Keep `docs/tool-routing.md` task-risk-based and resilient to future model improvements.
-- Keep onboarding, usage, and cost-aware workflow docs practical, concise, and connected to existing agents, templates, and checklists without turning them into generated catalogs or new agent domains.
+- Keep onboarding, usage, cost-aware workflow, and review precision docs practical, concise, and connected to existing agents, templates, and checklists without turning them into generated catalogs or new agent domains.
 - Keep roadmap language practical, avoiding claims that the repository is complete, production-ready, or superior to specific tools.
 - Maintain reusable templates and checklists as practical operating aids without treating them as agents or turning future issue templates, PR template automation, generated catalogs, docs site tooling, CI validation, formal audit workflows, release automation, or policy automation into completed scope.
 - Reduce duplicated wording between the README, taxonomy, roadmap, routing docs, and individual agent files.
@@ -41,7 +41,7 @@ Near-term work should focus on maintainability rather than expansion:
 The following ideas may be considered later, but should not be marked complete until actual agent content exists:
 
 - Pricing strategy review, GTM review, product operations, growth experiment review, pricing experiment review, onboarding experiment review, lifecycle experiment review, qualitative research synthesis review, support-feedback triage review, experimentation operations review, and support-to-product workflows.
-- Community health review, repository settings review, `CODEOWNERS` review, issue/PR template review, maintainer handoff review, project board governance review, versioning policy review, changelog governance review, OSS sustainability review, prompt pack maintenance, repository instruction maintenance, docs quality scoring, and review evidence templates.
+- Community health review, repository settings review, `CODEOWNERS` review, issue/PR template review, maintainer handoff review, project board governance review, versioning policy review, changelog governance review, OSS sustainability review, prompt pack maintenance, repository instruction maintenance, docs quality scoring, and expanded review evidence workflows beyond the current practical templates and checklists.
 - Additional review agents beyond the current documentation and review workflow pack.
 - Future quality areas such as localization QA review, accessibility QA deep review, performance QA review, observability evidence review, experiment QA review, support-quality feedback review, and QA operations review.
 - Future security/privacy areas such as vulnerability disclosure review, incident communication review, secure coding review, data retention review, privacy operations, security release note review, AI evaluation safety review, formal compliance review, and legal review.
