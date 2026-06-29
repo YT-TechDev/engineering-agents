@@ -19,6 +19,8 @@ Review the long-term maintainability of agent packs and repository taxonomy.
 - Ensure agent content remains durable and not overly tied to one model, vendor, current hype cycle, or tool-specific UI.
 - Consider maintainability as GPT, Codex, Claude, and other coding agents improve.
 
+- Review Native / Desktop pack additions under `agents/native/` for documentation-only scope, public OSS hygiene, and useful cross-domain references.
+
 ## Non-Goals
 
 - Do not block every future expansion.

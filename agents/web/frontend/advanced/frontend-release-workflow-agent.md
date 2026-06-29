@@ -16,6 +16,8 @@ Plan and review frontend-specific release workflows for web applications and fro
 - Assess Next.js and frontend deployment concerns such as build output assumptions, static/dynamic rendering changes, cache/revalidation changes, environment variable exposure, route behavior, redirects, middleware/proxy behavior, and CDN/cache rollout.
 - Plan incident response for frontend regressions, bad deployments, broken routes, accessibility regressions, client-side errors, performance regressions, hydration failures, and leaked public artifacts.
 
+- Coordinate with `agents/native/desktop-app-architecture-review-agent.md` and release quality review when frontend release scope crosses desktop packaging, runtime, or native boundary concerns.
+
 ## Non-Goals
 
 - Do not add CI workflows, release automation, package config, deployment config, preview config, scripts, changelog generators, release notes templates, examples, generated files, package files, or dependencies.

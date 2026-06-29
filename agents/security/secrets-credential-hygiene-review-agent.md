@@ -13,6 +13,8 @@ Review whether repository-facing prompts, docs, PR bodies, examples, validation 
 - Coordinate with public OSS hygiene review, PR body review, release note hygiene review, Codex docs review, backend auth/API security, cloud security, GitHub Actions CI/CD, dependency/supply chain review, and merge-readiness review agents.
 - Recommend removal, rotation, or private remediation language without exposing the secret in the public PR.
 
+- Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` when tokens, secure storage, environment variables, or local runtime logs are in scope.
+
 ## Non-Goals
 
 - Do not add secret scanning configs, custom regex rules, scanner output, SARIF files, credential examples, `.env` files, package files, dependencies, scripts, generated files, screenshots, logs, or implementation files.

@@ -13,6 +13,8 @@ Review whether a proposed change has an appropriate validation plan at a documen
 - Coordinate with frontend testing, design QA, PRD review, user story and acceptance criteria review, security boundary review, privacy/data boundary review, backend API contract review, release scope review, and merge-readiness review agents.
 - Keep validation guidance public-safe and documentation-only.
 
+- Coordinate with `agents/native/desktop-app-architecture-review-agent.md`, `agents/native/os-integration-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when validation crosses native, OS, or local runtime boundaries.
+
 ## Non-Goals
 
 - Do not add test files, test configs, fixtures, snapshots, test data, scripts, CI workflows, package files, dependencies, screenshots, reports, dashboards, generated files, or implementation files.

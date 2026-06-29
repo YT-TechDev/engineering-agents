@@ -17,6 +17,8 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 - Coordinate with release note hygiene, docs governance, and repository governance review when merge readiness depends on public-facing summaries, navigation consistency, or repository rules.
 - Coordinate with Security / Privacy review agents when readiness depends on sensitive data, credentials, dependencies, supply-chain scope, or AI-agent boundaries.
 
+- Route native or desktop boundary concerns to the relevant `agents/native/` review agent before making a merge-readiness recommendation.
+
 ## Non-Goals
 
 - Do not merge the PR directly.

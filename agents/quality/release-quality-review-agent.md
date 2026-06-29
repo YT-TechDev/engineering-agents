@@ -13,6 +13,8 @@ Review whether a release or merge candidate has sufficient quality evidence for 
 - Coordinate with release scope review, release note hygiene review, docs governance review, frontend release workflow, infrastructure release engineering, merge-readiness review coordinator, PR body review, public OSS hygiene review, security/privacy review, regression risk review, and acceptance validation review agents.
 - Keep release quality review public-safe and documentation-only.
 
+- Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` when release quality depends on desktop runtime evidence.
+
 ## Non-Goals
 
 - Do not create releases, tags, release notes templates, changelog generators, release checklists, QA reports, dashboards, scripts, workflows, package files, dependencies, generated files, screenshots, or implementation files.

@@ -42,6 +42,19 @@ The web backend area is scoped to web application backend architecture and servi
 
 Design agents are for documentation, planning, and review. They do not add design assets, screenshots, Figma exports, prototypes, research data, survey data, transcripts, analytics exports, dashboards, component code, package dependencies, demos, or generated files.
 
+### Native / Desktop
+
+`agents/native/` contains documentation-first planning and review agents for native and desktop application boundaries. These agents help connect frontend, backend, infrastructure, product, security/privacy, quality, governance, docs, and review workflows where native or desktop scope crosses process, IPC, OS, runtime, release, or data boundaries.
+
+- Desktop app architecture review: `agents/native/desktop-app-architecture-review-agent.md`.
+- Electron boundary review: `agents/native/electron-boundary-review-agent.md`.
+- Tauri boundary review: `agents/native/tauri-boundary-review-agent.md`.
+- OS integration review: `agents/native/os-integration-review-agent.md`.
+- Local runtime process review: `agents/native/local-runtime-process-review-agent.md`.
+- Native/desktop security and privacy review: `agents/native/native-desktop-security-privacy-review-agent.md`.
+
+Native / Desktop agents are documentation and review agents. They do not create Electron apps, Tauri apps, native apps, mobile apps, configs, manifests, package files, helper binaries, local servers, scripts, workflows, installers, signing assets, generated files, implementation files, or private runtime artifacts. They help separate public-safe review guidance from private local runtime details, local paths, logs, screenshots, crash output, credentials, private endpoints, app identifiers, signing details, updater details, and sensitive user data.
+
 ### Product / PM
 
 `agents/product/` contains documentation-first product planning and review agents. Product / PM agents help connect product decisions to design, frontend, backend, infrastructure, docs, release, and review workflows where product scope crosses those boundaries.
@@ -147,8 +160,7 @@ Future platform or domain areas may include:
 - Repository instruction maintenance.
 - Docs quality scoring.
 - Review evidence templates.
-- Native app agents.
-- Desktop app agents.
+- Future native areas such as mobile app review, platform-specific packaging review, signing/notarization review, app store review, desktop accessibility review, native performance review, native observability review, updater review, offline/local-first desktop review, and native plugin review.
 - Broader backend guidance beyond web application backend work.
 - Additional frontend specialties such as advanced forms, experimentation review, frontend privacy review, advanced browser storage, and multi-app frontend platform strategy.
 - Additional design operations areas such as design privacy review, localization design, design ops governance, content operations, design-to-support workflows, and design research quality review.

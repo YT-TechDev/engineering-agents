@@ -13,6 +13,8 @@ Review dependency, package, workflow, automation, and OSS supply-chain risk boun
 - Distinguish public OSS hygiene review from dependency risk review.
 - Avoid unverified claims about dependency safety, supply-chain maturity, or compliance.
 
+- Coordinate with `agents/native/electron-boundary-review-agent.md` and `agents/native/tauri-boundary-review-agent.md` when native modules, Rust crates, npm packages, plugins, sidecars, installers, or updater dependencies are in scope.
+
 ## Non-Goals
 
 - Do not add packages, lockfiles, dependency configs, GitHub Actions workflows, scripts, SBOM files, SARIF files, scanner outputs, generated reports, container files, build files, package manifests, or implementation files.

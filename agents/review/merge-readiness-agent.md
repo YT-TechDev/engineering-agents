@@ -13,6 +13,8 @@ Assess whether a documentation-only pull request is ready to merge.
 - Ensure public OSS hygiene concerns are resolved.
 - Treat private AI session links, Codex task URLs, direct `main` push risk, and unexpected files outside approved scope as merge blockers.
 
+- Include Native / Desktop review agents when merge readiness depends on desktop architecture, Electron/Tauri boundaries, OS integration, local runtime, or native privacy/security review.
+
 ## Non-Goals
 
 - Do not perform broad content rewrites during readiness review.

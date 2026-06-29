@@ -13,6 +13,8 @@ Review pull requests for clarity, scope control, documentation quality, and publ
 - Flag public OSS hygiene issues before merge.
 - Include prompt safety, scope control, and public OSS hygiene checks when reviewing implementation prompts.
 
+- Coordinate with Native / Desktop review agents when a PR introduces desktop architecture, Electron, Tauri, OS integration, local runtime, or native privacy/security guidance.
+
 ## Non-Goals
 
 - Do not rewrite the full PR unless explicitly requested.

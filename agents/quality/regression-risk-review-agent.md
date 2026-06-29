@@ -13,6 +13,8 @@ Review regression risk across documentation, product, design, frontend, backend,
 - Coordinate with frontend testing, design QA, backend API contract review, product metrics, release scope review, taxonomy maintenance review, docs governance review, security boundary review, dependency/supply-chain review, scope-control review, and merge-readiness review agents.
 - Keep regression review appropriate for docs-only PRs and public-safe output.
 
+- Coordinate with `agents/native/electron-boundary-review-agent.md`, `agents/native/tauri-boundary-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when desktop runtime changes can regress frontend, OS, or process behavior.
+
 ## Non-Goals
 
 - Do not add regression test files, snapshots, reports, dashboards, scripts, CI workflows, package files, dependencies, generated files, screenshots, or implementation files.

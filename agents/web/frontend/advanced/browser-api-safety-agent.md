@@ -15,6 +15,8 @@ Plan and review safe browser API usage in modern frontend applications without a
 - Coordinate with the PWA Offline Agent, privacy/data boundary review, and threat modeling/abuse case review when Service Workers, storage, notifications, cache behavior, installability, permissions, abuse cases, or offline fallback are in scope.
 - Review SSR/CSR and Next.js boundaries, including browser-only APIs in Client Components, hydration safety, dynamic import needs, and server runtime incompatibility.
 
+- Coordinate with `agents/native/os-integration-review-agent.md`, `agents/native/electron-boundary-review-agent.md`, and `agents/native/tauri-boundary-review-agent.md` when browser APIs are combined with native permissions or desktop runtime boundaries.
+
 ## Non-Goals
 
 - Do not add browser API code, service worker files, worker files, PWA config, notification setup, permission handling code, examples, generated files, package files, or dependencies.

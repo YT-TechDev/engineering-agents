@@ -13,6 +13,8 @@ Review AI-agent, coding-agent, prompt, tool, repository, data, and public-output
 - Keep task routing risk-based rather than hype-driven or model-comparison-driven.
 - Avoid claims that one model, agent, or workflow is categorically safe, superior, compliant, or autonomous without review.
 
+- Coordinate with `agents/native/local-runtime-process-review-agent.md` when AI agent workflows could invoke local tools, files, helper processes, or runtime services.
+
 ## Non-Goals
 
 - Do not add AI agent runtime code, MCP servers, connector configs, automation scripts, model benchmarks, leaderboard tables, prompt datasets, eval dashboards, generated reports, package files, dependencies, or implementation files.

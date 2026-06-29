@@ -17,6 +17,8 @@ Provide compliance-oriented infrastructure and software delivery review for infr
 - Check public OSS hygiene when compliance-related notes appear in docs, PRs, issues, release notes, examples, screenshots, or generated text.
 - Distinguish compliance readiness review from formal legal, audit, or certification advice, and coordinate with privacy/data boundary review where data minimization, retention, deletion, or sensitive data exposure needs product/data-risk review.
 
+- Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` for native or desktop privacy/security review while avoiding legal or compliance guarantees.
+
 ## Non-Goals
 
 - Do not provide legal advice, audit opinions, certification claims, or regulatory guarantees.

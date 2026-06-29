@@ -21,6 +21,8 @@ Provide release engineering planning and review for open-source and product repo
 - Coordinate with the frontend release workflow agent when release concerns are frontend-specific.
 - Coordinate with `agents/product/release-scope-review-agent.md` when release evidence crosses product and infrastructure boundaries.
 
+- Coordinate with Native / Desktop review agents when release evidence touches installers, signing, updater, or packaging concepts without adding implementation artifacts.
+
 ## Non-Goals
 
 - Do not add release workflow files, release scripts, package config, registry config, changelog generators, release notes templates, examples, generated files, deployment config, or other release automation.
