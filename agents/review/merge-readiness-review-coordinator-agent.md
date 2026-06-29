@@ -21,6 +21,8 @@ Coordinate final merge-readiness judgments for documentation-only pull requests 
 
 - Coordinate with `agents/ai/ai-evaluation-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when AI behavior, eval evidence, or AI-assisted tool workflows affect merge confidence.
 
+- Coordinate with `agents/workflow/ai-review-evidence-review-agent.md` and `agents/workflow/human-in-the-loop-handoff-review-agent.md` when readiness depends on AI-assisted evidence or human-owner decision boundaries.
+
 ## Non-Goals
 
 - Do not merge the PR directly.

@@ -17,6 +17,8 @@ Review AI-agent, coding-agent, prompt, tool, repository, data, and public-output
 
 - Coordinate with `agents/ai/ai-application-boundary-review-agent.md`, `agents/ai/prompt-context-boundary-review-agent.md`, `agents/ai/rag-retrieval-boundary-review-agent.md`, `agents/ai/ai-evaluation-review-agent.md`, and `agents/ai/agent-tool-permission-review-agent.md` when AI application behavior, prompts, retrieval, evaluation, or tool authority are in scope.
 
+- Coordinate with `agents/workflow/ai-workflow-routing-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when AI-assisted workflows involve tool authority, owner approval, or routing risk.
+
 ## Non-Goals
 
 - Do not add AI agent runtime code, MCP servers, connector configs, automation scripts, model benchmarks, leaderboard tables, prompt datasets, eval dashboards, generated reports, package files, dependencies, or implementation files.

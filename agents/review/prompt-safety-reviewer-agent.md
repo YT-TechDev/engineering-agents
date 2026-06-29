@@ -20,6 +20,8 @@ Review implementation prompts before they are sent to agents so unsafe ambiguity
 
 - Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/agent-tool-permission-review-agent.md` when prompts include LLM context boundaries, untrusted content, or AI tool authority.
 
+- Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when prompts, prompt snippets, or AI-assisted workflow references may expose private session artifacts.
+
 ## Non-Goals
 
 - Do not rewrite the whole prompt without explaining the underlying risk.

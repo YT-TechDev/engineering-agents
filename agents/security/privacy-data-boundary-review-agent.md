@@ -19,6 +19,8 @@ Review privacy, data collection, data movement, data minimization, retention, co
 
 - Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` and `agents/ai/rag-retrieval-boundary-review-agent.md` when prompts, files, retrieval sources, model outputs, or public summaries may include private data.
 
+- Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` when AI workflows include private context, user data, session artifacts, or public summaries.
+
 ## Non-Goals
 
 - Do not add privacy policy templates, DPIA templates, legal analysis, consent forms, data processing agreements, compliance mappings, analytics exports, dashboards, screenshots, sample datasets, research data, package files, dependencies, scripts, generated files, or implementation files.

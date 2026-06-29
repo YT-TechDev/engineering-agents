@@ -15,6 +15,8 @@ Assess whether a documentation-only pull request is ready to merge.
 
 - Include Native / Desktop review agents when merge readiness depends on desktop architecture, Electron/Tauri boundaries, OS integration, local runtime, or native privacy/security review.
 
+- Coordinate with `agents/workflow/ai-review-evidence-review-agent.md` when merge-readiness claims rely on AI-assisted review evidence or validation summaries.
+
 ## Non-Goals
 
 - Do not perform broad content rewrites during readiness review.

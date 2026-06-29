@@ -16,7 +16,7 @@ Plan small, reviewable documentation-only pull requests for this repository.
 - Plan follow-up PRs without implementing future roadmap items prematurely.
 - Coordinate with docs governance and taxonomy maintenance review when a plan affects navigation, file placement, or agent domain structure.
 
-- Coordinate with `agents/ai/model-cost-latency-review-agent.md` when docs-only work should stay tightly scoped, targeted, and cost-conscious.
+- Coordinate with `agents/workflow/ai-workflow-routing-review-agent.md` and `agents/ai/model-cost-latency-review-agent.md` when docs-only work should stay tightly scoped, targeted, and cost-conscious.
 
 ## Non-Goals
 

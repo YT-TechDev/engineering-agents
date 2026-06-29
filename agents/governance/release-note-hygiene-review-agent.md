@@ -16,7 +16,7 @@ Treat release note hygiene as public communication and evidence review, not as r
 - Coordinate with mobile release/store review when public summaries mention app store, signing, privacy disclosures, mobile distribution, or mobile release claims.
 - Keep release-note review public-safe and documentation-only.
 
-- Coordinate with `agents/ai/ai-evaluation-review-agent.md` when release notes mention AI behavior, evaluation evidence, model output quality, or AI-assisted claims.
+- Coordinate with `agents/workflow/ai-review-evidence-review-agent.md`, `agents/workflow/ai-session-prompt-hygiene-review-agent.md`, and `agents/ai/ai-evaluation-review-agent.md` when release notes mention AI behavior, review evidence, model output quality, or AI-assisted claims.
 
 ## Non-Goals
 

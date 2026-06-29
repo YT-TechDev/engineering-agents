@@ -11,7 +11,7 @@ Review tool access, write authority, file access, external actions, and human-co
 - Review whether tool authority matches task scope, model strength, cost expectations, public OSS hygiene, and repository safety rules.
 - Check whether prompts require dedicated branches, PR before merge, no direct main push, targeted reads, validation steps, and public OSS hygiene where repository changes are in scope.
 - Review tool schema quality at a planning level, including narrow arguments, required fields, strict validation expectations, least-privilege defaults, and explicit confirmation before write/destructive actions.
-- Coordinate with prompt safety review, repository governance review, template governance review, AI-agent safety boundary review, secrets/credential hygiene review, scope-control review, model cost/latency review, and merge-readiness review agents.
+- Coordinate with prompt safety review, repository governance review, template governance review, AI-agent safety boundary review, secrets/credential hygiene review, scope-control review, model cost/latency review, AI workflow routing review, human-in-the-loop handoff review, and merge-readiness review agents.
 
 ## Non-Goals
 

@@ -19,7 +19,7 @@ Treat docs governance as documentation architecture and review guidance, not as 
 
 - Include native documentation guidance when repository navigation includes desktop or local runtime domains.
 
-- Coordinate with `agents/ai/prompt-context-boundary-review-agent.md` when repository docs include AI workflow examples, prompts, context boundaries, or public AI behavior descriptions.
+- Coordinate with `agents/workflow/ai-session-prompt-hygiene-review-agent.md` and `agents/ai/prompt-context-boundary-review-agent.md` when repository docs include AI-assisted workflows, prompts, context boundaries, or public AI behavior descriptions.
 
 ## Non-Goals
 
