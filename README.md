@@ -1,73 +1,94 @@
 # Engineering Agents
 
-Engineering Agents is a documentation-only repository for role-based AI agent files, workflow templates, and review guidance used in engineering-related work.
+Engineering Agents is a public, documentation-only repository for engineering-focused agent guidance and reusable workflow aids. It collects role-based planning and review agents, prompt and PR templates, validation checklists, tool-routing guidance, and public OSS hygiene reminders for AI-assisted development work.
 
-## Overview
+Use it when you want practical structure for scoped agent responsibilities, clearer Codex documentation PR prompts, safer PR bodies, merge-readiness review, public repository hygiene, AI session/prompt hygiene, tool-routing decisions, and agent pack maintenance.
 
-This repository helps teams keep agent responsibilities, prompts, review expectations, routing decisions, and public OSS hygiene consistent. It is intentionally limited to documentation and templates: do not add application code, package manager files, dependencies, build tooling, generated artifacts, assets, screenshots, or implementation examples.
+## Who This Is For
+
+This repository is for engineering teams, solo builders, maintainers, and reviewers who use GPT, Codex, Claude Code, lightweight IDE assistance, or other AI-assisted development tools for planning and review workflows.
+
+It is intentionally modest in scope: it helps organize documentation, prompts, checklists, and review expectations. It does not solve every workflow, safety, security, legal, or compliance problem, and it does not replace human owner decisions.
 
 ## Repository Map
 
 ```txt
 .github/      Existing repository collaboration instructions and PR template
-agents/       Role-based planning and review agent guidance
-checklists/   Reusable validation checklists and review aids
-docs/         Repository guidance, taxonomy, roadmap, routing, onboarding, and language notes
-templates/    Reusable prompt, PR body, routing, and review templates
+agents/       Role-based planning and review guidance
+checklists/   Verification aids for PRs, hygiene, routing, merge readiness, and maintenance
+docs/         Taxonomy, roadmap, routing, onboarding, maintainer, and language guidance
+templates/    Copyable prompt, PR body, routing note, and review structures
 ```
 
-Start with `docs/getting-started.md` for the recommended first path, then use `docs/agent-taxonomy.md` for a scan-friendly map of current agent areas and `docs/roadmap.md` to distinguish established coverage from future candidate areas.
+How the main parts fit together:
+
+- `agents/` defines role-based planning and review lenses.
+- `templates/` gives copyable structures for prompts, PR bodies, routing notes, and reviews.
+- `checklists/` helps verify scope, formatting, hygiene, routing, and merge readiness.
+- `docs/` explains how to use and maintain the repository without turning the README into a full catalog.
 
 ## Getting Started
 
-- `docs/getting-started.md` explains repository purpose, scope, organization, and the recommended first path.
-- `docs/using-agents.md` explains how to choose the narrowest relevant agent and combine agents with templates and checklists.
-- `docs/common-workflows.md` gives short workflows for docs-only Codex PRs, PR review, merge readiness, public OSS hygiene, AI session hygiene, tool routing, and adding agent packs.
-- `docs/maintainer-guide.md` explains how to maintain agent packs and navigation without broad rewrites.
-- `templates/` and `checklists/` provide reusable operating aids for scoped prompts, PR bodies, reviews, and validation.
+For a first pass, read these in order:
+
+1. `docs/getting-started.md` for repository purpose, scope, organization, and the recommended first path.
+2. `docs/using-agents.md` for how to choose the narrowest relevant agent and combine agents with templates and checklists.
+3. `docs/common-workflows.md` for short workflows covering docs-only Codex PRs, PR review, merge readiness, hygiene, tool routing, and agent pack maintenance.
+4. `docs/maintainer-guide.md` for maintaining agent packs and navigation without broad rewrites.
+5. `docs/agent-taxonomy.md` for the current scan-friendly map of agent areas.
+6. `docs/tool-routing.md` for choosing GPT, Codex, Claude Code, local/manual work, or human-only review.
+7. `templates/` and `checklists/` for reusable operating aids.
 
 ## Basic Usage
 
 1. Choose the smallest agent area that matches the task.
-2. Copy or adapt a template from `templates/` when starting a task or review.
-3. Keep repository changes small, focused, documentation-only, and public OSS-safe.
-4. Use the checklists before opening or reviewing a pull request.
-5. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
-6. Follow `docs/tool-routing.md` when deciding whether GPT, Codex, Claude Code, or lightweight IDE assistance is appropriate.
+2. Copy or adapt a template from `templates/` when drafting a prompt, PR body, routing note, or review.
+3. Keep repository changes small, focused, documentation-only, branch-based, PR-reviewed, and public-safe.
+4. Use the relevant checklist before opening, reviewing, or merging a pull request.
+5. Follow `docs/tool-routing.md` when deciding whether GPT, Codex, Claude Code, local/manual work, or human-only review is appropriate.
+6. Follow `docs/language-and-locale.md` for conversational language matching and English repository-facing artifacts.
 
-## Agent Areas
+## Tool Routing Summary
 
-- **Web frontend:** `agents/web/frontend/` contains core frontend, React, Next.js, component library, frontend library, frontend testing, and advanced frontend planning/review agents. Advanced frontend agents live in `agents/web/frontend/advanced/`.
-- **Web backend:** `agents/web/backend/` contains web backend planning/review agents for APIs, contracts, database/ORM, BaaS, auth/security, backend libraries, auth providers, frameworks/runtimes, operations, and service capabilities.
-- **Web design:** `agents/web/design/` contains UI, UX, accessibility, interaction, visual design, design system, and advanced design planning/review agents. Advanced design, design strategy, and design operations agents live in `agents/web/design/advanced/`.
-- **Native / Desktop:** `agents/native/` contains desktop architecture, Electron boundary, Tauri boundary, OS integration, local runtime process, and native/desktop security/privacy review agents.
-- **Mobile:** `agents/mobile/` contains mobile architecture, iOS boundary, Android boundary, React Native boundary, Flutter boundary, and mobile release/store review agents.
-- **AI Application / Agent Workflow:** `agents/ai/` contains AI application boundary, prompt/context boundary, RAG/retrieval boundary, AI evaluation, agent tool permission, model cost/latency, AI SDK/dependency, model provider vendor, MCP server boundary, plugin/extension supply chain, AI data processor boundary, and AI vendor risk review agents.
-- **AI-assisted Developer Workflow:** `agents/workflow/` contains AI-assisted implementation plan, AI-generated diff risk, human handoff, AI review evidence, AI session/prompt hygiene, and AI workflow routing review agents.
-- **Product / PM:** `agents/product/` contains product strategy, PRD review, roadmap planning, user story/acceptance criteria, product metrics, and release scope review agents.
-- **Data / Analytics:** `agents/data/` contains data architecture, analytics instrumentation, event schema/tracking plan, data quality/lineage, metric integrity, and BI/dashboard hygiene review agents.
-- **Experimentation / Product Learning:** `agents/experimentation/` contains hypothesis/success criteria, experiment design, feature flag/rollout boundary, experiment analysis integrity, product learning synthesis, and feedback-to-decision review agents.
-- **Quality / QA:** `agents/quality/` contains quality strategy, test planning, acceptance validation, regression risk, bug triage/reproduction, and release quality review agents.
-- **Security / Privacy:** `agents/security/` contains security boundary, privacy/data boundary, secrets/credential hygiene, dependency/supply-chain, threat modeling/abuse case, and AI-agent safety boundary review agents.
-- **Infrastructure:** `agents/infrastructure/` contains infrastructure planning/review agents for cloud, containers, orchestration, CI/CD, IaC, security, networking, platform operations, cost, release engineering, platform engineering, and compliance review.
-- **Review:** `agents/review/` contains cross-cutting PR review, merge-readiness, PR body hygiene, agent pack maintenance, prompt safety, scope control, and public OSS hygiene reviewers.
-- **Developer Experience / Repository Governance:** `agents/governance/` contains contributor guidance, repository governance, documentation governance, taxonomy maintenance, template governance, and release note hygiene review agents.
-- **Docs:** `agents/docs/` contains documentation-focused agent guidance where applicable. Codex documentation workflow agents live in `agents/docs/codex/`.
+- GPT is suitable for planning, prompt creation, review, merge-readiness judgment, and task decomposition.
+- Codex is suitable for small documentation-only PRs with targeted reads, explicit branch boundaries, validation, and public-safe PR bodies.
+- Claude Code is not the default for this repository and should only be used when explicitly requested.
+- GitHub write operations from this GPT project remain out of scope.
+- Human review remains required for owner decisions, merge decisions, releases, private data, legal/procurement questions, destructive actions, and ambiguous authority.
 
-Use the taxonomy instead of the README when you need a fuller directory-level view. The README should remain a concise entry point, not a duplicated catalog of every agent.
+## Current Scope
 
-## Documentation and Routing
+Current confirmed scope includes documentation and operating aids for:
 
-- `docs/agent-taxonomy.md` explains the current repository structure and agent areas.
-- `docs/tool-routing.md` explains task-risk-based routing for GPT project assistance, Codex documentation PRs, Claude Code exceptions, human-only review, and repository-facing language expectations.
-- `docs/language-and-locale.md` explains user-facing chat language and English repository artifact expectations.
-- `docs/roadmap.md` separates established areas, active near-term cleanup, and future candidate areas.
-- `templates/` and `checklists/` provide reusable operating aids for Codex prompts, public-safe PR bodies, merge-readiness reviews, public OSS hygiene, AI session hygiene, tool routing, and agent pack maintenance.
+- role-based engineering planning and review agents;
+- Codex documentation PR prompts and PR body hygiene;
+- merge-readiness review;
+- public OSS hygiene;
+- AI session and prompt hygiene;
+- tool-routing decisions;
+- agent pack maintenance;
+- taxonomy, roadmap, onboarding, maintainer, and language guidance.
+
+Established agent areas include web frontend and backend, web design, native/desktop, mobile, AI application and AI vendor/supply-chain review, AI-assisted developer workflow review, product, data, experimentation, quality, security/privacy, infrastructure, governance, review, and Codex documentation workflows. Use `docs/agent-taxonomy.md` for the fuller directory-level view and `docs/roadmap.md` to distinguish established coverage from future candidate areas.
+
+## Out of Scope
+
+This repository should remain documentation-only. It should not contain or imply support for:
+
+- application code, implementation code, examples, scripts, automation, generated catalogs, package files, lockfiles, dependencies, build systems, CI workflows, provider configs, screenshots, diagrams, assets, releases, tags, deployments, or artifacts;
+- private session logs, private prompts, production prompts, model traces, tool logs, private evidence, private screenshots, private dashboards, private strategy, or private roadmap details;
+- production workflow systems, formal legal artifacts, compliance artifacts, audit artifacts, policy automation, security findings, vulnerability details, incident details, procurement notes, contract terms, or certification claims.
+
+Templates, checklists, and onboarding docs are operating aids. They are not agents, agent domains, automation, legal/compliance evidence, generated reports, or proof that a task is safe to merge.
 
 ## Public OSS Hygiene
 
-Do not include private AI session links, Codex task URLs, Claude session URLs, local machine paths, generated-by signatures, private tool metadata, internal-only notes, credentials, tokens, secrets, private links, private screenshots, customer data, analytics exports, private roadmap details, or unreleased private business context.
+Keep repository-facing content public-safe. Do not include Codex task URLs, ChatGPT shared links, Claude session URLs, private AI session links, local paths, generated-by signatures, private prompts, model traces, tool logs, secrets, customer data, personal data, private dashboards, private deployment or preview URLs, private roadmap/strategy details, vendor/procurement details, legal analysis, compliance analysis, or internal-only notes.
 
-## Current Scope and Roadmap
+Use `checklists/public-oss-hygiene-checklist.md` and `checklists/ai-session-prompt-hygiene-checklist.md` before publishing docs, templates, checklists, PR bodies, or review comments.
 
-Current confirmed scope includes agent guidance for web frontend and backend, web design, native/desktop, mobile, AI application and AI supply-chain/vendor review, AI-assisted developer workflow review, product, data, experimentation, quality, security/privacy, infrastructure, governance, review, and Codex documentation workflows. Onboarding docs, templates, and checklists support usage and review; they are operating aids, not agent domains. Future ideas such as mobile accessibility review, mobile performance review, platform-specific native packaging review, and additional design/backend/infrastructure refinements should remain roadmap candidates until actual agent content is added.
+## Maintenance Expectations
+
+Keep changes small, branch-based, PR-reviewed, validation-backed, cost-conscious, and documentation-only. Prefer targeted reads over broad repository scans. Do not move files, add domains, create generated catalogs, or restructure directories unless a future task explicitly requires it.
+
+The README should remain a concise entry point. Put detailed taxonomy, routing, onboarding, and roadmap information in `docs/`, and keep future ideas marked as candidates until actual agent content exists.
