@@ -1,6 +1,6 @@
 # Agent Usage Routing Note Template
 
-Use this lightweight note before starting a scoped task or review. It is a planning aid, not an automation plan or provider policy.
+Use this lightweight note before starting a scoped task or review. It is a planning aid, not an automation plan or provider policy. For cost-aware planning, pair it with `docs/cost-aware-workflows.md` and `checklists/cost-aware-workflow-checklist.md`.
 
 ## Task Type
 

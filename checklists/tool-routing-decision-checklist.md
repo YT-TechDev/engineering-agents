@@ -1,6 +1,6 @@
 # Tool-Routing Decision Checklist
 
-Use this checklist before choosing GPT, Codex, Claude Code, local/manual work, no tool, or human-only review.
+Use this checklist before choosing GPT, Codex, Claude Code, local/manual work, no tool, or human-only review. For broader scope, context, validation, and review budgeting, also use `checklists/cost-aware-workflow-checklist.md`.
 
 ## Task Fit
 
