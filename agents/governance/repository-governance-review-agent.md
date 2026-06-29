@@ -16,6 +16,7 @@ Treat repository governance as documentation and scope governance, not as GitHub
 - Preserve the owner’s established workflow: GPT handles planning, review, merge-readiness, and prompt creation; Codex handles small documentation-only PRs; no direct repository writes from the GPT project; every change should happen on a dedicated branch and PR.
 
 - Coordinate with the `agents/native/` domain when reviewing future desktop or native agent pack placement.
+- Coordinate with the `agents/mobile/` domain when reviewing future mobile app review agent pack placement.
 
 ## Non-Goals
 

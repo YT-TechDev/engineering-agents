@@ -14,6 +14,7 @@ Review whether a proposed change has an appropriate validation plan at a documen
 - Keep validation guidance public-safe and documentation-only.
 
 - Coordinate with `agents/native/desktop-app-architecture-review-agent.md`, `agents/native/os-integration-review-agent.md`, and `agents/native/local-runtime-process-review-agent.md` when validation crosses native, OS, or local runtime boundaries.
+- Coordinate with `agents/mobile/mobile-app-architecture-review-agent.md` and `agents/mobile/mobile-release-store-review-agent.md` when validation crosses mobile platform, permission, store-review, release, or distribution boundaries.
 
 ## Non-Goals
 

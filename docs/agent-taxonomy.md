@@ -55,6 +55,19 @@ Design agents are for documentation, planning, and review. They do not add desig
 
 Native / Desktop agents are documentation and review agents. They do not create Electron apps, Tauri apps, native apps, mobile apps, configs, manifests, package files, helper binaries, local servers, scripts, workflows, installers, signing assets, generated files, implementation files, or private runtime artifacts. They help separate public-safe review guidance from private local runtime details, local paths, logs, screenshots, crash output, credentials, private endpoints, app identifiers, signing details, updater details, and sensitive user data.
 
+### Mobile
+
+`agents/mobile/` contains documentation-first planning and review agents for mobile application boundaries. These agents help connect frontend, backend, product, design, security/privacy, quality, governance, native/desktop, infrastructure, docs, and review workflows where mobile scope crosses platform, permission, privacy, framework, release, or store-review boundaries.
+
+- Mobile app architecture review: `agents/mobile/mobile-app-architecture-review-agent.md`.
+- iOS app boundary review: `agents/mobile/ios-app-boundary-review-agent.md`.
+- Android app boundary review: `agents/mobile/android-app-boundary-review-agent.md`.
+- React Native boundary review: `agents/mobile/react-native-boundary-review-agent.md`.
+- Flutter boundary review: `agents/mobile/flutter-boundary-review-agent.md`.
+- Mobile release and store review: `agents/mobile/mobile-release-store-review-agent.md`.
+
+Mobile agents are documentation and review agents. They do not create iOS apps, Android apps, React Native apps, Flutter apps, mobile configs, manifests, package files, signing assets, store metadata, screenshots, generated files, implementation files, releases, tags, or private mobile artifacts. They help separate public-safe review guidance from private app identifiers, signing details, store account details, screenshots, crash logs, device IDs, analytics exports, credentials, user data, and private release details. Future mobile areas may include mobile accessibility review, mobile performance review, mobile offline/local-first review, mobile observability review, push notification review, mobile design handoff review, mobile app store metadata review, wearable app review, and Kotlin Multiplatform review, but they are not part of this PR.
+
 ### Product / PM
 
 `agents/product/` contains documentation-first product planning and review agents. Product / PM agents help connect product decisions to design, frontend, backend, infrastructure, docs, release, and review workflows where product scope crosses those boundaries.

@@ -16,6 +16,7 @@ Review product requirement documents and requirement-like planning notes for req
 - Coordinate with product strategy, roadmap planning, user story and acceptance criteria review, release scope review, UX research/product discovery, design handoff/spec review, frontend analytics/product metrics, security boundary review, privacy/data boundary review, threat modeling/abuse case review, and review agents.
 
 - Coordinate with `agents/native/desktop-app-architecture-review-agent.md` and `agents/native/os-integration-review-agent.md` when requirements include local files, OS integration, helper processes, or desktop runtime behavior.
+- Coordinate with `agents/mobile/mobile-app-architecture-review-agent.md`, `agents/mobile/ios-app-boundary-review-agent.md`, and `agents/mobile/android-app-boundary-review-agent.md` when product requirements include mobile-specific behavior, permissions, platform capabilities, or release boundaries.
 
 ## Non-Goals
 

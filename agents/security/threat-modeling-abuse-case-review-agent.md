@@ -15,6 +15,7 @@ Review threats, misuse paths, abuse cases, and failure modes at a planning and r
 - Avoid formal risk scoring or compliance mappings unless future scope explicitly allows it.
 
 - Coordinate with `agents/native/os-integration-review-agent.md` and `agents/native/local-runtime-process-review-agent.md` for protocol handlers, file associations, local servers, helper processes, and shell/open external behavior.
+- Coordinate with `agents/mobile/android-app-boundary-review-agent.md`, `agents/mobile/ios-app-boundary-review-agent.md`, and `agents/mobile/mobile-app-architecture-review-agent.md` when permissions, intents, deep links, universal links, app links, local storage, push notifications, or mobile background behavior are in scope.
 
 ## Non-Goals
 

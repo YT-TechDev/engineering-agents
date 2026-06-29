@@ -9,6 +9,7 @@ Treat docs governance as documentation architecture and review guidance, not as 
 ## Responsibilities
 
 - Review README, taxonomy, roadmap, tool-routing, language and locale guidance, templates, checklists, agent files, cross-references, navigation, headings, file placement, and terminology consistency.
+- Include mobile docs guidance when repository navigation or cross-references mention mobile architecture, platform boundaries, cross-platform frameworks, privacy, or release/store review.
 - Check whether docs are easy to scan and do not become duplicated, stale, contradictory, or bloated.
 - Ensure repository-facing English is used for docs, branch names, commit messages, PR titles, PR bodies, templates, and agent files.
 - Ensure Japanese is not accidentally introduced into repository-facing files unless a future scope explicitly allows localized docs.

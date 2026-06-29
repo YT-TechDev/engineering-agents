@@ -13,6 +13,7 @@ Treat release note hygiene as public communication and evidence review, not as r
 - Avoid overclaims such as complete, production-ready, secure, compliant, certified, fully tested, defect-free, best-in-class, superior to specific tools, or guaranteed.
 - Remove private AI session links, Codex task URLs, Claude session URLs, local paths, private tool links, generated-by signatures, private metadata, screenshots, logs, deployment URLs, preview URLs, customer data, incident details, and private roadmap details.
 - Coordinate with release scope review, release quality review, public OSS PR body review, public OSS hygiene review, docs governance review, security/privacy review, and merge-readiness review agents.
+- Coordinate with mobile release/store review when public summaries mention app store, signing, privacy disclosures, mobile distribution, or mobile release claims.
 - Keep release-note review public-safe and documentation-only.
 
 ## Non-Goals

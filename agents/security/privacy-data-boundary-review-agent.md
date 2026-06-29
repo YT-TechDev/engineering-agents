@@ -15,6 +15,7 @@ Review privacy, data collection, data movement, data minimization, retention, co
 - Avoid privacy, legal, regulatory, or compliance guarantees.
 
 - Coordinate with `agents/native/native-desktop-security-privacy-review-agent.md` when local files, logs, crash reports, screenshots, telemetry, clipboard data, or desktop storage are involved.
+- Coordinate with `agents/mobile/mobile-app-architecture-review-agent.md` and `agents/mobile/mobile-release-store-review-agent.md` when mobile data collection, permissions, analytics, crash reports, telemetry, local storage, or store privacy disclosures are involved.
 
 ## Non-Goals
 

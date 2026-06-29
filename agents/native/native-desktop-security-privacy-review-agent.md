@@ -10,6 +10,7 @@ Review security and privacy concerns specific to native and desktop applications
 - Review whether desktop-specific data exposure risk is visible in product, security/privacy, quality, release, and docs review.
 - Check whether public docs avoid private app IDs, local paths, signing details, updater endpoints, logs, crash reports, screenshots, user data, local database names, credentials, and environment details.
 - Coordinate with security boundary review, privacy/data boundary review, secrets/credential hygiene review, dependency/supply-chain review, threat modeling/abuse case review, desktop architecture review, Electron or Tauri boundary review, OS integration review, local runtime process review, release scope review, release quality review, and public OSS hygiene review agents.
+- Coordinate with mobile privacy/data boundary review paths only when app behavior spans native desktop and mobile contexts, shared telemetry, shared credentials, shared storage concepts, or cross-platform privacy disclosures.
 - Avoid claims that an app is secure, private, sandboxed, encrypted, compliant, store-ready, production-ready, or safe without evidence and specialist review.
 - Keep guidance public-safe and documentation-only.
 
