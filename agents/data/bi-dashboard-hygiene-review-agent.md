@@ -6,6 +6,7 @@ Review BI, dashboard, report, and public-facing data summary language for safety
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-vendor-risk-review-agent.md` where public docs mention provider evidence or vendor dashboards.
 - Review dashboard purpose, audience, data freshness, metric definitions, filters, segments, access boundaries, screenshots, exports, URLs, source systems, private business context, and public summary claims.
 - Check whether dashboards or reports expose customer data, personal data, analytics exports, revenue data, pricing strategy, internal URLs, screenshots, logs, support tickets, or private business context.
 - Review whether report claims match data quality, metric definitions, and known limitations.

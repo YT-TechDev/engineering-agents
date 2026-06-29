@@ -6,6 +6,7 @@ Review diffs produced with AI assistance and identify risks before merge as chan
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-sdk-dependency-review-agent.md` when diffs include AI package, config, or dependency-related changes.
 - Review diff scope, touched files, changed file count, generated content, broad rewrites, deleted content, unexpected files, dependency changes, config changes, CI/workflow changes, package files, lockfiles, generated artifacts, and public docs impact.
 - Check whether the diff matches the task goal and avoids hidden scope expansion.
 - Review whether AI-generated changes introduce incomplete fixes, wrong approaches, duplicated content, stale assumptions, unsupported claims, or unnecessary complexity.

@@ -6,6 +6,7 @@ Review prompts, pull requests, commits, documentation, comments, and templates f
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-vendor-risk-review-agent.md` and `agents/ai/ai-data-processor-boundary-review-agent.md` when public content may expose private vendor, procurement, legal, processor, or customer-data artifacts.
 - Coordinate PR title and PR body-specific checks with `agents/review/public-oss-pr-body-review-agent.md` when a pull request is being prepared for public review.
 - Check for ChatGPT shared links, Codex task URLs, Claude session URLs, private AI session links, and private tool URLs.
 - Check for local machine paths, generated-by signatures, private tool metadata, and internal-only notes.

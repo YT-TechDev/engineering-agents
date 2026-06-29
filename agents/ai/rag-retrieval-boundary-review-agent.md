@@ -6,6 +6,7 @@ Review retrieval, knowledge source, indexing, embedding, ranking, and context-in
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` and `agents/ai/ai-data-processor-boundary-review-agent.md` when retrieval, embedding, or reranking providers process data.
 - Review retrieval sources, indexing scope, access boundaries, freshness, permissions, citation/evidence expectations, ranking/relevance risks, chunking assumptions, context injection, data retention, deletion, private documents, user files, customer data, and downstream output behavior.
 - Check whether retrieved content is authorized, relevant, current enough, and safe to include in prompts or public summaries.
 - Review whether retrieval can expose private docs, secrets, credentials, support tickets, customer data, logs, transcripts, private roadmap, private strategy, internal links, or private file names.

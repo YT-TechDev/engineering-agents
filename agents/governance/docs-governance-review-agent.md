@@ -8,6 +8,7 @@ Treat docs governance as documentation architecture and review guidance, not as 
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-sdk-dependency-review-agent.md` and `agents/ai/ai-vendor-risk-review-agent.md` where docs mention AI dependencies or vendors.
 - Review README, taxonomy, roadmap, tool-routing, language and locale guidance, templates, checklists, agent files, cross-references, navigation, headings, file placement, and terminology consistency.
 - Include mobile docs guidance when repository navigation or cross-references mention mobile architecture, platform boundaries, cross-platform frameworks, privacy, or release/store review.
 - Check whether docs are easy to scan and do not become duplicated, stale, contradictory, or bloated.

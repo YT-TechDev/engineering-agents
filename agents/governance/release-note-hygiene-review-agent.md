@@ -8,6 +8,7 @@ Treat release note hygiene as public communication and evidence review, not as r
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` and `agents/ai/ai-vendor-risk-review-agent.md` where release notes mention AI providers or model behavior.
 - Review release note wording, PR summary wording, merge summary wording, changelog-like text, scope claims, validation claims, known gaps, user impact, future work, public OSS hygiene, and private-link removal.
 - Check whether release notes match the actual diff, PR scope, validation evidence, roadmap status, product scope, security/privacy boundaries, and quality/release confidence.
 - Avoid overclaims such as complete, production-ready, secure, compliant, certified, fully tested, defect-free, best-in-class, superior to specific tools, or guaranteed.

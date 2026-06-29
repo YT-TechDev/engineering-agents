@@ -6,6 +6,7 @@ Review AI-agent, coding-agent, prompt, tool, repository, data, and public-output
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/mcp-server-boundary-review-agent.md` and `agents/ai/plugin-extension-supply-chain-review-agent.md` where tool access changes agent capability.
 - Review prompt boundaries, tool boundaries, repository write boundaries, GitHub read/write boundaries, private context boundaries, connector boundaries, local path boundaries, file-access boundaries, secret exposure boundaries, generated content boundaries, and public OSS output boundaries.
 - Review prompts for hidden write operations, ambiguous authority, broad repository scans, unnecessary build/install work, direct `main` push risk, private AI session links, local paths, private artifacts, and unsafe repository-facing content.
 - Check whether AI-generated output could expose private user context, private business context, private product strategy, credentials, security findings, local environment details, private links, or unreleased roadmap details.

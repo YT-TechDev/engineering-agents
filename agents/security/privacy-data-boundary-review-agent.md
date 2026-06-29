@@ -6,6 +6,7 @@ Review privacy, data collection, data movement, data minimization, retention, co
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-data-processor-boundary-review-agent.md` and `agents/ai/model-provider-vendor-review-agent.md` when AI processors or hosted model providers may receive data.
 - Coordinate with `agents/quality/acceptance-validation-review-agent.md` and `agents/quality/test-planning-review-agent.md` when privacy-sensitive behavior must be validated.
 - Clarify the personal data, sensitive data, customer data, participant data, analytics data, telemetry, logs, screenshots, attachments, transcripts, recordings, survey data, support data, AI prompt/context data, and generated outputs involved.
 - Review data minimization, purpose clarity, collection necessity, retention awareness, deletion/offboarding implications, access boundaries, sharing boundaries, processor/third-party boundaries, and user expectations.

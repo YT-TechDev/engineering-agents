@@ -6,6 +6,7 @@ Review dependency, package, workflow, automation, and OSS supply-chain risk boun
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-sdk-dependency-review-agent.md` and `agents/ai/plugin-extension-supply-chain-review-agent.md` for AI-specific dependency, plugin, and extension surfaces.
 - Review package/dependency additions, lockfiles, package manager changes, GitHub Actions workflows, scripts, generated artifacts, external actions, container images, IaC modules, third-party SDKs, build tooling, release automation, code generation, vendored files, and transitive dependency risk.
 - Protect documentation-only repository safeguards: package files, lockfiles, CI workflows, scripts, configs, SBOM files, SARIF files, generated catalogs, and build outputs should not appear unless future scope explicitly allows them.
 - Review whether a PR introduces a dependency or automation boundary that changes trust, maintenance, permissions, secrets exposure, or release risk.

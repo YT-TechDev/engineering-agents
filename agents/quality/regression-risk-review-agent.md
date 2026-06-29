@@ -6,6 +6,7 @@ Review regression risk across documentation, product, design, frontend, backend,
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` where provider or model changes can regress behavior.
 - Treat regression review as impact and risk review, not as automated regression testing.
 - Identify affected areas, adjacent features, shared components, shared docs, cross-references, public API/contracts, user flows, design systems, auth/session behavior, analytics/metrics, security/privacy boundaries, release processes, and documentation navigation.
 - Check whether a change can break existing expectations, routes, flows, references, acceptance criteria, release notes, or agent routing.

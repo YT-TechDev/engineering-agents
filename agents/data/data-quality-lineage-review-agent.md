@@ -6,6 +6,7 @@ Review data quality, lineage, ownership, freshness, and confidence at a planning
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/model-provider-vendor-review-agent.md` where provider or model changes affect data quality or lineage assumptions.
 - Review source ownership, transformation ownership, freshness, completeness, duplication, missing data, delayed events, backfill, sampling, deduplication, attribution windows, schema drift, versioning, retention, deletion, and downstream reporting impact.
 - Check whether metric or report claims mention confidence, known gaps, and data limitations.
 - Review whether quality issues could mislead product, release, experimentation, reporting, or business decisions.

@@ -8,6 +8,7 @@ Treat repository governance as documentation and scope governance, not as GitHub
 
 ## Responsibilities
 
+- Coordinate with `agents/ai/ai-vendor-risk-review-agent.md` where external AI service dependencies affect repository governance.
 - Review repository scope, domain boundaries, directory strategy, branch and PR expectations, direct `main` push avoidance, documentation-only constraints, agent-pack placement, validation expectations, and public OSS hygiene.
 - Check whether repository rules are clear, non-contradictory, and sustainable as more agent packs are added.
 - Separate confirmed repository behavior from future roadmap ideas.
