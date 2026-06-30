@@ -81,7 +81,8 @@ Established agent areas include web frontend and backend, web design, native/des
 
 This repository should remain documentation-only. It should not contain or imply support for:
 
-- application code, implementation code, examples, scripts, automation, generated catalogs, package files, lockfiles, dependencies, build systems, CI workflows, provider configs, screenshots, diagrams, assets, releases, tags, deployments, or artifacts;
+- application code, implementation code, examples, generated catalogs, package files, lockfiles, dependencies, build systems, provider configs, screenshots, diagrams, assets, releases, tags, deployments, or artifacts;
+- automation, scripts, or CI workflows beyond lightweight repository-maintenance checks for Markdown formatting, Markdown link health, and public OSS hygiene;
 - private session logs, private prompts, production prompts, model traces, tool logs, private evidence, private screenshots, private dashboards, private strategy, or private roadmap details;
 - production workflow systems, formal legal artifacts, compliance artifacts, audit artifacts, policy automation, security findings, vulnerability details, incident details, procurement notes, contract terms, or certification claims.
 
